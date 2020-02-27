@@ -51,7 +51,49 @@ Date: 17/02/2020
    - Anything to put into an email to module lead?
    - Any issues that people are aware of or are concerned about?
    
+### MEETING OUTCOME
+#### Communications
+ - All agreed Slack as primary means of comms.
+ - Weekly meetings @1100 on Thursdays for standup, express concerns, et al.
+#### Coding Standards
+ - ELE Docstrings link: https://vle.exeter.ac.uk/mod/page/view.php?id=748152
+   - The video we want is "Documenting modules", 4th from the top
+ - Docstrings to follow format:
+   - What function does (brief, plain English explanation)
+   - What it takes in (var names and data type)
+   - What it returns (data type)
+ - Naming convention:
+   - functions and variables to be all lower case, "\_" to split up words
+   -  Classes and Objects to have capitalised first letter (Turtle not turtle) - ask Sam if any queries on this
+#### Version Control and Infrastructure
+ - Github will become central repo for us to share code
+   - This repo should be set to public, if any dramas contributing let Sam know.
+#### Milestones and Planning
+ - We will tackle the modules like so:
+ Bhav:   Summary of Requirements and Work Breakdown - est 1st Draft completion of 09/03 (though a first draft look next week would be nice, though not to worry if not ready)
+ Sam:    File Reading - First thoughts on how to tackle to be shared meeting 06/03
+ Roxy:   Data Sorting and Filtering - First thoughts on how to tackle to be shared meeting 06/03
+ James:  User Interface - First thoughts on how to tackle to be shared meeting 06/03
+
+After these are done, the next most modules are:
+File Writing - To be looked at by the person first to finish their section
+Test Report - Testing to be handled by all in their respective modules and then to be collated at the end
+#### Responsibilities
+ - Not discussed, not needed as this is superceded by outcome of Milestones and Planning
+#### Questions and Concerns
+ - Will try emailing Frank Hermann to get answer to Sam's questions to Saunby (Sam to do)
  
- 
- 
- 
+NEXT MEETING TO BE IN PERSON, AT ALS on 06/03
+
+## MEETING 2 06/03
+### Agenda
+#### 1st week efforts
+ - Outcome of emailing Frank (Sam)
+ - Bhav's first notes (if possible, Bhav)
+ - Roxy's first thoughts (Roxy)
+ - James' first thoughts (James)
+ - Sam's first thoughts (Sam)
+Each person is to give an assessment and report detailing these at least:
+ - Implementation thoughts
+ - What they need from other's modules
+ - Predicted and Encountered Difficulties
