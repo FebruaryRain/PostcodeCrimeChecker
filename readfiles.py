@@ -5,8 +5,10 @@ def open_a_file_and_retrieve_contents(file):
     This function takes in a file path to a .csv file as an argument.
     The function will return a list, which contains lists derived from the values found in each row 
     of the given .csv file.
+    
     The order of the elements reflects the following headers:
-
+    
+    FOR POSTCODES CSV FILE:
     Postcode
     Positional Quality Indicator
     Eastings
@@ -19,6 +21,20 @@ def open_a_file_and_retrieve_contents(file):
     Administrative ward code
     ETRS89GD-Lat
     ETRS89GD-Long
+    
+    FOR CRIME DATA FILES:
+    Crime ID
+    Month
+    Reported by
+    Falls within
+    Longitude
+    Latitude
+    Location
+    LSOA code
+    LSOA name
+    Crime type
+    Last outcome category
+    Context
     """
     with open(file) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
@@ -28,12 +44,21 @@ def open_a_file_and_retrieve_contents(file):
         csv_file.close
     return all_records
 
-# First thoughts, we want the following headings: 
+# First thoughts, we want the following headings from postcodes: 
 # Postcode
 # ETRS89GD-Lat
 # ETRS89GD-Long
+# The rest appear to be cruft we don't directly need.
 
 # We can then pass this off to the geodist module in order to then get the starting distance. 
+
+# We then likely will be interested in the below headers from the crime statistics:
+    #Crime ID
+    #Longitude
+    #Latitude
+    #Location
+    #Crime type
+    #Last outcome category
 
 ## Test functions
 
