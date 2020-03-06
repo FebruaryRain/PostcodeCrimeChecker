@@ -16,6 +16,9 @@ When your program prompts for user input it must always accept the options of Qu
 
  - [Participants](#participants)
  - [Initial Planning Meeting](#initial-planning-meeting)
+ - [MEETING 2 06/03](#meeting-2-0603)
+ - [Snap meeting with Samir - Welcome to the team!](#snap-meeting-with-samir---welcome-to-the-team)
+ - [MEETING 3 12/03](#meeting-3-1203)
  
 ## Participants
 
