@@ -97,3 +97,39 @@ Each person is to give an assessment and report detailing these at least:
  - Implementation thoughts
  - What they need from other's modules
  - Predicted and Encountered Difficulties
+
+### MEETING OUTCOME
+#### Outcome of emailing Frank (Sam)
+ - Not done yet, will do again soon
+#### Group first Thoughts
+ - Bhav, First draft around Wednesday
+ - James' UI rough plan to follow something like this:
+  1) Welcome screen
+  2) Ask for a centre-point postcode
+  3) Ask for a radius (1,2,5Km)
+  4) Ask for a sort type (Distance, Date, Crime Category)
+  5) Ask for a user-defined report name
+  6) Confirmation
+  At all times, restart and quit are available options. Restart will begin the loop again; quit will close the program. 
+ - Sam will get the file reading completed by Thurs next week.
+ - Bhav's report can be added to as we go as more requirements are sorted. 
+#### Implementation thoughts
+ - It was decided that all data from files will be taken in as a list as this is what the group is most comfortable dealing with. 
+ - If any are unsure how to use Guthub they can send their files to Sam in order to upload them. 
+#### What they need from other's modules
+ - The mentioned lists
+#### Predicted and Encountered Difficulties
+ - James not available Mon 09/03 evening
+ - Sam not available 13/03-15/03
+ 
+## MEETING 3 12/03
+### Agenda
+#### 2nd week efforts
+ - Outcome of emailing Frank (Sam)
+ - Bhav's Report/Notes (if possible, Bhav)
+ - Roxy's first thoughts (Roxy)
+ - James' first thoughts (James)
+ - Sam's first thoughts (Sam)
+ - Implementation thoughts
+ - What they need from other's modules
+ - Predicted and Encountered Difficulties
