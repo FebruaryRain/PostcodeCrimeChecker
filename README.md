@@ -27,6 +27,7 @@ Roksolana
 
 Sam 
 
+Samir
 
 ## Initial Planning meeting
 Date: 17/02/2020
@@ -121,10 +122,19 @@ Each person is to give an assessment and report detailing these at least:
 #### Predicted and Encountered Difficulties
  - James not available Mon 09/03 evening
  - Sam not available 13/03-15/03
- 
+
+## Snap meeting with Samir - Welcome to the team!
+ - Brought him up to speed that we're using Github
+ - Samir will take the file reading job
+  - Will take a look at and give us a plan on:
+   - How he thinks he will write to the file
+   - How he initially thinks the report will look like
+   - What data he thinks he will need to get the report
+
 ## MEETING 3 12/03
 ### Agenda
 #### 2nd week efforts
+ - If Sam gets time to: A rough diagram of the structure of the program (up for debate, something for us to look at as a reference tool but not as a bible).
  - Outcome of emailing Frank (Sam)
  - Bhav's Report/Notes (if possible, Bhav)
  - Roxy's first thoughts (Roxy)
@@ -133,3 +143,4 @@ Each person is to give an assessment and report detailing these at least:
  - Implementation thoughts
  - What they need from other's modules
  - Predicted and Encountered Difficulties
+
