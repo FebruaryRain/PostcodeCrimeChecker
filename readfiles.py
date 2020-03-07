@@ -1,6 +1,6 @@
 import csv
 
-def open_a_file_and_retrieve_contents(file):
+def open_a_file_and_retrieve_contents(filepath):
     """
     This function takes in a file path to a .csv file as an argument.
     The function will return a list, which contains lists derived from the values found in each row 
@@ -36,7 +36,7 @@ def open_a_file_and_retrieve_contents(file):
     Last outcome category
     Context
     """
-    with open(file) as csv_file:
+    with open(filepath) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         all_records = []
         for row in csv_reader:
