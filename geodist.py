@@ -25,7 +25,19 @@ def distance( latlngA, latlngB):
     d = math.sqrt( x*x + y*y ) * R
     return d
 
+def distance_to_1_dp(latlngA, latlngB):
+    """
+    Takes in 2 latitude/longitude tuples in the format (x,y).
+    Returns the distance to 1 decimal place in km.
+    Calls the distance function, provided by the lecturers.
+    This is the function to call as the original is too precise to be useful. 
+    """
+    return round(distance( latlngA, latlngB), 1)
+
+#####
 ## Tests
+#####
+
 def distance_should_return_correct_distances_when_given_two_valid_points():
     list_of_lat_and_longs_1 = [
         (-2.44427954,50.71527036),
@@ -46,7 +58,6 @@ def distance_should_return_correct_distances_when_given_two_valid_points():
         292.39922075200764, 
         171.6851984351975
     ]
-
     list_of_lat_long_returns_2 = []
     list_of_lat_long_expected_2 = [
         22.316295380280835, 
@@ -61,8 +72,43 @@ def distance_should_return_correct_distances_when_given_two_valid_points():
         list_of_lat_long_returns_2.append(distance(list_of_lat_and_longs_1[1], coord))
     assert(list_of_lat_long_returns_1 == list_of_lat_long_expected_1)
     assert(list_of_lat_long_returns_2 == list_of_lat_long_expected_2)
-    #print(list_of_lat_long_returns_1)
-    #print(list_of_lat_long_returns_2)
+    return
+
+def distance_to_1_dp_should_return_data_rounded_correctly():
+    list_of_lat_and_longs_1 = [
+        (-2.44427954,50.71527036),
+        (-4.40200942,50.97137163)
+    ]
+    list_of_lat_and_longs_2 = [
+        (-4.544128,50.829232),
+        (-4.714629,50.462646),
+        (-4.467377,50.457415),
+        (-5.057535,50.421859),
+        (-3.988073,50.740558)
+    ]
+    list_of_lat_long_returns_1 = []
+    list_of_lat_long_expected_1 = [
+        233.8, 
+        254.0, 
+        226.8, 
+        292.4, 
+        171.7
+    ]
+
+    list_of_lat_long_returns_2 = []
+    list_of_lat_long_expected_2 = [
+        22.3, 
+        66.2, 
+        57.4, 
+        95.0, 
+        52.7
+    ] 
+    for coord in list_of_lat_and_longs_2:
+        list_of_lat_long_returns_1.append(distance_to_1_dp(list_of_lat_and_longs_1[0], coord))
+    for coord in list_of_lat_and_longs_2:
+        list_of_lat_long_returns_2.append(distance_to_1_dp(list_of_lat_and_longs_1[1], coord))
+    assert(list_of_lat_long_returns_1 == list_of_lat_long_expected_1)
+    assert(list_of_lat_long_returns_2 == list_of_lat_long_expected_2)
     return
 
 if __name__ == "__main__":
@@ -73,5 +119,5 @@ if __name__ == "__main__":
     # For your testing allow a tolerance for the distance calculation as the
     # calculation is an approximation.
 
-    #print(distance( (-4.544128,50.829232), (-4.544117,50.827973)))
     distance_should_return_correct_distances_when_given_two_valid_points()
+    distance_to_1_dp_should_return_data_rounded_correctly()

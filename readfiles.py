@@ -5,9 +5,9 @@ def open_a_file_and_retrieve_contents(filepath):
     This function takes in a file path to a .csv file as an argument.
     The function will return a list, which contains lists derived from the values found in each row 
     of the given .csv file.
-    
+
     The order of the elements reflects the following headers:
-    
+
     FOR POSTCODES CSV FILE:
     Postcode
     Positional Quality Indicator
@@ -21,7 +21,7 @@ def open_a_file_and_retrieve_contents(filepath):
     Administrative ward code
     ETRS89GD-Lat
     ETRS89GD-Long
-    
+
     FOR CRIME DATA FILES:
     Crime ID
     Month
@@ -60,7 +60,9 @@ def open_a_file_and_retrieve_contents(filepath):
     #Crime type
     #Last outcome category
 
-## Test functions
+#####
+## Tests
+#####
 
 def open_a_file_and_retrieve_contents_should_return_representative_sample_ok_when_given_valid_input():
     file = "Devon_postcodes\postcodes.csv"
@@ -74,7 +76,7 @@ def open_a_file_and_retrieve_contents_should_return_representative_sample_ok_whe
 
     assert(test_sample1 == output1[0:5])
     assert(test_sample2 == output2[0:5])
-    
+
 
 if __name__ == "__main__":
     open_a_file_and_retrieve_contents_should_return_representative_sample_ok_when_given_valid_input()
