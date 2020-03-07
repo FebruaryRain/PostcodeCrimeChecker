@@ -138,6 +138,7 @@ Each person is to give an assessment and report detailing these at least:
 ### Agenda
 #### 2nd week efforts
  - If Sam gets time to: A rough diagram of the structure of the program (up for debate, something for us to look at as a reference tool but not as a bible).
+ - Discussion about which columns from the postcodes and crime data .csv files we will actually need - THIS IS USEFUL FOR THE DATA FILTERING PART OF GENERATING THE REPORT.
  - Outcome of emailing Frank (Sam)
  - Bhav's Report/Notes (if possible, Bhav)
  - Roxy's first thoughts (Roxy)
