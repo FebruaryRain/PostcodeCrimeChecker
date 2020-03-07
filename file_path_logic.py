@@ -1,5 +1,5 @@
 from pathlib import Path
-#from readfiles import open_a_file_and_retrieve_contents(filepath)
+from read_files import open_a_file_and_retrieve_contents 
 
 ## This module will create the file paths for the various file paths we need.
 
@@ -9,7 +9,7 @@ def postcode_data_filepath():
     intepreted by a Path object in order that this can be called to get the 
     postcode data when this is called.
     """
-    return Path("/Devon_postcodes")
+    return Path("Devon_postcodes/postcodes.csv")
 
 def crime_data_filepaths(iterable_int):
     """
@@ -33,15 +33,15 @@ def crime_data_filepaths(iterable_int):
 ## Tests
 #####
 
+def postcode_data_filepath_should_return_correct_filepath():
+    assert(postcode_data_filepath() == Path("Devon_postcodes/postcodes.csv"))
+    return
+
 def crime_data_filepaths_should_return_correct_file_path_when_supplied_1():
     list_of_crime_data_file_paths_returns = ""
     list_of_crime_data_file_paths_expected = Path("Devon_and_Cornwall_crime_data_2019\\2019-01\\2019-01-devon-and-cornwall-street.csv")
     list_of_crime_data_file_paths_returns = crime_data_filepaths(1)
     assert(list_of_crime_data_file_paths_expected == list_of_crime_data_file_paths_returns)
-    return
-
-def postcode_data_filepath_should_return_correct_filepath():
-    assert(postcode_data_filepath() == "/Devon_postcodes")
     return
 
 def crime_data_filepaths_should_return_correct_sub_10_file_path_when_supplied():
@@ -73,9 +73,12 @@ def crime_data_filepaths_should_return_correct_greater_than_10_file_path_when_su
     assert(list_of_crime_data_file_paths_expected == list_of_crime_data_file_paths_returns)
 
 if __name__ == "__main__":
+    postcode_data_filepath_should_return_correct_filepath()
     crime_data_filepaths_should_return_correct_sub_10_file_path_when_supplied()
     crime_data_filepaths_should_return_correct_greater_than_10_file_path_when_supplied()
-
     crime_data_filepaths_should_return_correct_file_path_when_supplied_1()
 
-    #print(open_a_file_and_retrieve_contents(postcode_data_filepath())
+    # Manual testing items, leave commented unless testing.
+
+    #print(open_a_file_and_retrieve_contents(postcode_data_filepath()))
+    #print(open_a_file_and_retrieve_contents(crime_data_filepaths(1)))
