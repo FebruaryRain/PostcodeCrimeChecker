@@ -1,4 +1,5 @@
 import csv
+from pathlib import Path
 
 def open_a_file_and_retrieve_contents(filepath):
     """
@@ -65,8 +66,8 @@ def open_a_file_and_retrieve_contents(filepath):
 #####
 
 def open_a_file_and_retrieve_contents_should_return_representative_sample_ok_when_given_valid_input():
-    file = "Devon_postcodes\postcodes.csv"
-    file2 = "Devon_and_Cornwall_crime_data_2019\\2019-01\\2019-01-devon-and-cornwall-street.csv"
+    file = Path("Devon_postcodes/postcodes.csv")
+    file2 = Path("Devon_and_Cornwall_crime_data_2019/2019-01/2019-01-devon-and-cornwall-street.csv")
 
     output1 = open_a_file_and_retrieve_contents(file)
     output2 = open_a_file_and_retrieve_contents(file2)
@@ -80,3 +81,4 @@ def open_a_file_and_retrieve_contents_should_return_representative_sample_ok_whe
 
 if __name__ == "__main__":
     open_a_file_and_retrieve_contents_should_return_representative_sample_ok_when_given_valid_input()
+
