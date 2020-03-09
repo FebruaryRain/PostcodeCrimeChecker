@@ -3,7 +3,7 @@ from read_files import open_a_file_and_retrieve_contents
 
 ## This module will create the file paths for the various file paths we need.
 
-def postcode_data_filepath():
+def get_postcode_data_filepath():
     """
     This function takes no arguments and will only return "/Devon_postcodes" as 
     intepreted by a Path object in order that this can be called to get the 
@@ -33,8 +33,8 @@ def crime_data_filepaths(iterable_int):
 ## Tests
 #####
 
-def postcode_data_filepath_should_return_correct_filepath():
-    assert(postcode_data_filepath() == Path("Devon_postcodes/postcodes.csv"))
+def get_postcode_data_filepath_should_return_correct_filepath():
+    assert(get_postcode_data_filepath() == Path("Devon_postcodes/postcodes.csv"))
     return
 
 def crime_data_filepaths_should_return_correct_file_path_when_supplied_1():
@@ -73,12 +73,12 @@ def crime_data_filepaths_should_return_correct_greater_than_10_file_path_when_su
     assert(list_of_crime_data_file_paths_expected == list_of_crime_data_file_paths_returns)
 
 if __name__ == "__main__":
-    postcode_data_filepath_should_return_correct_filepath()
+    get_postcode_data_filepath_should_return_correct_filepath()
     crime_data_filepaths_should_return_correct_sub_10_file_path_when_supplied()
     crime_data_filepaths_should_return_correct_greater_than_10_file_path_when_supplied()
     crime_data_filepaths_should_return_correct_file_path_when_supplied_1()
 
     # Manual testing items, leave commented unless testing.
 
-    #print(open_a_file_and_retrieve_contents(postcode_data_filepath()))
+    #print(open_a_file_and_retrieve_contents(get_postcode_data_filepath()))
     #print(open_a_file_and_retrieve_contents(crime_data_filepaths(1)))
