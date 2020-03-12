@@ -87,7 +87,7 @@ Test Report - Testing to be handled by all in their respective modules and then 
 #### Questions and Concerns
  - Will try emailing Frank Hermann to get answer to Sam's questions to Saunby (Sam to do)
  
-NEXT MEETING TO BE IN PERSON, AT ALS on 06/03
+NEXT MEETING TO BE IN PERSON, AT ALS on 06/03 - ALS made virtual, so our meeting was virtual
 
 ## MEETING 2 06/03
 ### Agenda
@@ -148,3 +148,36 @@ Each person is to give an assessment and report detailing these at least:
  - What they need from other's modules
  - Predicted and Encountered Difficulties
 
+### MEETING OUTCOME
+#### If Sam gets time to: A rough diagram of the structure of the program (up for debate, something for us to look at as a reference tool but not as a bible).
+ - No diagram, though notes and an explanation on how it should all come together was discussed - no objections.
+#### Discussion about which columns from the postcodes and crime data .csv files we will actually need - THIS IS USEFUL FOR THE DATA FILTERING PART OF GENERATING THE REPORT.
+ - Agreed that the columns from the crime files to include in the final report are:
+  - Crime ID
+    Month Reported
+    Distance from centre
+    Longitude
+    Latitude
+    Location
+    Crime type
+    Last outcome category
+ - It was discussed that the lat and long may be omitted later.
+#### Outcome of emailing Frank (Sam)
+#### Bhav's Report/Notes (if possible, Bhav)
+ - Have been submitted, not yet reviewed but Sam will take a look and send thoughts over right after meeting
+#### Roxy's first thoughts (Roxy)
+ - Having discussed implementation with Roxy, we now have a plan on how her module's logic will work
+#### James' first thoughts (James)
+ - James has submitted his first draft and will implement this more fully in the next week
+#### Sam's first thoughts (Sam)
+ - Has submitted his section for others to view, will continue to offer support to others' sections
+#### Samir's section
+ - We have now discussed some likely areas to research for how to implement the code. 
+ - First draft expected by next week
+#### Implementation thoughts
+ - Overall "main" module discussed, no objections.
+#### What they need from other's modules
+ - Defined that James' UI will send a dictionary to others for their use. 
+ - Defined what columns are going to be needed in the report.
+#### Predicted and Encountered Difficulties
+ - Sam will be largely out of contact for this weekend. Feel free to message on Whatsapp but expect delays on responses.
