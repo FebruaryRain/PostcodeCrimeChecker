@@ -66,7 +66,9 @@ def get_postcode_centre_lat_long(postcode):
     lat_long_data = convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(lat_long_strings)
     return lat_long_data
 
-## Test
+#####
+## Tests
+#####
 
 def remove_superfluous_columns_postcodes_should_return_correct_output():
     all_col_list = ["0","1","2","3","4","5","6","7","8","9","10","11",]

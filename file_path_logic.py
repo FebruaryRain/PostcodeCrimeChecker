@@ -11,23 +11,25 @@ def get_postcode_data_filepath():
     """
     return Path("Devon_postcodes/postcodes.csv")
 
-def crime_data_filepaths(iterable_int):
+def get_month_string(number):
     """
-    The function take an integer as an argument. 
-    From this, it will construct the correct file path in order to obtain the crime 
-    data .csv file path, for use in the readfiles.py module.
+    Takes in an integer number indicating the month of the year.
+    Returns the appropriate string for use in the file path.
+    Assesses if the value is between 0 and 10 for "0number".
+    Assesses if the value is 10-12 for "number".
+    If value is not in 1-12 it returns a value error. 
     """
-    str_int = str(iterable_int)
-    top_folder_path = "Devon_and_Cornwall_crime_data_2019"
-    sub_folder_path = ""
-    file_path = ""
-    if iterable_int <10:
-        sub_folder_path = "/2019-0" + str_int
-        file_path = "/2019-0" + str_int + "-devon-and-cornwall-street.csv"
-    else:
-        sub_folder_path = "/2019-" + str_int
-        file_path = "/2019-" + str_int + "-devon-and-cornwall-street.csv"
-    return Path(top_folder_path + sub_folder_path + file_path)
+    if 0 < number < 10:
+        return "0" + str(number)
+    if 13 > number >= 10:
+        return str(number)
+    else: 
+        return ValueError
+
+def get_crime_data_filepaths(month):
+    month_string = get_month_string(month)
+    return "./Devon_and_Cornwall_crime_data_2019/2019-" + month_string + "/2019-" + month_string + "-devon-and-cornwall-street.csv"
+
 
 #####
 ## Tests
@@ -44,39 +46,62 @@ def crime_data_filepaths_should_return_correct_file_path_when_supplied_1():
     assert(list_of_crime_data_file_paths_expected == list_of_crime_data_file_paths_returns)
     return
 
-def crime_data_filepaths_should_return_correct_sub_10_file_path_when_supplied():
-    list_of_crime_data_file_paths_returns = []
-    list_of_crime_data_file_paths_expected = [
-        Path("Devon_and_Cornwall_crime_data_2019/2019-01/2019-01-devon-and-cornwall-street.csv"),
-        Path("Devon_and_Cornwall_crime_data_2019/2019-02/2019-02-devon-and-cornwall-street.csv"),
-        Path("Devon_and_Cornwall_crime_data_2019/2019-03/2019-03-devon-and-cornwall-street.csv"),
-        Path("Devon_and_Cornwall_crime_data_2019/2019-04/2019-04-devon-and-cornwall-street.csv"),
-        Path("Devon_and_Cornwall_crime_data_2019/2019-05/2019-05-devon-and-cornwall-street.csv"),
-        Path("Devon_and_Cornwall_crime_data_2019/2019-06/2019-06-devon-and-cornwall-street.csv"),
-        Path("Devon_and_Cornwall_crime_data_2019/2019-07/2019-07-devon-and-cornwall-street.csv"),
-        Path("Devon_and_Cornwall_crime_data_2019/2019-08/2019-08-devon-and-cornwall-street.csv"),
-        Path("Devon_and_Cornwall_crime_data_2019/2019-09/2019-09-devon-and-cornwall-street.csv")]
-    for i in range(1,10):
-        list_of_crime_data_file_paths_returns.append(crime_data_filepaths(i))
-    assert(list_of_crime_data_file_paths_expected == list_of_crime_data_file_paths_returns)
+def get_month_should_give_all_month_strings_correctly():
+    # Arrange
+    expected_months = ["01","02","03","04","05","06","07","08","09","10","11","12"]
+    returned_months = []
+    
+    # Act
+    for i in range(1,13):
+        returned_months.append(get_month_string(i))
+
+    # Assert
+    assert(returned_months == expected_months)
     return
 
+def get_month_should_return_value_error_for_wrong_values():
+    # Arrange
+    wrong_values = [0, -5, 13]
+    # Act and Assert
+    for value in wrong_values:
+        assert(get_month_string(value) == ValueError)
+    return
+    
 
-def crime_data_filepaths_should_return_correct_greater_than_10_file_path_when_supplied():
-    list_of_crime_data_file_paths_returns = []
-    list_of_crime_data_file_paths_expected = [
-        Path("Devon_and_Cornwall_crime_data_2019/2019-10/2019-10-devon-and-cornwall-street.csv"),
-        Path("Devon_and_Cornwall_crime_data_2019/2019-11/2019-11-devon-and-cornwall-street.csv"),
-        Path("Devon_and_Cornwall_crime_data_2019/2019-12/2019-12-devon-and-cornwall-street.csv")]
-    for i in range(10, 13):
-        list_of_crime_data_file_paths_returns.append(crime_data_filepaths(i))
-    assert(list_of_crime_data_file_paths_expected == list_of_crime_data_file_paths_returns)
+def get_crime_data_filepaths_should_give_correct_month_strings():
+    expected_paths = [
+        "./Devon_and_Cornwall_crime_data_2019/2019-01/2019-01-devon-and-cornwall-street.csv",
+        "./Devon_and_Cornwall_crime_data_2019/2019-02/2019-02-devon-and-cornwall-street.csv",
+        "./Devon_and_Cornwall_crime_data_2019/2019-03/2019-03-devon-and-cornwall-street.csv",
+        "./Devon_and_Cornwall_crime_data_2019/2019-04/2019-04-devon-and-cornwall-street.csv",
+        "./Devon_and_Cornwall_crime_data_2019/2019-05/2019-05-devon-and-cornwall-street.csv",
+        "./Devon_and_Cornwall_crime_data_2019/2019-06/2019-06-devon-and-cornwall-street.csv",
+        "./Devon_and_Cornwall_crime_data_2019/2019-07/2019-07-devon-and-cornwall-street.csv",
+        "./Devon_and_Cornwall_crime_data_2019/2019-08/2019-08-devon-and-cornwall-street.csv",
+        "./Devon_and_Cornwall_crime_data_2019/2019-09/2019-09-devon-and-cornwall-street.csv",
+        "./Devon_and_Cornwall_crime_data_2019/2019-10/2019-10-devon-and-cornwall-street.csv",
+        "./Devon_and_Cornwall_crime_data_2019/2019-11/2019-11-devon-and-cornwall-street.csv",
+        "./Devon_and_Cornwall_crime_data_2019/2019-12/2019-12-devon-and-cornwall-street.csv"
+    ]
+    returned_paths = []
+    
+    #Act
+    for i in range(1,13):
+        returned_paths.append(get_crime_data_filepaths(i))
+    
+    #Assert
+    assert(expected_paths == returned_paths)
+    return
 
 if __name__ == "__main__":
     get_postcode_data_filepath_should_return_correct_filepath()
-    crime_data_filepaths_should_return_correct_sub_10_file_path_when_supplied()
-    crime_data_filepaths_should_return_correct_greater_than_10_file_path_when_supplied()
-    crime_data_filepaths_should_return_correct_file_path_when_supplied_1()
+    # crime_data_filepaths_should_return_correct_sub_10_file_path_when_supplied()
+    # crime_data_filepaths_should_return_correct_greater_than_10_file_path_when_supplied()
+    # crime_data_filepaths_should_return_correct_file_path_when_supplied_1()
+
+    get_month_should_give_all_month_strings_correctly()
+    get_month_should_return_value_error_for_wrong_values()
+    get_crime_data_filepaths_should_give_correct_month_strings()
 
     # Manual testing items, leave commented unless testing.
 

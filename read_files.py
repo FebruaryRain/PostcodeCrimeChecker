@@ -43,7 +43,11 @@ def open_a_file_and_retrieve_contents(filepath):
         for row in csv_reader:
             all_records.append(row)
         csv_file.close
+    all_records = remove_top_headers_row(all_records)
     return all_records
+
+def remove_top_headers_row(records_list):
+    return records_list[1:]
 
 # First thoughts, we want the following headings from postcodes: 
 # Postcode
@@ -55,6 +59,7 @@ def open_a_file_and_retrieve_contents(filepath):
 
 # We then likely will be interested in the below headers from the crime statistics:
     #Crime ID
+    #Month Reported
     #Longitude
     #Latitude
     #Location
@@ -66,19 +71,32 @@ def open_a_file_and_retrieve_contents(filepath):
 #####
 
 def open_a_file_and_retrieve_contents_should_return_representative_sample_ok_when_given_valid_input():
+    ## Arrange
     file = Path("Devon_postcodes/postcodes.csv")
     file2 = Path("Devon_and_Cornwall_crime_data_2019/2019-01/2019-01-devon-and-cornwall-street.csv")
 
+    expected_return1 = [['DT1 1AA', '10', '368730', '90722', 'E92000001', 'E19000002', 'E18000010', 'E10000009', 'E07000052', 'E05010590', '+50.71527036', '-2.44427954'], ['DT1 1AB', '10', '369874', '90687', 'E92000001', 'E19000002', 'E18000010', 'E10000009', 'E07000052', 'E05010589', '+50.71501621', '-2.42807300'], ['DT1 1AD', '10', '369245', '90319', 'E92000001', 'E19000002', 'E18000010', 'E10000009', 'E07000052', 'E05010590', '+50.71167397', '-2.43695132'], ['DT1 1AE', '10', '369076', '90500', 'E92000001', 'E19000002', 'E18000010', 'E10000009', 'E07000052', 'E05010590', '+50.71329261', '-2.43936007']]
+    expected_return2 = [['', '2019-01', 'Devon & Cornwall Police', 'Devon & Cornwall Police', '-4.544128', '50.829232', 'On or near Lansdown Close', 'E01018936', 'Cornwall 001A', 'Anti-social behaviour', '', ''], ['', '2019-01', 'Devon & Cornwall Police', 'Devon & Cornwall Police', '-4.544117', '50.827973', 'On or near The Strand', 'E01018936', 'Cornwall 001A', 'Anti-social behaviour', '', ''], ['', '2019-01', 'Devon & Cornwall Police', 'Devon & Cornwall Police', '-4.544556', '50.830572', 'On or near Belle Vue Avenue', 'E01018936', 'Cornwall 001A', 'Anti-social behaviour', '', ''], ['', '2019-01', 'Devon & Cornwall Police', 'Devon & Cornwall Police', '-4.544556', '50.830572', 'On or near Belle Vue Avenue', 'E01018936', 'Cornwall 001A', 'Anti-social behaviour', '', '']]
+    
+    # Act
     output1 = open_a_file_and_retrieve_contents(file)
     output2 = open_a_file_and_retrieve_contents(file2)
+    
 
-    test_sample1 = [['Postcode', 'Positional Quality Indicator', 'Eastings', 'Northings', 'Country Code', 'NHS regional health authority code', 'NHS health authority code', 'Administrative county code', 'Administrative district code', 'Administrative ward code', 'ETRS89GD-Lat', 'ETRS89GD-Long'], ['DT1 1AA', '10', '368730', '90722', 'E92000001', 'E19000002', 'E18000010', 'E10000009', 'E07000052', 'E05010590', '+50.71527036', '-2.44427954'], ['DT1 1AB', '10', '369874', '90687', 'E92000001', 'E19000002', 'E18000010', 'E10000009', 'E07000052', 'E05010589', '+50.71501621', '-2.42807300'], ['DT1 1AD', '10', '369245', '90319', 'E92000001', 'E19000002', 'E18000010', 'E10000009', 'E07000052', 'E05010590', '+50.71167397', '-2.43695132'], ['DT1 1AE', '10', '369076', '90500', 'E92000001', 'E19000002', 'E18000010', 'E10000009', 'E07000052', 'E05010590', '+50.71329261', '-2.43936007']]
-    test_sample2 = [['Crime ID', 'Month', 'Reported by', 'Falls within', 'Longitude', 'Latitude', 'Location', 'LSOA code', 'LSOA name', 'Crime type', 'Last outcome category', 'Context'], ['', '2019-01', 'Devon & Cornwall Police', 'Devon & Cornwall Police', '-4.544128', '50.829232', 'On or near Lansdown Close', 'E01018936', 'Cornwall 001A', 'Anti-social behaviour', '', ''], ['', '2019-01', 'Devon & Cornwall Police', 'Devon & Cornwall Police', '-4.544117', '50.827973', 'On or near The Strand', 'E01018936', 'Cornwall 001A', 'Anti-social behaviour', '', ''], ['', '2019-01', 'Devon & Cornwall Police', 'Devon & Cornwall Police', '-4.544556', '50.830572', 'On or near Belle Vue Avenue', 'E01018936', 'Cornwall 001A', 'Anti-social behaviour', '', ''], ['', '2019-01', 'Devon & Cornwall Police', 'Devon & Cornwall Police', '-4.544556', '50.830572', 'On or near Belle Vue Avenue', 'E01018936', 'Cornwall 001A', 'Anti-social behaviour', '', '']]
+    # Assert
+    assert(expected_return1 == output1[0:4])
+    assert(expected_return2 == output2[0:4])
+    return 
 
-    assert(test_sample1 == output1[0:5])
-    assert(test_sample2 == output2[0:5])
-
+def remove_top_headers_row_should_omit_first_row():
+    # Arrange
+    sample_input = [["01"],["02"],["03"],["04"]]
+    expected_return = [["02"],["03"],["04"]]
+    # Act 
+    returned_list = remove_top_headers_row(sample_input)
+    # Assert
+    assert(expected_return == returned_list)
 
 if __name__ == "__main__":
     open_a_file_and_retrieve_contents_should_return_representative_sample_ok_when_given_valid_input()
-
+    remove_top_headers_row_should_omit_first_row()
