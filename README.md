@@ -181,3 +181,25 @@ Each person is to give an assessment and report detailing these at least:
  - Defined what columns are going to be needed in the report.
 #### Predicted and Encountered Difficulties
  - Sam will be largely out of contact for this weekend. Feel free to message on Whatsapp but expect delays on responses.
+ 
+ **************************************
+## MEETING 4 19/03
+### Agenda
+#### 3rd week efforts
+ - If Sam gets time to: A rough diagram of the structure of the program (up for debate, something for us to look at as a reference tool but not as a bible).
+ - Outcome of email chain Michael (Sam)
+   - We can choose our implementation
+   - What this means for printing the report (NEW REQM'T, only if the report is short)
+   - Preprocessing of files (see below)
+ - Discussion regarding Issue #23
+   - How we are going to arrange our new file system
+   - What to call the new files
+   - Any file formats we want
+   - Which rows to lose from postcodes.csv (crimefiles.csv col's have already been discussed and agreed on)
+ - Bhav's Report/Notes, anyone else's thoughts so far.
+ - Roxy's first full draft of the code (Roxy)
+ - James' first full draft of the code (James)
+ - Sam's first full draft of the code (Sam)
+ - Samir's first full draft of the code (Samir)
+ - Implementation thoughts, anthing which has come up.
+ - Predicted and Encountered Difficulties
