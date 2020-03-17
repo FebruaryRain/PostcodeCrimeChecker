@@ -5,7 +5,6 @@ To use, make a call to function:
 ... where postcode is a valid postcode, correctly formatted. 
 """
 
-
 from read_files import open_a_file_and_retrieve_contents
 from file_path_logic import get_postcode_data_filepath
 
@@ -122,3 +121,4 @@ if __name__ == "__main__":
     convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats_return_exception_if_non_list_provided()
     get_postcode_centre_lat_long_should_return_correct_output()
     get_user_specified_postcode_row_should_return_correct_output()
+    print(get_postcode_centre_lat_long("EX168NF"))
