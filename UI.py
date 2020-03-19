@@ -1,11 +1,18 @@
 def cls():
     print("\n" * 100)
+## The \n * 100 is a bit much, can make do with more like 50 I think - have a play with it in a console and see the minimum 
+## number of lines.
+## Also, expand on the name; cls isn't especially expressive (though I did get it meant "clear last screen" after pondering it 
+## for a while).
+## On further reflection, we might even not clear the screen entirely, but rather do something like print("\n"*10+"***************************")
+## to act as a discernable break between inputs and screen, thus error messages will be shown.
+
 
 def load_menu():
     
-    pause = input()
+    pause = input() # Why do we want a pause there? If there was a "Press any key to start" this would be better. There must be an instruction.
     cls()
-    print("Welcome to the Postcode Crime Checker")
+    print("Welcome to the Postcode Crime Checker") ## See bottom of the page for notes on this.
     print("Please select from the following options:")
     print("1. Postcode Selection")
     print("2. Radius")
@@ -15,8 +22,11 @@ def load_menu():
     print("6. Save Data")
     print("7. Restart")
     print("8. Quit")
+    ## We want a help screen somewhere in here. We can issue instructions to the user, letting them know that they must select and then enter 
+    ## values, and that this can be done in any order.
     print("\n")
-    print(arguments_dict)
+    ## Have a line of "Current values:" in here.
+    print(arguments_dict) # There is a prettier way to display this. I can discuss this with you later.
     print("\n")
 
     while True:
@@ -45,6 +55,7 @@ def load_menu():
     else:
         print("Invalid Input.")
         load_menu()
+    return
 #1#
 def select_postcode(postcode):
     print("Postcode Selection")
@@ -194,6 +205,35 @@ arguments_dict = {'postcode': usr_postcode,
 load_menu()
 
 
+#### MESSAGES
+## We can create a separate messages module (in due course) that will abstract all of that printing above. I think this will be 
+## the most elegant way to do this, though let me know your thougts. 
+## I've done an example here:
 
-                                
+## In the messages.py:
+## opening_message = "Welcome to the Postcode Crime Checker \n Please select from the following options:"
+## menu_selection = "1. Postcode Selection \n2. Radius \n3. Sort the data \n4. Input name for save file \n5. Confirm \n6. Save Data \n7. Restart \n8. Quit"
 
+## In the load_menu():
+## print(opening_message) 
+## print(menu_selection)
+
+## We can then add other messages in the messages.py file as well. 
+
+#### get_arguments_dictionary
+## We need to be able to pass the arguments here off to the next person down the line. 
+## I suggest creating a "get_arguments_dictionary" function which will return the arguments dictionary.
+## That way we can all get the information at the start of our programs without any great hassle.
+
+#### Postcode validation
+## There is an issue on this. We need to ensure that the user enters a valid postcode.
+## I'll discuss this with you in more detail later as there's a couple of ways we can do it.
+## Either way, we want it to only accept EX postcodes.
+## Also, postcode isn't saving properly every time, seems to change back to test a lot.
+
+#### We need a way to move on to the rest of the program.
+## Your module will go through to the next part of the program. 
+## As such, we need a way to
+## 1) Have the rest of the program execute (I suggest a call in the confirm section to the rest of the program, which will then conduct the work).
+## 2) That approach ought to then allow us to restart the program - though we will need to be able to print that it worked OK,
+## see my notes on cls() at the top for more.
