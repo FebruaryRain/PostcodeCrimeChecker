@@ -198,8 +198,15 @@ Each person is to give an assessment and report detailing these at least:
    - Which rows to lose from postcodes.csv (crimefiles.csv col's have already been discussed and agreed on)
  - Bhav's Report/Notes, anyone else's thoughts so far.
  - Roxy's first full draft of the code (Roxy)
+   - Do we want to record the distance from the crime, rather than the coordinates?
  - James' first full draft of the code (James)
+   - I have send a series of notes to James and have included in the files
  - Sam's first full draft of the code (Sam)
+   - Talk through the main.py logic and how it will all tie together.
  - Samir's first full draft of the code (Samir)
+   - If not yet ready, then and ETA and a talk through of his implementation
  - Implementation thoughts, anthing which has come up.
  - Predicted and Encountered Difficulties
+ - Github
+   - Please, everyone assign issues to themselves (go through the backlog). 
+   - Add selves to repo.
