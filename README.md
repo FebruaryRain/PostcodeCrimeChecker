@@ -212,6 +212,7 @@ Each person is to give an assessment and report detailing these at least:
    - Add selves to repo.
    
 ### MEETING OUTCOME
+Absences: Samir; Bhav
 #### If Sam gets time to: A rough diagram of the structure of the program (up for debate, something for us to look at as a reference tool but not as a bible).
  - No diagram, though notes and an explanation on how it should all come together was discussed - no objections.
  - If Sam gets time to: A rough diagram of the structure of the program (up for debate, something for us to look at as a reference tool but not as a bible).
