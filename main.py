@@ -4,6 +4,10 @@ def get_arguments_dictionary():
     return UI.arguments_dict
 
 def run():
+    """
+    This is the function which will call the UI, will then also call the rest of the program in generate_report().
+    Takes no arguments. Returns nothing.
+    """
     return
     # Run James' UI
         # Which passes all arguments in a DICTIONARY
@@ -14,6 +18,8 @@ def run():
 def generate_report(arguments_dictionary):
     """
     This is the section which will generate the report. It will take in the arguments dictionary, full of user specified arguments.
+    It is called by run().
+    It takes the arguments_dictionary from the UI as its argument, then passes it to the rest of the program. 
     """
     return
     # Sam's postcode centrepoint:

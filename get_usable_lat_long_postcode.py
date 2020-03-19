@@ -70,47 +70,75 @@ def get_postcode_centre_lat_long(postcode):
 #####
 
 def remove_superfluous_columns_postcodes_should_return_correct_output():
+    # Arrange
     all_col_list = ["0","1","2","3","4","5","6","7","8","9","10","11",]
     wanted_col_list = ["10","11"]
-    assert(remove_superfluous_columns_postcodes(all_col_list) == wanted_col_list)
+    # Act
+    actual_return = remove_superfluous_columns_postcodes(all_col_list)
+    # Assert
+    assert(actual_return == wanted_col_list)
     return
 
 def remove_superfluous_columns_postcodes_should_return_exception_if_non_list_provided():
+    # Arrange
     non_list1 = 5
     non_list2 = "string"
     non_list3 = (5,5)
-    assert(remove_superfluous_columns_postcodes(non_list1) == TypeError)
-    assert(remove_superfluous_columns_postcodes(non_list2) == TypeError)
-    assert(remove_superfluous_columns_postcodes(non_list3) == TypeError)
+    # Act
+    actual_retun1 = remove_superfluous_columns_postcodes(non_list1)
+    actual_retun2 = remove_superfluous_columns_postcodes(non_list2)
+    actual_retun3 = remove_superfluous_columns_postcodes(non_list3)
+    # Assert
+    assert(actual_retun1 == TypeError)
+    assert(actual_retun2 == TypeError)
+    assert(actual_retun3 == TypeError)
     return
 
 def convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats_should_return_correct_output():
+    # Arrange
     lat_long_list_strings = [["50.21565","5.01425"],["50.462646","-4.714629"],["50.457415","-4.467377"],["50.421859","-5.057535"],["50.740558","-3.988073"]]
     lat_long_list_floats_expected = [(50.21565,5.01425),(50.462646,-4.714629),(50.457415,-4.467377),(50.421859,-5.057535),(50.740558,-3.988073)]
     lat_long_list_floats_returns = []
+    # Act
     for value in lat_long_list_strings:
         lat_long_list_floats_returns.append(convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(value))
+    # Assert
     assert(lat_long_list_floats_returns == lat_long_list_floats_expected)
     return
 
 def convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats_return_exception_if_non_list_provided():
+    # Arrange
     non_list1 = 5
     non_list2 = "string"
     non_list3 = (5,5)
-    assert(convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(non_list1) == TypeError)
-    assert(convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(non_list2) == TypeError)
-    assert(convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(non_list3) == TypeError)
+    # Act
+    actual_return1 = convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(non_list1)
+    actual_return2 = convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(non_list2)
+    actual_return3 = convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(non_list3)
+    #Assert
+    assert(actual_return1 == TypeError)
+    assert(actual_return2 == TypeError)
+    assert(actual_return3 == TypeError)
     return
 
 def get_user_specified_postcode_row_should_return_correct_output():
+    # Arrange
     target_postcode = "DT1 1AA"
     expected_return = ["DT1 1AA","10","368730","90722","E92000001","E19000002","E18000010","E10000009","E07000052","E05010590","+50.71527036","-2.44427954"]
-    assert(get_user_specified_postcode_row(target_postcode) == expected_return)
+    # Act
+    actual_return = get_user_specified_postcode_row(target_postcode)
+    # Assert
+    assert(actual_return == expected_return)
     return
 
 def get_postcode_centre_lat_long_should_return_correct_output():
+    # Arrange
     target_postcode = "DT1 1AA"
-    assert(get_postcode_centre_lat_long(target_postcode) == (50.71527036,-2.44427954))
+    expected_return = (50.71527036,-2.44427954)
+    # Act
+    actual_return = get_postcode_centre_lat_long(target_postcode)
+    # Assert
+    assert(actual_return == expected_return)
     return
 
 
@@ -121,4 +149,4 @@ if __name__ == "__main__":
     convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats_return_exception_if_non_list_provided()
     get_postcode_centre_lat_long_should_return_correct_output()
     get_user_specified_postcode_row_should_return_correct_output()
-    print(get_postcode_centre_lat_long("EX168NF"))
+    #print(get_postcode_centre_lat_long("EX168NF"))

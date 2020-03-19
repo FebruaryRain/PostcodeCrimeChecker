@@ -31,6 +31,7 @@ def distance( latlngA, latlngB):
 #####
 
 def distance_should_return_correct_distances_when_given_two_valid_points():
+    # Arrange
     list_of_lat_and_longs_1 = [
         (50.71527036,-2.44427954),
         (50.97137163,-4.40200942)
@@ -58,10 +59,12 @@ def distance_should_return_correct_distances_when_given_two_valid_points():
         76.58571912542108, 
         38.76803743069468
     ] 
+    # Act
     for coord in list_of_lat_and_longs_2:
         list_of_lat_long_returns_1.append(distance(list_of_lat_and_longs_1[0], coord))
     for coord in list_of_lat_and_longs_2:
         list_of_lat_long_returns_2.append(distance(list_of_lat_and_longs_1[1], coord))
+    # Assert
     assert(list_of_lat_long_returns_1 == list_of_lat_long_expected_1)
     assert(list_of_lat_long_returns_2 == list_of_lat_long_expected_2)
     return
