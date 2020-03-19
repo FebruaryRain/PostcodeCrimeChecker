@@ -210,3 +210,40 @@ Each person is to give an assessment and report detailing these at least:
  - Github
    - Please, everyone assign issues to themselves (go through the backlog). 
    - Add selves to repo.
+   
+### MEETING OUTCOME
+#### If Sam gets time to: A rough diagram of the structure of the program (up for debate, something for us to look at as a reference tool but not as a bible).
+ - No diagram, though notes and an explanation on how it should all come together was discussed - no objections.
+ - If Sam gets time to: A rough diagram of the structure of the program (up for debate, something for us to look at as a reference tool but not as a bible).
+#### Outcome of email chain Michael (Sam)
+   - Discussed. See next point for more on this. 
+   - Also agreed that we will eschew printing the file for now, can add this functionality later. 
+#### Discussion regarding Issue #23
+   - Agreed that this is something we can get done later, once we have the minimum viable product worked out and ready.
+#### Bhav's Report/Notes, anyone else's thoughts so far.
+#### Roxy's first full draft of the code (Roxy)
+   - Found that the distance from the crime is recorded, so we can add this to the report.
+   - Roxy agreed to get next draft in for 
+#### James' first full draft of the code (James)
+   - I have send a series of notes to James and have included in the files. Went through in some detail in meeting also.
+   - James agreed to have next draft in for Monday morning (23/03)
+   - Made aware of the use of the messages.py idea, will discuss more later.
+#### Sam's first full draft of the code (Sam)
+   - Talk through the main.py logic and how it will all tie together.
+   - Well received, made participants aware that the code will likely be massaged 
+#### Samir's first full draft of the code (Samir)
+   - If not yet ready, then and ETA and a talk through of his implementation
+#### Implementation thoughts, anthing which has come up.
+   - Discussed in the rest of the meeting
+#### Predicted and Encountered Difficulties
+   - None
+#### Github
+   - James and Roxy agreed to add to repo and go through backlog for their issues
+   
+## MEETING 5 26/03 - FINAL MEETING BEFORE DEADLINE
+### Agenda
+#### 4th week efforts
+ - Final drafts have to be in by following day at latest.
+ - Final checks will be done on the Saturday (28/03) by SR.
+ - Late submissions accepted until Sunday evening but will be of a low priority. If the minimum viable product is ready then I am hesitant to add last-minute changes.
+ - SR will submit.
