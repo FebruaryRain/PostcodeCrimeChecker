@@ -5,7 +5,7 @@ To use, make a call to function:
 ... where postcode is a valid postcode, correctly formatted. 
 """
 
-from read_files import open_a_file_and_retrieve_contents
+from file_reader import open_a_file_and_retrieve_contents
 from file_path_logic import get_postcode_data_filepath
 
 def remove_superfluous_columns_postcodes(postcode_row):

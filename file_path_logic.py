@@ -1,13 +1,13 @@
 from pathlib import Path
-from read_files import open_a_file_and_retrieve_contents 
+from file_reader import open_a_file_and_retrieve_contents 
 
 ## This module will create the file paths for the various file paths we need.
 
 def get_postcode_data_filepath():
     """
-    This function takes no arguments and will only return "/Devon_postcodes" as 
-    intepreted by a Path object in order that this can be called to get the 
-    postcode data when this is called.
+    This function takes no arguments.
+    Will only return "/Devon_postcodes" as intepreted by a Path object in order 
+    that this can be called to get the postcode data when this is called.
     """
     return Path("Devon_postcodes/postcodes.csv")
 
@@ -37,6 +37,17 @@ def get_crime_data_filepaths(month):
         return ValueError
     else:
         return Path("Devon_and_Cornwall_crime_data_2019/2019-" + month_string + "/2019-" + month_string + "-devon-and-cornwall-street.csv")
+
+
+#####
+# FilePath Logic For Reports
+#####
+
+def report_file_path(report_name):
+    return Path("Report/" + report_name + ".csv")
+
+
+
 
 
 #####
@@ -106,12 +117,32 @@ def get_crime_data_filepaths_should_give_correct_month_strings():
     assert(expected_paths == returned_paths)
     return
 
+
+#####
+# TESTS for report path
+#####
+
+def report_file_path_should_return_correct_filepaths():
+    # Arrange
+    report_name = "Test_Report"
+    expected_return = Path("Report/Test_Report.csv")
+    # Act
+    actual_return = report_file_path(report_name)
+
+    # Assert
+    assert(expected_return == actual_return)
+    return
+
+
 if __name__ == "__main__":
     get_postcode_data_filepath_should_return_correct_filepath()
     crime_data_filepaths_should_return_correct_file_path_when_supplied_1()
     get_month_should_give_all_month_strings_correctly()
     get_month_should_return_value_error_for_wrong_values()
     get_crime_data_filepaths_should_give_correct_month_strings()
+
+    #### Test for report path logic
+    report_file_path_should_return_correct_filepaths()
 
     # Manual testing items, leave commented unless testing.
 

@@ -1,4 +1,4 @@
-from read_files import open_a_file_and_retrieve_contents
+from file_reader import open_a_file_and_retrieve_contents
 from pathlib import Path
 
 records = open_a_file_and_retrieve_contents(Path("Devon_postcodes/postcodes.csv"))
