@@ -1,8 +1,30 @@
-from pathlib import Path
+"""
+This module allows the user to get all crime records, stripped to only those rows we know we want in the final report.
+Use by importing and calling only for the "get_all_crime_records_stripped()" function. 
+"""
 from file_reader import open_a_file_and_retrieve_contents
 from file_path_logic import get_crime_data_filepaths
 
-def create_unified_list_of_records(records_by_month):
+
+def get_all_crime_records_stripped():
+    """
+    Takes in the single list of all crime records.
+    To get all crime records, enter the argument "all_crime_records()", importing this function from this module to do so. 
+    Returns these records without the 12th, 9th, 8th, 4th, 3rd elements as these were decided to be superfluous.
+    These are removed, starting at the back so that removing an element doesn't change other element's positions.
+    Remember that the elements are 0 indexed, so it is element-1 that we remove.
+    """
+    all_crime_records = create_unified_list_of_crime_records(read_all_records())
+    for record in all_crime_records:
+        record.pop(11)
+        record.pop(8)
+        record.pop(7)
+        record.pop(3)
+        record.pop(2)
+    return all_crime_records
+
+
+def create_unified_list_of_crime_records(records_by_month):
     """
     Takes in the list of each months' records.
     Returns these as one list, no separate list per month.
@@ -13,6 +35,7 @@ def create_unified_list_of_records(records_by_month):
         for row in file:
             all_records.append(row)
     return all_records
+
 
 def read_all_records():
     """
@@ -27,28 +50,11 @@ def read_all_records():
         all_month_records.append(open_a_file_and_retrieve_contents(file_path))
     return all_month_records
 
-def all_crime_records():
-    return create_unified_list_of_records(read_all_records())
-
-def get_all_crime_records_stripped(all_crime_records):
-    """
-    Takes in the single list of all crime records.
-    To get all crime records, enter the argument "all_crime_records()", importing this function from this module to do so. 
-    Returns these records without the 12th, 9th, 8th, 4th, 3rd elements as these were decided to be superfluous.
-    These are removed, starting at the back so that removing an element doesn't change other element's positions.
-    Remember that the elements are 0 indexed, so it is element-1 that we remove.
-    """
-    for record in all_crime_records:
-        record.pop(11)
-        record.pop(8)
-        record.pop(7)
-        record.pop(3)
-        record.pop(2)
-    return all_crime_records
 
 #####
 # Tests
 #####
+
 
 def read_all_records_should_return_list_of_twelve_records_lists():
     # Arrange
@@ -57,6 +63,7 @@ def read_all_records_should_return_list_of_twelve_records_lists():
     returned_length= len(read_all_records())
     # Assert
     assert(expected_length_return == returned_length)
+
 
 def create_unified_list_of_records_should_return_len_of_136145():
     # Quick note, the number 136145 was determined by writing a short program to count the number of records,
@@ -68,22 +75,10 @@ def create_unified_list_of_records_should_return_len_of_136145():
     expected_length = 136145
     records_by_month = read_all_records()
     # Act
-    returned_length = len(create_unified_list_of_records(records_by_month))
+    returned_length = len(create_unified_list_of_crime_records(records_by_month))
     # Assert
     assert(expected_length == returned_length)
 
-def all_crime_records_should_return_list_of_twelve_records_lists():
-    # As the list length is just too long to copy and check against, we assess the length of the list instead.
-    # This is the same test as done for create_unified_list_of_records as an extra check that nothing has been added 
-    # in the overall method as a further safeguard. 
-
-    # Arrange
-    expected_length = 136145
-    records_by_month = read_all_records()
-    # Act
-    returned_length = len(all_crime_records())
-    # Assert
-    assert(expected_length == returned_length)
 
 def get_all_crime_records_stripped_should_return_records_without_unwanted_rows():
     # sample of a row we act on: ['', '2019-01', 'Devon & Cornwall Police', 'Devon & Cornwall Police', '-4.544128', '50.829232', 'On or near Lansdown Close', 'E01018936', 'Cornwall 001A', 'Anti-social behaviour', '', '']
@@ -105,17 +100,13 @@ def get_all_crime_records_stripped_should_return_records_without_unwanted_rows()
     expected_return = ['', '2019-01', '-4.544128', '50.829232', 'On or near Lansdown Close', 'Anti-social behaviour', '',]
     actual_return = []
     # Act
-    actual_return = get_all_crime_records_stripped(all_crime_records())[0]
+    actual_return = get_all_crime_records_stripped()[0]
     # Assert
     assert(actual_return == expected_return)
-
-
 
 
 if __name__ == "__main__":
     
     read_all_records_should_return_list_of_twelve_records_lists()
     create_unified_list_of_records_should_return_len_of_136145()
-    all_crime_records_should_return_list_of_twelve_records_lists()
     get_all_crime_records_stripped_should_return_records_without_unwanted_rows()
-    #print(len(get_all_crime_records()))
