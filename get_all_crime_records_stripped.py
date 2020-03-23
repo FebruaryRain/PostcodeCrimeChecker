@@ -1,6 +1,7 @@
 """
 This module allows the user to get all crime records, stripped to only those rows we know we want in the final report.
-Use by importing and calling only for the "get_all_crime_records_stripped()" function. 
+To use, make a call to function:
+     get_all_crime_records_stripped() 
 """
 from file_reader import open_a_file_and_retrieve_contents
 from file_path_logic import get_crime_data_filepaths
