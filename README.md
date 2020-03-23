@@ -19,7 +19,9 @@ When your program prompts for user input it must always accept the options of Qu
  - [MEETING 2 06/03](#meeting-2-0603)
  - [Snap meeting with Samir - Welcome to the team!](#snap-meeting-with-samir---welcome-to-the-team)
  - [MEETING 3 12/03](#meeting-3-1203)
- 
+ - [MEETING 4 19/03](#meeting-4-1903)
+ - [MEETING 5 26/03 - FINAL MEETING BEFORE DEADLINE](meeting-5-2603---final-meeting-before-deadline)
+ ***********************************************
 ## Participants
 
 Bhavesh 
@@ -31,7 +33,7 @@ Roksolana
 Sam 
 
 Samir
-
+***********************************************
 ## Initial Planning meeting
 Date: 17/02/2020
 ### Agenda
@@ -88,7 +90,7 @@ Test Report - Testing to be handled by all in their respective modules and then 
  - Will try emailing Frank Hermann to get answer to Sam's questions to Saunby (Sam to do)
  
 NEXT MEETING TO BE IN PERSON, AT ALS on 06/03 - ALS made virtual, so our meeting was virtual
-
+***********************************************
 ## MEETING 2 06/03
 ### Agenda
 #### 1st week efforts
@@ -125,7 +127,7 @@ Each person is to give an assessment and report detailing these at least:
 #### Predicted and Encountered Difficulties
  - James not available Mon 09/03 evening
  - Sam not available 13/03-15/03
-
+***********************************************
 ## Snap meeting with Samir - Welcome to the team!
  - Brought him up to speed that we're using Github
  - Samir will take the file reading job
@@ -133,7 +135,7 @@ Each person is to give an assessment and report detailing these at least:
    - How he thinks he will write to the file
    - How he initially thinks the report will look like
    - What data he thinks he will need to get the report
-
+***********************************************
 ## MEETING 3 12/03
 ### Agenda
 #### 2nd week efforts
@@ -182,7 +184,7 @@ Each person is to give an assessment and report detailing these at least:
 #### Predicted and Encountered Difficulties
  - Sam will be largely out of contact for this weekend. Feel free to message on Whatsapp but expect delays on responses.
  
- **************************************
+ ***********************************************
 ## MEETING 4 19/03
 ### Agenda
 #### 3rd week efforts
@@ -240,7 +242,7 @@ Absences: Samir; Bhav
    - None
 #### Github
    - James and Roxy agreed to add to repo and go through backlog for their issues
-   
+***********************************************
 ## MEETING 5 26/03 - FINAL MEETING BEFORE DEADLINE
 ### Agenda
 #### 4th week efforts
