@@ -1,5 +1,5 @@
 from pathlib import Path
-from file_reader import open_a_file_and_retrieve_contents 
+from file_reader import open_file_retrieve_contents 
 
 
 ## This module will create the file paths for the various file paths we need.
@@ -44,7 +44,7 @@ def get_crime_data_filepaths(month):
 
 
 def report_file_path(report_name):
-    return Path("Report/" + report_name + ".csv")
+    return Path("Reports/" + report_name + ".csv")
 
 
 #####

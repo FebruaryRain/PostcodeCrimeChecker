@@ -107,7 +107,6 @@ def get_all_crime_records_stripped_should_return_records_without_unwanted_rows()
 
 
 if __name__ == "__main__":
-    
     read_all_records_should_return_list_of_twelve_records_lists()
     create_unified_list_of_records_should_return_len_of_136145()
     get_all_crime_records_stripped_should_return_records_without_unwanted_rows()
