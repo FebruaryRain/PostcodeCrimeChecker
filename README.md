@@ -246,8 +246,12 @@ Absences: Samir; Bhav
 ## MEETING 5 26/03 - FINAL MEETING BEFORE DEADLINE
 ### Agenda
 #### 4th week efforts
- - Final drafts have to be in by following day at latest.
+ - Final drafts have to be in by following day at noon, latest.
  - Final checks will be done on the Saturday (28/03) by SR.
  - Late submissions accepted until Sunday evening but will be of a low priority. If the minimum viable product is ready then I am hesitant to add last-minute changes.
  - SR will submit.
  - PEER EVALUATION FORMS! https://vle.exeter.ac.uk/course/view.php?id=6129&section=25
+   - Bhav, might be able to do the rounding to 3dp? 
+ - Final project thoughts:
+   - Do we want to round the results of the distance? Maybe to 3dp?
+   
