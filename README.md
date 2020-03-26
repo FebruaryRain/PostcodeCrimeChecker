@@ -260,4 +260,24 @@ Absences: Samir; Bhav
  - Waiting on:
    - Samir
    - Bhav (might already be in, ask for final draft anyway).
-   
+### MEETING OUTCOME
+Absences: Samir; Bhav
+#### Final drafts have to be in by following day at noon, latest.
+  - Discussed, OK'd
+#### Final checks will be done on the Saturday (28/03) by SR.
+  - Made aware.
+#### Late submissions accepted until Sunday evening but will be of a low priority. If the minimum viable product is ready then I am hesitant to add last-minute changes.
+  - Not really discussed, all present had given final product; more for th absent.
+#### SR will submit.
+  - OK'd
+#### PEER EVALUATION FORMS! https://vle.exeter.ac.uk/course/view.php?id=6129&section=25
+ - All aware, happy, know to submit their forms themselves.
+#### Final project thoughts:
+   - Agreed to round the results of the distance to 3dp - (ROXY to do)
+#### Final Draft Submissions received from:
+   - James
+   - Roxy
+#### Waiting on:
+   - Were not present so couldn't ask about:
+   - Samir
+   - Bhav (might already be in, ask for final draft anyway).
