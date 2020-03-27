@@ -80,4 +80,5 @@ if __name__ == "__main__":
     # calculation is an approximation.
 
     distance_should_return_correct_distances_when_given_two_valid_points()
+    print(distance((50.81863386, -4.54980488),(50.829232, -4.544128)))
 

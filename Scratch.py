@@ -55,3 +55,30 @@ def distance_to_1_dp_should_return_data_rounded_correctly():
     return
 
 #    distance_to_1_dp_should_return_data_rounded_correctly()
+
+
+
+# def get_all_crime_records_stripped():
+#     """
+#     Takes in the single list of all crime records.
+#     To get all crime records, enter the argument "all_crime_records()", importing this function from this module to do so. 
+#     Returns these records without the 12th, 9th, 8th, 4th, 3rd elements as these were decided to be superfluous.
+#     This is done by adding the details sequentially to a new list, assigning the value of this new list to the record.
+#     """
+#     all_crime_records = create_unified_list_of_crime_records(read_all_records())
+    
+#     for record in all_crime_records:
+#         wanted_details = []
+#         wanted_details.append(record[0])
+#         wanted_details.append(record[1])
+#         wanted_details.append(record[4])
+#         wanted_details.append(record[5])
+#         wanted_details.append(record[6])
+#         wanted_details.append(record[9])
+#         wanted_details.append(record[10])
+#         wanted_details.append(record[11])
+#         record = wanted_details
+#     return all_crime_records
+
+
+filepath = Path("Devon_and_Cornwall_crime_data_2019/2019-01/2019-01-devon-and-cornwall-street.csv")

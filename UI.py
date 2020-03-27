@@ -4,10 +4,17 @@ import generate_report
 #####
 ## Global Variables Initialisation
 #####
-default_postcode_value = ""
-default_radius_value = 0
-default_data_sort_value = 0
-default_filename_value = ""
+# default_postcode_value = ""
+# default_radius_value = 0
+# default_data_sort_value = 0
+# default_filename_value = ""
+### For Testing
+default_postcode_value = "EX230LP"
+default_radius_value = int("5")
+default_data_sort_value = int("1")
+default_filename_value = "spooge"
+###
+
 correct_data = False
 arguments_dict = {'postcode': default_postcode_value,
                 'radius': default_radius_value,
@@ -74,12 +81,14 @@ def select_postcode():
             if len(usr_postcode) == 7 and usr_postcode.isalnum():
                 messages.inform_postcode_value(usr_postcode)
                 arguments_dict['postcode'] = usr_postcode
+                break
     
             elif len(usr_postcode) == 6:
                 usr_postcode = usr_postcode.split()
                 usr_postcode = ''.join(usr_postcode)
                 messages.inform_postcode_value(usr_postcode)
                 arguments_dict['postcode'] = usr_postcode
+                break
             else:
                 messages.invalid_value()
         else:
@@ -156,10 +165,10 @@ def select_file_name():
         if check_input_is_alnum(usr_filename):
             arguments_dict['file_name'] = usr_filename
             messages.inform_filename_save(usr_filename)
+            break
         else:
             messages.invalid_value()
             messages.instruction_file_names()
-            break
     load_menu()
 
 def check_input_is_alnum(input):
@@ -210,7 +219,7 @@ def confirm_data(correct_data, postcode, radius, data_sort, file_name):
 
         if confirm == "Y":
             messages.confirm_values_set()
-            generate_report.generate_report()
+            generate_report.generate_report(arguments_dict)
             correct_data = True
             break
 

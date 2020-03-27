@@ -12,16 +12,21 @@ def get_all_crime_records_stripped():
     Takes in the single list of all crime records.
     To get all crime records, enter the argument "all_crime_records()", importing this function from this module to do so. 
     Returns these records without the 12th, 9th, 8th, 4th, 3rd elements as these were decided to be superfluous.
-    These are removed, starting at the back so that removing an element doesn't change other element's positions.
+    This is done by adding the details sequentially to a new list, assigning the value of this new list to the
     Remember that the elements are 0 indexed, so it is element-1 that we remove.
     """
     all_crime_records = create_unified_list_of_crime_records(read_all_records())
+    
     for record in all_crime_records:
-        record.pop(11)
-        record.pop(8)
-        record.pop(7)
-        record.pop(3)
-        record.pop(2)
+        wanted_details = []
+        wanted_details.append(record[0])
+        wanted_details.append(record[1])
+        wanted_details.append(record[4])
+        wanted_details.append(record[5])
+        wanted_details.append(record[6])
+        wanted_details.append(record[9])
+        wanted_details.append(record[10])
+        record = wanted_details
     return all_crime_records
 
 
