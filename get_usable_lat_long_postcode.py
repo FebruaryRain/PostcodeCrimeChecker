@@ -5,7 +5,7 @@ To use, make a call to function:
 ... where postcode is a valid postcode, correctly formatted. 
 """
 
-from file_reader import open_a_file_and_retrieve_contents
+from file_reader import open_file_retrieve_contents_bar_headers
 from file_path_logic import get_postcode_data_filepath
 
 def remove_superfluous_columns_postcodes(postcode_row):
@@ -20,7 +20,6 @@ def remove_superfluous_columns_postcodes(postcode_row):
     else:
         return TypeError
 
-## TODO do we need to add validation for a postcode to be valid?
 def get_user_specified_postcode_row(postcode):
     """
     Takes in a postcode as a string, correctly formatted is a must right now.
@@ -30,7 +29,7 @@ def get_user_specified_postcode_row(postcode):
     rather than looking for it to come in as an argument.
     """
     POST_CODE = 0
-    file_data = open_a_file_and_retrieve_contents(get_postcode_data_filepath()) # PostcodeDataCall
+    file_data = open_file_retrieve_contents_bar_headers(get_postcode_data_filepath()) # PostcodeDataCall
     for row in file_data:
         if row[POST_CODE] == postcode:
             return row
@@ -44,10 +43,10 @@ def convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(postcodes_lat_
     If a type other than list is provided, returns TypeError.
     """
     if type(postcodes_lat_long) == list:
-        latitude = 0
-        longitude = 1
-        lat,long = float(postcodes_lat_long[latitude]), float(postcodes_lat_long[longitude])
-        return (lat, long)
+        latitude_pos = 0
+        longitude_pos = 1
+        latitude,longitude = float(postcodes_lat_long[latitude_pos]), float(postcodes_lat_long[longitude_pos])
+        return (latitude, longitude)
     else:
         return TypeError
 

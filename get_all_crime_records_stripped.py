@@ -3,7 +3,7 @@ This module allows the user to get all crime records, stripped to only those row
 To use, make a call to function:
      get_all_crime_records_stripped() 
 """
-from file_reader import open_a_file_and_retrieve_contents
+from file_reader import open_file_retrieve_contents_bar_headers
 from file_path_logic import get_crime_data_filepaths
 
 
@@ -48,7 +48,7 @@ def read_all_records():
     all_month_records = []
     for month in range(1,13):
         file_path = get_crime_data_filepaths(month)
-        all_month_records.append(open_a_file_and_retrieve_contents(file_path))
+        all_month_records.append(open_file_retrieve_contents_bar_headers(file_path))
     return all_month_records
 
 

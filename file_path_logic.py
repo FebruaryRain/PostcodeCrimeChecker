@@ -122,7 +122,7 @@ def get_crime_data_filepaths_should_give_correct_month_strings():
 def report_file_path_should_return_correct_filepaths():
     # Arrange
     report_name = "Test_Report"
-    expected_return = Path("Report/Test_Report.csv")
+    expected_return = Path("Reports/Test_Report.csv")
     # Act
     actual_return = report_file_path(report_name)
 

@@ -1,13 +1,11 @@
 import UI
 
-def get_arguments_dictionary():
-    return UI.arguments_dict
-
 def run():
     """
     This is the function which will call the UI, will then also call the rest of the program in generate_report().
     Takes no arguments. Returns nothing.
     """
+    UI.load_menu()
     return
     # Run James' UI
         # Which passes all arguments in a DICTIONARY
@@ -17,53 +15,5 @@ def run():
         # NEEDS to do input validation to ensure that nothing is passed on which is incorrect and will break a later func.
 
 
-def generate_report(arguments_dictionary):
-    """
-    This is the section which will generate the report. It will take in the arguments dictionary, full of user specified arguments.
-    It is called by run().
-    It takes the arguments_dictionary from the UI as its argument, then passes it to the rest of the program. 
-    """
-    return
-    # Sam's postcode centrepoint:
-        # takes in arguments_dict, uses "postcode"; returns the lat/long centrepoint
-    # Sam's Crime Reader
-        # Returns a master list of all records, stripped to only the relevant columns
-    # Roxy's radius filter
-        # Takes in arguments_dict, uses "radius"; takes in Sam's lat/long centrepoint; returns list of rows in radius
-    # Roxy's optional sorter
-        # Takes in arguments_dict, uses "sort_code"; returns lists sorted according to code
-    # Samir's file saver
-        # Takes in arguments_dict, uses "usr_filename", writes the file to the specified filename in a "reports" directory.
-    
-    # We then need to also print the final report
+run()
 
-    # NOTES ON THIS APPROACH
-    # This would mean that we put the "keep doing this loop" in this module, not in James' UI
-    # 
-
-
-    # QUESTIONS TO POSE TO THE MODULE LEAD:
-    # Can we use James' approach
-    # Do we only ask for a file name if the file is more than x lines long (spec suggests this to be the case)
-        
-
-## Tests
-
-def get_arguments_dictionary_should_return_default_arguments_dict():
-    # Arrange
-    expected_return = {'postcode': 'test', 'radius': 0, 'data_sort': 0, 'file_name': 'testname'}
-
-    # Act
-    actual_return = get_arguments_dictionary()
-
-    # Assert
-    assert(expected_return == actual_return)
-    return
-
-if __name__ == "__main__":
-    # James' UI's returns
-    # Goes to Sam's file reader
-    # Gives input to Roxy's data sorter and filterer
-    # Gives data to Samir's file creator
-    get_arguments_dictionary_should_return_default_arguments_dict()
-    
