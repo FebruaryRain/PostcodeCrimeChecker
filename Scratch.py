@@ -82,3 +82,21 @@ def distance_to_1_dp_should_return_data_rounded_correctly():
 
 
 filepath = Path("Devon_and_Cornwall_crime_data_2019/2019-01/2019-01-devon-and-cornwall-street.csv")
+
+
+Test11 = "Test11"
+Test12 = "Test12"
+Test13 = "Test13"
+Test14 = "Test14"
+Test21 = "Test21"
+Test22 = "Test22"
+Test23 = "Test23"
+Test24 = "Test24"
+Test51 = "Test51"
+Test52 = "Test52"
+Test53 = "Test53"
+Test54 = "Test54"
+default_postcode_value = "EX230LP"
+default_radius_value = 5
+default_data_sort_value = 4
+default_filename_value = Test54

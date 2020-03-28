@@ -11,32 +11,10 @@ import generate_report
 #####
 ## Global Variables Initialisation
 #####
-# default_postcode_value = ""
-# default_radius_value = 0
-# default_data_sort_value = 0
-# default_filename_value = ""
-### For Testing
-
-Test11 = "Test11"
-Test12 = "Test12"
-Test13 = "Test13"
-Test14 = "Test14"
-Test21 = "Test21"
-Test22 = "Test22"
-Test23 = "Test23"
-Test24 = "Test24"
-Test51 = "Test51"
-Test52 = "Test52"
-Test53 = "Test53"
-Test54 = "Test54"
-default_postcode_value = "EX230LP"
-default_radius_value = 1
-default_data_sort_value = 2
-default_filename_value = Test11
-
-
-
-###
+default_postcode_value = ""
+default_radius_value = 0
+default_data_sort_value = 0
+default_filename_value = ""
 
 bcorrect_data = False
 arguments_dict = {'postcode': default_postcode_value,
@@ -100,6 +78,14 @@ def select_postcode():
 
     while True:
         usr_postcode = str(input()).upper() 
+        if usr_postcode == "6":
+            restart_program()
+        elif usr_postcode == "7":
+            messages.help_message()
+            messages.request_user_EX_postcode()
+        elif usr_postcode == "8":
+            messages.inform_program_exiting()
+            quit()
         if usr_postcode[0] == 'E' and usr_postcode[1] == 'X':
             if len(usr_postcode) == 7 and usr_postcode.isalnum():
                 messages.inform_postcode_value(usr_postcode)
@@ -107,8 +93,9 @@ def select_postcode():
                 break
     
             elif len(usr_postcode) == 6:
-                usr_postcode = usr_postcode.split()
-                usr_postcode = ''.join(usr_postcode)
+                first_three = usr_postcode[:3] 
+                back_three = usr_postcode[3:]
+                usr_postcode = first_three + " " + back_three
                 messages.inform_postcode_value(usr_postcode)
                 arguments_dict['postcode'] = usr_postcode
                 break
@@ -137,6 +124,14 @@ def select_radius():
             check = True
         elif usr_radius == 5:
             check = True
+        elif usr_radius == 6:
+            restart_program()
+        elif usr_radius == 7:
+            messages.help_message()
+            messages.request_user_search_radius()
+        elif usr_radius == 8:
+            messages.inform_program_exiting()
+            quit()
         else:
             check = False
             messages.invalid_value()
@@ -173,6 +168,14 @@ def select_sort_data():
         elif sort_code == 4:
             sortmode = 'No Sort'
             check = True
+        elif sort_code == 6:
+            restart_program()
+        elif sort_code == 7:
+            messages.help_message()
+            messages.request_user_sort_preference()
+        elif sort_code == 8:
+            messages.inform_program_exiting()
+            quit()
         else:
             check = False
             messages.invalid_value()
@@ -188,6 +191,14 @@ def select_file_name():
     while True:
         messages.request_user_filename()
         usr_filename = str(input())
+        if usr_filename == "6":
+            restart_program()
+        elif usr_filename == "7":
+            messages.help_message()
+            messages.instruction_file_names()
+        elif usr_filename == "8":
+            messages.inform_program_exiting()
+            quit()
         if check_input_is_alnum(usr_filename):
             arguments_dict['file_name'] = usr_filename
             messages.inform_filename_save(usr_filename)
@@ -225,7 +236,7 @@ def confirm_data(bcorrect_data):
         sortmode = 'Date'
     elif data_sort == 3:
         sortmode = 'Crime Category'
-    elif data_sort == 3:
+    elif data_sort == 4:
         sortmode = 'No Sort'
     else:
         sortmode = 'ERROR'
@@ -249,6 +260,18 @@ def confirm_data(bcorrect_data):
 
     while True:
         confirm = str(input()).upper()
+        if confirm == "6":
+            restart_program()
+        elif confirm == "7":
+            messages.help_message()
+            messages.request_confirmation()
+            messages.inform_postcode_value(postcode)
+            messages.inform_radius_value(radius)
+            messages.inform_sort_value(sortmode)
+            messages.inform_filename_value(file_name)
+        elif confirm == "8":
+            messages.inform_program_exiting()
+            quit()
 
         if confirm == "Y":
             messages.confirm_values_set()
@@ -290,8 +313,6 @@ def reset_argument_dictionary_should_reset_values_in_arguments_dict():
     actual_return = arguments_dict
 
     #Assert
-    print(expected_return)
-    print(actual_return)
     assert(expected_return == actual_return)
     return
 
