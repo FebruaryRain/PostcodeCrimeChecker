@@ -31,6 +31,14 @@ def distance( latlngA, latlngB):
     d = math.sqrt( x*x + y*y ) * R
     return d
 
+def distance_to_3_dp(latlngA, latlngB):
+    """
+    Takes in 2 latitude/longitude tuples in the format (x,y).
+    Returns the distance to 3 decimal places in km.
+    Calls the distance function, provided by the lecturers.
+    This is the function to call as the original is too precise to be useful. 
+    """
+    return round(distance( latlngA, latlngB), 3)
 
 #####
 ## Tests
