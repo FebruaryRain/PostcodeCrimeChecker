@@ -16,10 +16,26 @@ import generate_report
 # default_data_sort_value = 0
 # default_filename_value = ""
 ### For Testing
+
+Test11 = "Test11"
+Test12 = "Test12"
+Test13 = "Test13"
+Test14 = "Test14"
+Test21 = "Test21"
+Test22 = "Test22"
+Test23 = "Test23"
+Test24 = "Test24"
+Test51 = "Test51"
+Test52 = "Test52"
+Test53 = "Test53"
+Test54 = "Test54"
 default_postcode_value = "EX230LP"
-default_radius_value = int("5")
-default_data_sort_value = int("1")
-default_filename_value = "spooge"
+default_radius_value = 1
+default_data_sort_value = 2
+default_filename_value = Test11
+
+
+
 ###
 
 bcorrect_data = False
@@ -154,6 +170,9 @@ def select_sort_data():
         elif sort_code == 3:
             sortmode = 'Crime Category'
             check = True
+        elif sort_code == 4:
+            sortmode = 'No Sort'
+            check = True
         else:
             check = False
             messages.invalid_value()
@@ -206,6 +225,8 @@ def confirm_data(bcorrect_data):
         sortmode = 'Date'
     elif data_sort == 3:
         sortmode = 'Crime Category'
+    elif data_sort == 3:
+        sortmode = 'No Sort'
     else:
         sortmode = 'ERROR'
 
