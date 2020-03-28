@@ -1,5 +1,11 @@
-# geogdist.py
-# Version 0.2
+"""
+Module provided at project start.
+Tests added. 
+This module calculates the distances between two points.
+It takes in two tuples with values of lat long as floats to represent GPS 
+coordinates. 
+Returns the distance between two points in Km. 
+"""
 
 import math
 

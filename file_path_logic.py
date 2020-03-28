@@ -1,3 +1,13 @@
+"""
+This module acts as the central location for all filepath logic. 
+This enables a single place of truth for all file paths, and so also simplifies the calling 
+of relevant file paths.
+Each function returns the correct filepath described in function names, returning a Path() 
+of the filepath string (pathlib). This allows for OS agnostic calling of filepaths. 
+Further, later changes filepaths can be handled directly by adding to this module, rather than 
+amending anything in existing modules. 
+"""
+
 from pathlib import Path
 from file_reader import open_file_retrieve_contents 
 

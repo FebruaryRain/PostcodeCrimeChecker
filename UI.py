@@ -1,3 +1,10 @@
+"""
+This module is to act as the User Interface (UI) for the program. 
+To begin, create a function call to "load_menu()". 
+The program will then run from there, and the generate_report module and function are called within confirm_data() 
+to create the final report. 
+"""
+
 import messages
 import generate_report
 
@@ -15,7 +22,7 @@ default_data_sort_value = int("1")
 default_filename_value = "spooge"
 ###
 
-correct_data = False
+bcorrect_data = False
 arguments_dict = {'postcode': default_postcode_value,
                 'radius': default_radius_value,
                 'data_sort': default_data_sort_value,
@@ -56,7 +63,7 @@ def load_menu():
         select_file_name()
 
     elif menuChoice == 5:
-        confirm_data(correct_data, **arguments_dict)
+        confirm_data(bcorrect_data)
 
     elif menuChoice == 6:
         restart_program()
@@ -180,7 +187,12 @@ def check_input_is_alnum(input):
     return True
 
 #5#
-def confirm_data(correct_data, postcode, radius, data_sort, file_name):
+def confirm_data(bcorrect_data):
+
+    postcode = arguments_dict['postcode']
+    radius = arguments_dict['radius']
+    data_sort = arguments_dict['data_sort']
+    file_name = arguments_dict['file_name']
 
     if postcode == "":
         messages.inform_value_not_set()
@@ -220,12 +232,12 @@ def confirm_data(correct_data, postcode, radius, data_sort, file_name):
         if confirm == "Y":
             messages.confirm_values_set()
             generate_report.generate_report(arguments_dict)
-            correct_data = True
+            bcorrect_data = True
             break
 
         elif confirm == "N":
             messages.inform_returning_to_menu()
-            correct_data = False
+            bcorrect_data = False
             break
         
         else:
@@ -245,12 +257,6 @@ def reset_argument_dictionary():
     arguments_dict['file_name'] = default_filename_value
     messages.inform_program_restarted_arg_dict_cleared()
 
-
-###START OF PROGRAM###
-    
-#load_menu()
-
-
 ###TESTS###
 
 def reset_argument_dictionary_should_reset_values_in_arguments_dict():
@@ -263,10 +269,12 @@ def reset_argument_dictionary_should_reset_values_in_arguments_dict():
     actual_return = arguments_dict
 
     #Assert
+    print(expected_return)
+    print(actual_return)
     assert(expected_return == actual_return)
     return
 
-#if __name__ == "__main__":
-    #reset_argument_dictionary_should_reset_values_in_arguments_dict()
+if __name__ == "__main__":
+    reset_argument_dictionary_should_reset_values_in_arguments_dict()
 
 

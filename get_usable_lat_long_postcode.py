@@ -8,17 +8,19 @@ To use, make a call to function:
 from file_reader import open_file_retrieve_contents_bar_headers
 from file_path_logic import get_postcode_data_filepath
 
-def remove_superfluous_columns_postcodes(postcode_row):
+def get_postcode_centre_lat_long(postcode):
     """
-    Takes in a list of values, a row from the postcodes csv file.
-    Returns only the last 2 elements, the lat and long (in that order) without any further operation.
-    Does this by returning only the 2nd to last to the end data.
-    If a type other than list is provided, returns TypeError.
+    Takes in a postcode as a string, correctly formatted is a must right now.
+    Returns the centre Lat Long as a float tuple, ready for GeoDist to begin calculations.
+    Works by calling the supporting functions:
+        get_user_specified_postcode_row(postcode)
+        remove_superfluous_columns_postcodes(postcode_row)
+        convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(lat_long_strings)
     """
-    if type(postcode_row) == list:
-        return postcode_row[-2:]
-    else:
-        return TypeError
+    postcode_row = get_user_specified_postcode_row(postcode)
+    lat_long_strings = remove_superfluous_columns_postcodes(postcode_row)
+    lat_long_data = convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(lat_long_strings)
+    return lat_long_data
 
 def get_user_specified_postcode_row(postcode):
     """
@@ -35,6 +37,18 @@ def get_user_specified_postcode_row(postcode):
             return row
     return
 
+def remove_superfluous_columns_postcodes(postcode_row):
+    """
+    Takes in a list of values, a row from the postcodes csv file.
+    Returns only the last 2 elements, the lat and long (in that order) without any further operation.
+    Does this by returning only the 2nd to last to the end data.
+    If a type other than list is provided, returns TypeError.
+    """
+    if type(postcode_row) == list:
+        return postcode_row[-2:]
+    else:
+        return TypeError
+
 def convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(postcodes_lat_long):
     """
     Takes in a list of two values, Latitude and Longitude, in that order, as they appear in postcodes.csv.
@@ -50,19 +64,7 @@ def convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(postcodes_lat_
     else:
         return TypeError
 
-def get_postcode_centre_lat_long(postcode):
-    """
-    Takes in a postcode as a string, correctly formatted is a must right now.
-    Returns the centre Lat Long as a float tuple, ready for GeoDist to begin calculations.
-    Works by calling the supporting functions:
-        get_user_specified_postcode_row(postcode)
-        remove_superfluous_columns_postcodes(postcode_row)
-        convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(lat_long_strings)
-    """
-    postcode_row = get_user_specified_postcode_row(postcode)
-    lat_long_strings = remove_superfluous_columns_postcodes(postcode_row)
-    lat_long_data = convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(lat_long_strings)
-    return lat_long_data
+
 
 #####
 ## Tests
