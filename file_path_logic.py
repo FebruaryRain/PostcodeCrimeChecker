@@ -54,7 +54,7 @@ def get_crime_data_filepaths(month):
 
 
 def report_file_path(report_name):
-    return Path("Reports/" + report_name + ".csv")
+    return Path("Reports/" + str(report_name) + ".csv")
 
 
 #####

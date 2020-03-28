@@ -16,7 +16,7 @@ def get_all_crime_records_stripped():
     Remember that the elements are 0 indexed, so it is element-1 that we remove.
     """
     all_crime_records = create_unified_list_of_crime_records(read_all_records())
-    
+    stripped_records = []
     for record in all_crime_records:
         wanted_details = []
         wanted_details.append(record[0])
@@ -26,8 +26,8 @@ def get_all_crime_records_stripped():
         wanted_details.append(record[6])
         wanted_details.append(record[9])
         wanted_details.append(record[10])
-        record = wanted_details
-    return all_crime_records
+        stripped_records.append(wanted_details)
+    return stripped_records
 
 
 def create_unified_list_of_crime_records(records_by_month):
