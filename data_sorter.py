@@ -1,8 +1,15 @@
+"""
+This module serves to act as the sorting algorithm. 
+The program will take in lat, long of the centre postcode; the radius setting; the data; the sort mode.
+It will then make a call to "radius_filter" to remove the records not within the defined radius.
+It will return a list of all records, themselves lists. 
+"""
+
 from radius_filter import within_radius
 
 def data_sorter(lat, long, radius, data, sort):
     '''
-    Sorts data by user dfined paramters of distance, date or category, if no parameters are defined then the output data isn't sorted,
+    Sorts data by user defined paramters of distance, date or category, if no parameters are defined then the output data isn't sorted,
     please look in radius_filter for the column headings 
     '''
     sorted_list = []
