@@ -11,10 +11,6 @@ amending anything in existing modules.
 from pathlib import Path
 from file_reader import open_file_retrieve_contents 
 
-
-## This module will create the file paths for the various file paths we need.
-
-
 def get_postcode_data_filepath():
     """
     This function takes no arguments.
@@ -22,7 +18,6 @@ def get_postcode_data_filepath():
     that this can be called to get the postcode data when this is called.
     """
     return Path("Devon_postcodes/postcodes.csv")
-
 
 def get_month_string(number):
     """
@@ -39,7 +34,6 @@ def get_month_string(number):
     else: 
         return ValueError
 
-
 def get_crime_data_filepaths(month):
     """
     Takes in an integer argument, must be in range of 1-12 inclusive as it represents a month. 
@@ -52,10 +46,8 @@ def get_crime_data_filepaths(month):
     else:
         return Path("Devon_and_Cornwall_crime_data_2019/2019-" + month_string + "/2019-" + month_string + "-devon-and-cornwall-street.csv")
 
-
 def report_file_path(report_name):
     return Path("Reports/" + str(report_name) + ".csv")
-
 
 #####
 ## Tests
@@ -124,22 +116,15 @@ def get_crime_data_filepaths_should_give_correct_month_strings():
     assert(expected_paths == returned_paths)
     return
 
-
-#####
-# TESTS for report path
-#####
-
 def report_file_path_should_return_correct_filepaths():
     # Arrange
     report_name = "Test_Report"
     expected_return = Path("Reports/Test_Report.csv")
     # Act
     actual_return = report_file_path(report_name)
-
     # Assert
     assert(expected_return == actual_return)
     return
-
 
 if __name__ == "__main__":
     get_postcode_data_filepath_should_return_correct_filepath()
@@ -148,7 +133,3 @@ if __name__ == "__main__":
     get_month_should_return_value_error_for_wrong_values()
     get_crime_data_filepaths_should_give_correct_month_strings()
     report_file_path_should_return_correct_filepaths()
-
-    # Manual testing items, leave commented unless testing.
-    #print(open_a_file_and_retrieve_contents(get_postcode_data_filepath()))
-    #print(open_a_file_and_retrieve_contents(crime_data_filepaths(1)))

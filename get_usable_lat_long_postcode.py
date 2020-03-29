@@ -17,9 +17,12 @@ def get_postcode_centre_lat_long(postcode):
         remove_superfluous_columns_postcodes(postcode_row)
         convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(lat_long_strings)
     """
-    postcode_row = get_user_specified_postcode_row(postcode)
-    lat_long_strings = remove_superfluous_columns_postcodes(postcode_row)
-    lat_long_data = convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(lat_long_strings)
+    try:
+        postcode_row = get_user_specified_postcode_row(postcode)
+        lat_long_strings = remove_superfluous_columns_postcodes(postcode_row)
+        lat_long_data = convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(lat_long_strings)
+    except:
+        return Exception
     return lat_long_data
 
 def get_user_specified_postcode_row(postcode):
@@ -63,8 +66,6 @@ def convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats(postcodes_lat_
         return (latitude, longitude)
     else:
         return TypeError
-
-
 
 #####
 ## Tests

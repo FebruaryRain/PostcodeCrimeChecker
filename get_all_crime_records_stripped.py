@@ -29,7 +29,6 @@ def get_all_crime_records_stripped():
         stripped_records.append(wanted_details)
     return stripped_records
 
-
 def create_unified_list_of_crime_records(records_by_month):
     """
     Takes in the list of each months' records.
@@ -41,7 +40,6 @@ def create_unified_list_of_crime_records(records_by_month):
         for row in file:
             all_records.append(row)
     return all_records
-
 
 def read_all_records():
     """
@@ -56,11 +54,9 @@ def read_all_records():
         all_month_records.append(open_file_retrieve_contents_bar_headers(file_path))
     return all_month_records
 
-
 #####
 # Tests
 #####
-
 
 def read_all_records_should_return_list_of_twelve_records_lists():
     # Arrange
@@ -69,7 +65,6 @@ def read_all_records_should_return_list_of_twelve_records_lists():
     returned_length= len(read_all_records())
     # Assert
     assert(expected_length_return == returned_length)
-
 
 def create_unified_list_of_records_should_return_len_of_136145():
     # Quick note, the number 136145 was determined by writing a short program to count the number of records,
@@ -84,7 +79,6 @@ def create_unified_list_of_records_should_return_len_of_136145():
     returned_length = len(create_unified_list_of_crime_records(records_by_month))
     # Assert
     assert(expected_length == returned_length)
-
 
 def get_all_crime_records_stripped_should_return_records_without_unwanted_rows():
     # sample of a row we act on: ['', '2019-01', 'Devon & Cornwall Police', 'Devon & Cornwall Police', '-4.544128', '50.829232', 'On or near Lansdown Close', 'E01018936', 'Cornwall 001A', 'Anti-social behaviour', '', '']
@@ -101,7 +95,7 @@ def get_all_crime_records_stripped_should_return_records_without_unwanted_rows()
     # 10    Crime type,             WANT
     # 11    Last outcome category,  WANT
     # 12    Context
-    # So Remove 12,9,8,4,3 (elements 11,8,7,3,2 to be done in that order!)
+
     # Arrange
     expected_return = ['', '2019-01', '-4.544128', '50.829232', 'On or near Lansdown Close', 'Anti-social behaviour', '',]
     actual_return = []

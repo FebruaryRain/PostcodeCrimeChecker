@@ -83,9 +83,5 @@ def distance_should_return_correct_distances_when_given_two_valid_points():
     assert(list_of_lat_long_returns_2 == list_of_lat_long_expected_2)
     return
 
-
-
 if __name__ == "__main__":
     distance_should_return_correct_distances_when_given_two_valid_points()
-    
-    

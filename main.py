@@ -3,6 +3,7 @@ This is the main module, to be called in the running of the program.
 Calling the program from this module ensures that tests are not run from the conditional 
 if __name__ == "__main__" statement, found at the bottom of each module. 
 """
+
 import UI
 
 def run():
@@ -14,4 +15,3 @@ def run():
     return
 
 run()
-
