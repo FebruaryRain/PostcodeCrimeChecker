@@ -33,9 +33,10 @@ def load_menu():
     clear_screen()
     messages.opening_message()
     messages.menu_selection()
-    print("\n")
+    print("") # To get a single line separation
+    messages.current_values_below()
     print(arguments_dict)
-    print("\n")
+    print("")
 
     while True:
             try:
@@ -72,6 +73,7 @@ def load_menu():
     else:
         messages.invalid_value()
         load_menu()
+
 #1#
 def select_postcode():
     messages.request_user_EX_postcode()       
@@ -287,7 +289,7 @@ def confirm_data(bcorrect_data):
         else:
             messages.inform_need_Y_or_N()
     load_menu()
-    
+
 
 #6#
 def restart_program():

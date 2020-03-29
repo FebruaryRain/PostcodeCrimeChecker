@@ -86,13 +86,6 @@ def distance_should_return_correct_distances_when_given_two_valid_points():
 
 
 if __name__ == "__main__":
-    # Testing
-    # TODO: Please verify the function by providing suitable test cases and
-    # using asserts. The test should cover the cases your program is to deal
-    # with, e.g. do not verify the correct distance between New York and London
-    # For your testing allow a tolerance for the distance calculation as the
-    # calculation is an approximation.
-
     distance_should_return_correct_distances_when_given_two_valid_points()
-    print(distance( (50.81863386, -4.54980488), (50.828441, -4.551129)))
+    
     
