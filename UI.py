@@ -11,6 +11,7 @@ import generate_report
 #####
 ## Global Variables Initialisation
 #####
+
 default_postcode_value = ""
 default_radius_value = 0
 default_data_sort_value = 0
@@ -47,26 +48,19 @@ def load_menu():
 
     if menuChoice == 1:
         select_postcode()
-
     elif menuChoice == 2:
         select_radius()
-
     elif menuChoice == 3:
         select_sort_data()
-
     elif menuChoice == 4:
         select_file_name()
-
     elif menuChoice == 5:
         confirm_data(bcorrect_data)
-
     elif menuChoice == 6:
         restart_program()
-
     elif menuChoice == 7:
         messages.help_message()
         load_menu()
-
     elif menuChoice == 8:
         messages.inform_program_exiting()
         quit()
@@ -87,12 +81,12 @@ def select_postcode():
             elif usr_postcode == "8":
                 messages.inform_program_exiting()
                 quit()
+
             if usr_postcode[0] == 'E' and usr_postcode[1] == 'X':
                 if len(usr_postcode) == 7 and usr_postcode.isalnum():
                     messages.inform_postcode_value(usr_postcode)
                     arguments_dict['postcode'] = usr_postcode
                     break
-        
                 elif len(usr_postcode) == 6:
                     first_three = usr_postcode[:3] 
                     back_three = usr_postcode[3:]
@@ -112,7 +106,6 @@ def select_postcode():
         except:
             messages.invalid_value()
             messages.instruction_postcodes()
-
     load_menu()
     
 #2#
@@ -216,7 +209,6 @@ def select_file_name():
             break
         else:
             messages.invalid_value()
-            messages.instruction_file_names()
     load_menu()
 
 def check_input_is_alnum(input):
@@ -229,7 +221,6 @@ def check_input_is_alnum(input):
 
 #5#
 def confirm_data(bcorrect_data):
-
     postcode = arguments_dict['postcode']
     radius = arguments_dict['radius']
     data_sort = arguments_dict['data_sort']
@@ -289,7 +280,6 @@ def confirm_data(bcorrect_data):
             generate_report.generate_report(arguments_dict)
             bcorrect_data = True
             break
-
         elif confirm == "N":
             messages.inform_returning_to_menu()
             bcorrect_data = False
@@ -299,10 +289,10 @@ def confirm_data(bcorrect_data):
             messages.inform_need_Y_or_N()
     load_menu()
 
-
 #6#
 def restart_program():
     reset_argument_dictionary()
+    messages.inform_program_restarted_arg_dict_cleared()
     load_menu()
 
 def reset_argument_dictionary():
@@ -310,7 +300,7 @@ def reset_argument_dictionary():
     arguments_dict['radius'] = default_radius_value
     arguments_dict['data_sort'] = default_data_sort_value
     arguments_dict['file_name'] = default_filename_value
-    messages.inform_program_restarted_arg_dict_cleared()
+    return
 
 ###TESTS###
 
