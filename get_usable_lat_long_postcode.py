@@ -151,4 +151,3 @@ if __name__ == "__main__":
     convert_postcodes_lat_and_long_data_to_usable_tuple_of_floats_return_exception_if_non_list_provided()
     get_postcode_centre_lat_long_should_return_correct_output()
     get_user_specified_postcode_row_should_return_correct_output()
-    #prisnt(get_postcode_centre_lat_long("EX168NF"))

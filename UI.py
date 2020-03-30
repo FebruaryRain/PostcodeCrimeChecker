@@ -34,7 +34,7 @@ def load_menu():
     messages.opening_message()
     messages.menu_selection()
     print("") # To get a single line separation
-    messages.current_values_below()
+    messages.inform_current_values_below()
     print(arguments_dict)
     print("")
 
@@ -77,34 +77,41 @@ def load_menu():
 #1#
 def select_postcode():
     messages.request_user_EX_postcode()       
-
     while True:
         usr_postcode = str(input()).upper() 
-        if usr_postcode == "6":
-            restart_program()
-        elif usr_postcode == "7":
-            messages.help_message()
-            messages.request_user_EX_postcode()
-        elif usr_postcode == "8":
-            messages.inform_program_exiting()
-            quit()
-        if usr_postcode[0] == 'E' and usr_postcode[1] == 'X':
-            if len(usr_postcode) == 7 and usr_postcode.isalnum():
-                messages.inform_postcode_value(usr_postcode)
-                arguments_dict['postcode'] = usr_postcode
-                break
-    
-            elif len(usr_postcode) == 6:
-                first_three = usr_postcode[:3] 
-                back_three = usr_postcode[3:]
-                usr_postcode = first_three + " " + back_three
-                messages.inform_postcode_value(usr_postcode)
-                arguments_dict['postcode'] = usr_postcode
-                break
+        try:
+            if usr_postcode == "6":
+                restart_program()
+            elif usr_postcode == "7":
+                messages.help_message()
+            elif usr_postcode == "8":
+                messages.inform_program_exiting()
+                quit()
+            if usr_postcode[0] == 'E' and usr_postcode[1] == 'X':
+                if len(usr_postcode) == 7 and usr_postcode.isalnum():
+                    messages.inform_postcode_value(usr_postcode)
+                    arguments_dict['postcode'] = usr_postcode
+                    break
+        
+                elif len(usr_postcode) == 6:
+                    first_three = usr_postcode[:3] 
+                    back_three = usr_postcode[3:]
+                    usr_postcode = first_three + " " + back_three
+                    messages.inform_postcode_value(usr_postcode)
+                    arguments_dict['postcode'] = usr_postcode
+                    break
+                else:
+                    messages.invalid_value()
             else:
+                messages.request_user_EX_postcode()
+        except IndexError:
+            if usr_postcode == "":
                 messages.invalid_value()
-        else:
-            messages.request_user_EX_postcode()
+                messages.instruction_no_empty_strings()
+                messages.instruction_postcodes()
+        except:
+            messages.invalid_value()
+            messages.instruction_postcodes()
 
     load_menu()
     
@@ -189,11 +196,13 @@ def select_sort_data():
 
 #4#
 def select_file_name():
-    messages.instruction_file_names()
-    while True:
+    while True:   
+        messages.instruction_file_names()
         messages.request_user_filename()
         usr_filename = str(input())
-        if usr_filename == "6":
+        if usr_filename == "":
+            messages.invalid_value()
+        elif usr_filename == "6":
             restart_program()
         elif usr_filename == "7":
             messages.help_message()
@@ -201,7 +210,7 @@ def select_file_name():
         elif usr_filename == "8":
             messages.inform_program_exiting()
             quit()
-        if check_input_is_alnum(usr_filename):
+        elif check_input_is_alnum(usr_filename):
             arguments_dict['file_name'] = usr_filename
             messages.inform_filename_save(usr_filename)
             break
