@@ -20,8 +20,8 @@ When your program prompts for user input it must always accept the options of Qu
  - [Snap meeting with Samir - Welcome to the team!](#snap-meeting-with-samir---welcome-to-the-team)
  - [MEETING 3 12/03](#meeting-3-1203)
  - [MEETING 4 19/03](#meeting-4-1903)
- - [MEETING 5 26/03 - FINAL MEETING BEFORE DEADLINE](meeting-5-2603---final-meeting-before-deadline)
- - [MEETING 6 02/04 - FINAL MEETING BEFORE NEW DEADLINE](meeting-6-0204---final-meeting-before-new-deadline)
+ - [MEETING 5 26/03 - FINAL MEETING BEFORE DEADLINE](#meeting-5-2603---final-meeting-before-original-deadline)
+ - [MEETING 6 02/04 - FINAL MEETING BEFORE NEW DEADLINE](#meeting-6-0204---final-meeting-before-new-deadline)
  ***********************************************
 ## Participants
 
