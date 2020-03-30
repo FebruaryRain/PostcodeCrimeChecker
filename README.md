@@ -21,6 +21,7 @@ When your program prompts for user input it must always accept the options of Qu
  - [MEETING 3 12/03](#meeting-3-1203)
  - [MEETING 4 19/03](#meeting-4-1903)
  - [MEETING 5 26/03 - FINAL MEETING BEFORE DEADLINE](meeting-5-2603---final-meeting-before-deadline)
+ - [MEETING 6 02/04 - FINAL MEETING BEFORE NEW DEADLINE](meeting-6-0204---final-meeting-before-new-deadline)
  ***********************************************
 ## Participants
 
@@ -243,7 +244,7 @@ Absences: Samir; Bhav
 #### Github
    - James and Roxy agreed to add to repo and go through backlog for their issues
 ***********************************************
-## MEETING 5 26/03 - FINAL MEETING BEFORE DEADLINE
+## MEETING 5 26/03 - FINAL MEETING BEFORE ORIGINAL DEADLINE
 ### Agenda
 #### 4th week efforts
  - Final drafts have to be in by following day at noon, latest.
@@ -281,3 +282,18 @@ Absences: Samir; Bhav
    - Were not present so couldn't ask about:
    - Samir
    - Bhav (might already be in, ask for final draft anyway).
+
+***********************************************
+## MEETING 6 02/04 - FINAL MEETING BEFORE NEW DEADLINE
+### Agenda
+#### 4th week efforts
+ - Congratulations Team!
+ - Very final submissions if anyone forgets anything will be Saturday evening.
+   - SR will work on these on Sunday, Whatsapp and Slack SR to inform of this.
+   - Late submissions accepted will be of a low priority. If the minimum viable product is ready then I am hesitant to add last-minute changes.
+ - SR will submit.
+   - Need a volunteer to peer review the submission for errors and omissions.
+ - PEER EVALUATION FORMS! https://vle.exeter.ac.uk/course/view.php?id=6129&section=25
+ - Final project thoughts:
+   - Any?
+ - Good work team, you all worked well and I'm pleased with your efforts. While you can't take a break until after the exams, you've certainly earned one.
