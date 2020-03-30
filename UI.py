@@ -25,10 +25,13 @@ arguments_dict = {'postcode': default_postcode_value,
 
 
 def clear_screen():
+    """Returns new lines seperated with a line of '*'"""
     print("\n"*5+"******************************************")
     return
 
 def load_menu():
+    """Takes in all functions, Returns user input options for running all functions"""
+
     messages.start_message()
     pause = input()
     clear_screen()
@@ -70,6 +73,8 @@ def load_menu():
 
 #1#
 def select_postcode():
+    """Takes in user inputted postcode, stores this value in the program"""
+
     messages.request_user_EX_postcode()       
     while True:
         usr_postcode = str(input()).upper() 
@@ -110,6 +115,8 @@ def select_postcode():
     
 #2#
 def select_radius():
+    """Takes in a user specified radius, returns confirmation that this value has been stored."""
+
     messages.request_user_search_radius()
     check = False
     while check == False:
@@ -146,6 +153,8 @@ def select_radius():
 
 #3#
 def select_sort_data():
+    """Takes in user selection of sort mode to specifiy how to sort data."""
+
     messages.request_user_sort_preference()
     check = False
     sortmode = ''
@@ -189,6 +198,8 @@ def select_sort_data():
 
 #4#
 def select_file_name():
+    """Takes in file_name variable and user submitted name, to return an overrided file_name."""
+
     while True:   
         messages.instruction_file_names()
         messages.request_user_filename()
@@ -212,6 +223,12 @@ def select_file_name():
     load_menu()
 
 def check_input_is_alnum(input):
+    """
+    Performs a check that the user's inputted string's charaters are alphanumeric only.
+    Takes a string argument.
+    Returns True if all characters are alphanumeric ([a-Z], [0-9]) and False if any are not.
+    Does this by iterating through each inputted character and calls .isalnum() from standard string library.
+    """
     for char in input:
         if char.isalnum():
             pass
@@ -221,6 +238,10 @@ def check_input_is_alnum(input):
 
 #5#
 def confirm_data(bcorrect_data):
+    """Takes in postcode, radius, data_sort and file_name variables.
+    Returns a confirmation that these variables are correct.
+    Completes this by asking the user to confirm."""
+
     postcode = arguments_dict['postcode']
     radius = arguments_dict['radius']
     data_sort = arguments_dict['data_sort']
@@ -291,15 +312,23 @@ def confirm_data(bcorrect_data):
 
 #6#
 def restart_program():
+    """
+    Takes no arguments, returns nothing.
+    Calls reset_argument_dictionary and sends the user back to the main menu.
+    """
     reset_argument_dictionary()
-    messages.inform_program_restarted_arg_dict_cleared()
     load_menu()
 
 def reset_argument_dictionary():
+    """Takes the variables postcode, radius, data_sort and file_name.
+    Returns them as defaulted values.
+    Informed the user that the arguments are cleared and that the program is restarting."""
+
     arguments_dict['postcode'] = default_postcode_value
     arguments_dict['radius'] = default_radius_value
     arguments_dict['data_sort'] = default_data_sort_value
     arguments_dict['file_name'] = default_filename_value
+    messages.inform_program_restarted_arg_dict_cleared()
     return
 
 ###TESTS###
