@@ -317,7 +317,34 @@ def reset_argument_dictionary_should_reset_values_in_arguments_dict():
     assert(expected_return == actual_return)
     return
 
+def check_input_is_alnum_should_return_true_for_alnum_input():
+    # Arrange
+    inputs_list = ["12345","abcde","1A2DE","a1c45","AbCdE","aBcDe"]
+    expected_return = True
+    # Act
+    actual_return = False # default that the test fails
+    for element in inputs_list:
+        actual_return = check_input_is_alnum(element)
+        if not actual_return:
+            break
+    # Assert
+    return
+
+def check_input_is_alnum_should_return_false_for_invalid_input():
+    # Arrange
+    inputs_list = ["\\2345","_bcde","1A2D>","?1c45",":@~;']","!£$%^&*()"]
+    expected_return = False
+    # Act
+    actual_return = True # default that the test fails
+    for element in inputs_list:
+        actual_return = check_input_is_alnum(element)
+        if actual_return:
+            break
+    # Assert
+    return
+
 if __name__ == "__main__":
     reset_argument_dictionary_should_reset_values_in_arguments_dict()
-
+    check_input_is_alnum_should_return_true_for_alnum_input()
+    check_input_is_alnum_should_return_false_for_invalid_input()
 
