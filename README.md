@@ -297,3 +297,18 @@ Absences: Samir; Bhav
  - Final project thoughts:
    - Any?
  - Good work team, you all worked well and I'm pleased with your efforts. While you can't take a break until after the exams, you've certainly earned one.
+### MEETING OUTCOME
+Absences: Samir, unwell.
+ - Took them through a demo
+ - Advised of the last bugs and kinks to iron out
+   - Roxy advised that the "Current Values" printout ought to say the actual data_sort method, rather than the numerical value.
+   - There is a bug if a postcode not in the list is entered. Will fix this shortly. 
+ - Submission protocol
+   - Roxy is the backup to prepare the submission if Sam goes down.
+   - James will peer review the submission.
+   - Final tweaks will be accepted until Sunday Noon
+   - Sam and James to have a peer-programming session on Saturday to get the tests for UI done
+   - Final submission to be finished by Monday Evening, with an inital upload to be done on Sunday Evening.
+ - Peer evaluation forms - all have been warned to get it done now!
+ - Well done team!
+ 
