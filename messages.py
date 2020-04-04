@@ -9,6 +9,17 @@ The messages are separated into sections to aid in navigation:
  - requests
 """
 
+import default_values_config
+
+#####
+# Global Variables, used in inform_logic functions
+#####
+
+default_postcode_value = default_values_config.cfg_default_postcode_value 
+default_radius_value = default_values_config.cfg_default_radius_value
+default_data_sort_value = default_values_config.cfg_default_data_sort_value
+default_filename_value = default_values_config.cfg_default_filename_value 
+
 #####
 # other - general
 #####
@@ -84,11 +95,48 @@ def error_postcode_not_in_list_of_existing():
     return
 
 #####
+# inform_values_logic
+#####
+
+def postcode_inform_logic(postcode):
+    if postcode == default_postcode_value:
+        return "Not yet set"
+    else: 
+        return str(postcode)
+
+def radius_inform_logic(radius):
+    if radius == default_radius_value:
+        return "Not yet set"
+    else:
+        radius_inform = str(radius) + "Km"
+        return radius_inform
+
+def data_sort_inform_logic(data_sort):
+    if data_sort == 1:
+        return "Distance"
+    elif data_sort == 2:
+        return "Date"
+    elif data_sort == 3:
+        return "Crime Category"
+    elif data_sort == 4:
+        return "No Sort"
+    else:
+        return "Not yet set"
+
+def file_name_inform_logic(file_name):
+    if file_name == default_filename_value:
+        return "Not yet set"
+    else: 
+        return file_name
+
+#####
 # informs
 #####
 
-def inform_current_values_below():
+def inform_current_values_below(arg_dict):
     print("Current values are:")
+    line = "Postcode: " + postcode_inform_logic(arg_dict["postcode"]) + "; Radius: " + radius_inform_logic(arg_dict["radius"]) + "; Data_sort: " + data_sort_inform_logic(arg_dict["data_sort"]) + "; Filename: " + file_name_inform_logic(arg_dict["file_name"])
+    print(line)
     return
 
 def inform_filename_save(usr_filename):
@@ -180,3 +228,120 @@ def request_user_sort_preference():
     print("How would you like to sort the data?")
     instruction_user_sort_options()
     return
+
+#####
+# Tests
+#####
+
+def postcode_inform_logic_should_return_not_yet_set_when_default_value():
+    # Arrange
+    input_var = default_postcode_value
+    expected = "Not yet set"
+    # Act
+    actual = postcode_inform_logic(input_var)
+    # Assert
+    assert (expected == actual)
+    return
+def postcode_inform_logic_should_return_passed_var_string_when_passed():
+    # Arrange
+    input_var = "EX230LP"
+    expected = "EX230LP"
+    # Act
+    actual = postcode_inform_logic(input_var)
+    # Assert
+    assert (expected == actual)
+    return
+def radius_inform_logic_should_return_not_yet_set_when_default_value():
+    # Arrange
+    input_var = default_radius_value
+    expected = "Not yet set"
+    # Act
+    actual = radius_inform_logic(input_var)
+    # Assert
+    assert (expected == actual)
+    return
+def radius_inform_logic_should_return_passed_var_string_when_passed():
+    # Arrange
+    input_var = 2
+    expected = "2Km"
+    # Act
+    actual = radius_inform_logic(input_var)
+    # Assert
+    assert (expected == actual)
+    return
+def data_sort_inform_logic_should_return_not_yet_set_when_default_value():
+    # Arrange
+    input_var = default_data_sort_value
+    expected = "Not yet set"
+    # Act
+    actual = data_sort_inform_logic(input_var)
+    # Assert
+    assert (expected == actual)
+    return
+def data_sort_inform_logic_should_return_passed_var_string_when_passed_1():
+    # Arrange
+    input_var = 1
+    expected = "Distance"
+    # Act
+    actual = data_sort_inform_logic(input_var)
+    # Assert
+    assert (expected == actual)
+    return
+def data_sort_inform_logic_should_return_passed_var_string_when_passed_2():
+    # Arrange
+    input_var = 2
+    expected = "Date"
+    # Act
+    actual = data_sort_inform_logic(input_var)
+    # Assert
+    assert (expected == actual)
+    return
+def data_sort_inform_logic_should_return_passed_var_string_when_passed_3():
+    # Arrange
+    input_var = 3
+    expected = "Crime Category"
+    # Act
+    actual = data_sort_inform_logic(input_var)
+    # Assert
+    assert (expected == actual)
+    return
+def data_sort_inform_logic_should_return_passed_var_string_when_passed_4():
+    # Arrange
+    input_var = 4
+    expected = "No Sort"
+    # Act
+    actual = data_sort_inform_logic(input_var)
+    # Assert
+    assert (expected == actual)
+    return
+def file_name_inform_logic_should_return_passed_var_string_when_passed():
+    # Arrange
+    input_var = default_filename_value
+    expected = "Not yet set"
+    # Act
+    actual = file_name_inform_logic(input_var)
+    # Assert
+    assert (expected == actual)
+    return
+def file_name_inform_logic_should_return_not_yet_set_when_default_value():
+    # Arrange
+    input_var = "curtain_twitcher"
+    expected = "curtain_twitcher"
+    # Act
+    actual = file_name_inform_logic(input_var)
+    # Assert
+    assert (expected == actual)
+    return
+
+if __name__ == "__main__":
+    postcode_inform_logic_should_return_not_yet_set_when_default_value()
+    postcode_inform_logic_should_return_passed_var_string_when_passed()
+    radius_inform_logic_should_return_not_yet_set_when_default_value()
+    radius_inform_logic_should_return_passed_var_string_when_passed()
+    data_sort_inform_logic_should_return_not_yet_set_when_default_value()
+    data_sort_inform_logic_should_return_passed_var_string_when_passed_1()
+    data_sort_inform_logic_should_return_passed_var_string_when_passed_2()
+    data_sort_inform_logic_should_return_passed_var_string_when_passed_3()
+    data_sort_inform_logic_should_return_passed_var_string_when_passed_4()
+    file_name_inform_logic_should_return_passed_var_string_when_passed()
+    file_name_inform_logic_should_return_not_yet_set_when_default_value()

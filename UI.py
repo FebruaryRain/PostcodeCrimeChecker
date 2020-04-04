@@ -5,6 +5,7 @@ The program will then run from there, and the generate_report module and functio
 to create the final report. 
 """
 
+import default_values_config
 from extract_valid_postcodes import get_postcode_list
 import generate_report
 import messages
@@ -16,10 +17,10 @@ import messages
 
 postcode_list = get_postcode_list()
 
-default_postcode_value = ""
-default_radius_value = 0
-default_data_sort_value = 0
-default_filename_value = ""
+default_postcode_value = default_values_config.cfg_default_postcode_value 
+default_radius_value = default_values_config.cfg_default_radius_value
+default_data_sort_value = default_values_config.cfg_default_data_sort_value
+default_filename_value = default_values_config.cfg_default_filename_value 
 
 bcorrect_data = False
 arguments_dict = {'postcode': default_postcode_value,
@@ -42,8 +43,8 @@ def load_menu():
     messages.opening_message()
     messages.menu_selection()
     print("") # To get a single line separation
-    messages.inform_current_values_below()
-    print(arguments_dict)
+    messages.inform_current_values_below(arguments_dict)
+    #print(arguments_dict)
     print("")
 
     while True:
@@ -100,6 +101,7 @@ def select_postcode():
                     else:
                         messages.error_postcode_not_in_list_of_existing()
                         messages.instruction_postcodes()
+                        messages.request_user_EX_postcode()
                 elif len(usr_postcode) == 6:
                     first_three = usr_postcode[:3] 
                     back_three = usr_postcode[3:]
@@ -111,6 +113,7 @@ def select_postcode():
                     else:
                         messages.error_postcode_not_in_list_of_existing()
                         messages.instruction_postcodes()
+                        messages.request_user_EX_postcode()
                 else:
                     messages.invalid_value()
             else:
