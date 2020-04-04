@@ -44,7 +44,6 @@ def load_menu():
     messages.menu_selection()
     print("") # To get a single line separation
     messages.inform_current_values_below(arguments_dict)
-    #print(arguments_dict)
     print("")
 
     while True:

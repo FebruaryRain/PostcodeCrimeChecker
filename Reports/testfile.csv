@@ -1,0 +1,537 @@
+Crime ID,Month,Longitude,Latitude,Location,Crime type,Last outcome category,Distance (Km)
+,2019-06,-4.551094,50.817891,On or near Went Worth Close,Anti-social behaviour,,0.123
+,2019-06,-4.551094,50.817891,On or near Went Worth Close,Anti-social behaviour,,0.123
+b92b52da8aeee8e6a5b273fd5b72313587bf7c980cfffa026c130b43acf89a68,2019-06,-4.551094,50.817891,On or near Went Worth Close,Violence and sexual offences,Status update unavailable,0.123
+ae948f91462e5884b52ddfd434d8feba087c42057bc311bd5458a70df6762dc5,2019-05,-4.547709,50.818316,On or near Shopping Area,Violence and sexual offences,Status update unavailable,0.151
+0ab3a32f9e2d04845f6a96696318de5d6459e09394fd53cd49d3cec9e15bae7b,2019-07,-4.547709,50.818316,On or near Shopping Area,Other theft,Unable to prosecute suspect,0.151
+621764b7d9439d86c327045c8ebba0d7007d83574cae344f283fb5824d67dbd6,2019-08,-4.547709,50.818316,On or near Shopping Area,Violence and sexual offences,Unable to prosecute suspect,0.151
+c0ca4547e55cb605437bf24c29e43e6c0b065a07d34e098559185d92a4e26e73,2019-11,-4.547709,50.818316,On or near Shopping Area,Violence and sexual offences,Under investigation,0.151
+627e62d1beb89ec77c9466065cd1367dfb2fa865f4ecb8f7f014f34a9e79fef3,2019-12,-4.547709,50.818316,On or near Shopping Area,Violence and sexual offences,Under investigation,0.151
+b91cd2abf1dee1db67953677ae81ca073d9f7f0a9fc9e9fe71d29b2a89067e67,2019-08,-4.546586,50.815948,On or near County Road,Violence and sexual offences,Investigation complete; no suspect identified,0.375
+422616d700142c74a6b356475f554a32c6c38615be9b7dbb470dc289e8b1bcc3,2019-01,-4.555036,50.813901,On or near Marine Drive,Other crime,Status update unavailable,0.642
+01ee0a8d86c061f57c01528896a8f43ab6497773aaab94adb07f13096ec55a3b,2019-07,-4.555036,50.813901,On or near Marine Drive,Drugs,Unable to prosecute suspect,0.642
+9372b02c6ef67473e419cc4cc74407ee48d4efb5c549b494165de133724e0ef7,2019-08,-4.555036,50.813901,On or near Marine Drive,Other theft,Investigation complete; no suspect identified,0.642
+837bf23c3b7b675f359d4bf0eff341402c0858190b0da424ed818afb79ac992c,2019-03,-4.547767,50.824341,On or near Arundel Terrace,Vehicle crime,Investigation complete; no suspect identified,0.651
+,2019-05,-4.547767,50.824341,On or near Arundel Terrace,Anti-social behaviour,,0.651
+d244be55d4b6aa3cb47842f9daa8c9ed44a59913886e79c504f650e5742e0694,2019-07,-4.547767,50.824341,On or near Arundel Terrace,Burglary,Investigation complete; no suspect identified,0.651
+35ae5cd228014f96979715db543939fa210dbd291621f3ea2ac949c80ea47a16,2019-11,-4.541311,50.822080,On or near Kings Hill Close,Violence and sexual offences,Under investigation,0.709
+,2019-06,-4.539656,50.820623,On or near Kings Hill Meadow,Anti-social behaviour,,0.746
+,2019-06,-4.539656,50.820623,On or near Kings Hill Meadow,Anti-social behaviour,,0.746
+3783b81d7dab0cdd4dbbbf2817df2f58f799f75135241e4b332c6ddcdbf5a522,2019-06,-4.539656,50.820623,On or near Kings Hill Meadow,Criminal damage and arson,Status update unavailable,0.746
+,2019-05,-4.547596,50.825892,On or near Vicarage Road,Anti-social behaviour,,0.822
+,2019-09,-4.547596,50.825892,On or near Vicarage Road,Anti-social behaviour,,0.822
+36a4cd3d7ddf5dd0303028b6b56ae44fe5b6e8e3941f2da06c9e95ae0445039d,2019-09,-4.547596,50.825892,On or near Vicarage Road,Violence and sexual offences,Unable to prosecute suspect,0.822
+,2019-10,-4.547596,50.825892,On or near Vicarage Road,Anti-social behaviour,,0.822
+e2a1a927afce4f03ba3847390aa25f39e6a9b469a0844fbf2a47499c1890b4ce,2019-10,-4.547596,50.825892,On or near Vicarage Road,Other theft,Local resolution,0.822
+,2019-04,-4.542542,50.824608,On or near Sports/Recreation Area,Anti-social behaviour,,0.838
+32c59cce835de56d5c86059340a1b0b0f0d27b7a3f7bc224d676fd7d85298a02,2019-10,-4.542542,50.824608,On or near Sports/Recreation Area,Drugs,Under investigation,0.838
+e7052fe7d90f651bd49c2db8997db2f1a65bd81ec02c34dc805054b3c0bbc9e4,2019-10,-4.542542,50.824608,On or near Sports/Recreation Area,Drugs,Under investigation,0.838
+d806783dd24acddc73b4d91f320d1c3eb6f1780620541a8463a06d2e725bd06c,2019-11,-4.542542,50.824608,On or near Sports/Recreation Area,Possession of weapons,Under investigation,0.838
+dc607413d3915d6c7cf42f4cf93849c735c6fe92f50238225ff1e6fdbfc8fa29,2019-12,-4.542542,50.824608,On or near Sports/Recreation Area,Vehicle crime,Under investigation,0.838
+,2019-07,-4.538441,50.822296,On or near Bede Haven Close,Anti-social behaviour,,0.896
+,2019-10,-4.538441,50.822296,On or near Bede Haven Close,Anti-social behaviour,,0.896
+,2019-01,-4.539503,50.823810,On or near Briar Road,Anti-social behaviour,,0.925
+016e4df7e894bd55f1951a5953ad390ccfdca4c8bedf24c5b17034e5c30b2f3f,2019-01,-4.539503,50.823810,On or near Briar Road,Burglary,Investigation complete; no suspect identified,0.925
+,2019-03,-4.539503,50.823810,On or near Briar Road,Anti-social behaviour,,0.925
+,2019-04,-4.539503,50.823810,On or near Briar Road,Anti-social behaviour,,0.925
+,2019-05,-4.539503,50.823810,On or near Briar Road,Anti-social behaviour,,0.925
+,2019-05,-4.539503,50.823810,On or near Briar Road,Anti-social behaviour,,0.925
+f61d3e38c86d8fbc2eb3879cec3181d70ad9c2ae13085af210e4c7c5ba52fc2c,2019-05,-4.539503,50.823810,On or near Briar Road,Public order,Unable to prosecute suspect,0.925
+,2019-06,-4.539503,50.823810,On or near Briar Road,Anti-social behaviour,,0.925
+,2019-06,-4.539503,50.823810,On or near Briar Road,Anti-social behaviour,,0.925
+86221e9ae875f239670973e9287847de0b58b33fb9e19a9698cc1e40e524d401,2019-06,-4.539503,50.823810,On or near Briar Road,Violence and sexual offences,Unable to prosecute suspect,0.925
+,2019-07,-4.539503,50.823810,On or near Briar Road,Anti-social behaviour,,0.925
+0462eb40fa1eb68687ca70198d934ccad1f92bf0e89b374a213cbf89578195de,2019-07,-4.539503,50.823810,On or near Briar Road,Violence and sexual offences,Unable to prosecute suspect,0.925
+0ee4ccef33218ab2a30864025e968458caf9639bd1b534c9e3cc0ccf7149a067,2019-07,-4.539503,50.823810,On or near Briar Road,Violence and sexual offences,Unable to prosecute suspect,0.925
+,2019-08,-4.539503,50.823810,On or near Briar Road,Anti-social behaviour,,0.925
+5a334d1b5e7e56226c0fc017536e788e755fdac9b71daa019b5c7f3788c0c96c,2019-08,-4.539503,50.823810,On or near Briar Road,Violence and sexual offences,Unable to prosecute suspect,0.925
+996d69ee51d78f4028ec01e6295f2e2316e7cba520a92a6b05098ccf7a532ac5,2019-08,-4.539503,50.823810,On or near Briar Road,Violence and sexual offences,Investigation complete; no suspect identified,0.925
+,2019-10,-4.539503,50.823810,On or near Briar Road,Anti-social behaviour,,0.925
+,2019-10,-4.539503,50.823810,On or near Briar Road,Anti-social behaviour,,0.925
+,2019-10,-4.539503,50.823810,On or near Briar Road,Anti-social behaviour,,0.925
+bec407e4b8b38e7ed59ad18e933cf69996976d34b0fde440ae9c6a185cdfe2db,2019-10,-4.539503,50.823810,On or near Briar Road,Violence and sexual offences,Unable to prosecute suspect,0.925
+e183566cb733164c542a7bf4551448a6c5d70e895629e9ffe961bcf0b74d3ac3,2019-10,-4.539503,50.823810,On or near Briar Road,Violence and sexual offences,Under investigation,0.925
+68b2f9d9de039be786b12e5f9abe113d0845aeb892d890d352ed696589df6559,2019-10,-4.539503,50.823810,On or near Briar Road,Violence and sexual offences,Under investigation,0.925
+799065fdd20458616da5df3467856dd3ff58e756e4afe6cb516e341eaedb5468,2019-10,-4.539503,50.823810,On or near Briar Road,Other crime,Under investigation,0.925
+ffe938eb9e018f5c14d9492256e2d3e704bb35edce8cb5dd9adf3c13c312ff48,2019-11,-4.539503,50.823810,On or near Briar Road,Violence and sexual offences,Under investigation,0.925
+c57d07a7cb5bedf405bdab1edae5d6295c81751ab6b80a5a5e27456d6f9dc224,2019-11,-4.539503,50.823810,On or near Briar Road,Violence and sexual offences,Under investigation,0.925
+20656c2790d52e96d25d2f09d8fa8375b8df757fe38ed3518c37d37875c60fe8,2019-12,-4.539503,50.823810,On or near Briar Road,Drugs,Under investigation,0.925
+1f15f210077a9c545ddf4619be4b78773a290b2d1a2055c5c37e121a0413cbc0,2019-02,-4.543366,50.825921,On or near Swallow Close,Violence and sexual offences,Unable to prosecute suspect,0.928
+6638995ee53ed471af03ee597137b39299696870b4fb967a7eaf9253ad344315,2019-03,-4.543366,50.825921,On or near Swallow Close,Possession of weapons,Unable to prosecute suspect,0.928
+d1002b1ef9154ce66986b5d275ee52564306255e576363105fbd25b6f67559e2,2019-03,-4.543366,50.825921,On or near Swallow Close,Violence and sexual offences,Status update unavailable,0.928
+0fd3a82cdf95e635c0b19e0d501dd1106be580dab00bf62063441f7f3d73a5f0,2019-03,-4.543366,50.825921,On or near Swallow Close,Violence and sexual offences,Unable to prosecute suspect,0.928
+e42477f496e6c21f11df9ecaffc0f85f9319b4b16c8a4373dbf3e8156fa591fa,2019-06,-4.543366,50.825921,On or near Swallow Close,Violence and sexual offences,Awaiting court outcome,0.928
+2e42183da32a8c9aefcac8d1c0ace1298ba84cbadbd9b0f0b309a8b54a7152b8,2019-06,-4.543366,50.825921,On or near Swallow Close,Violence and sexual offences,Unable to prosecute suspect,0.928
+6c577fb8a1ffdde0123ea3ab9aaf9702867adb059a312066fea6ca388ea9e590,2019-07,-4.543366,50.825921,On or near Swallow Close,Violence and sexual offences,Investigation complete; no suspect identified,0.928
+,2019-09,-4.543366,50.825921,On or near Swallow Close,Anti-social behaviour,,0.928
+452e0aeda5694b6e9c2ec2985e11d6d82ba21c22ef5497d3de45b1bc7ea54fbf,2019-09,-4.543366,50.825921,On or near Swallow Close,Criminal damage and arson,Investigation complete; no suspect identified,0.928
+b005fb3f5bdbaa91a75bdde19a6e50f9fc8c3537fad9ca9cf2e1b1618f4e129b,2019-12,-4.543366,50.825921,On or near Swallow Close,Vehicle crime,Under investigation,0.928
+63dd0fdd3da459d550b6a379689188eae5620a2d8beda9df8e263c8ba800dda7,2019-03,-4.540798,50.824907,On or near Monterey Close,Vehicle crime,Investigation complete; no suspect identified,0.942
+f7fb5c6df2aa2e23f0d28540fba0a844aecd22ed332bdca668741639ead9f3c0,2019-12,-4.540798,50.824907,On or near Monterey Close,Violence and sexual offences,Under investigation,0.942
+291395b94589c0ff7ddfa90cb9c561b7398947129f2d85bf9862d43f89a2d6b8,2019-01,-4.543578,50.826420,On or near Bencoolen Road,Criminal damage and arson,Investigation complete; no suspect identified,0.97
+e44dd56bea383ebe30bb7a8458041216063c4746cb7eedba118363d0b4d851a5,2019-04,-4.543578,50.826420,On or near Bencoolen Road,Violence and sexual offences,Unable to prosecute suspect,0.97
+a2ae8c79208ffc9403a5270f4cd3bfcb5e9da66ce7b75f9ccc56fbbcb275ab88,2019-07,-4.543578,50.826420,On or near Bencoolen Road,Violence and sexual offences,Investigation complete; no suspect identified,0.97
+571bb00723866f5486feeb5a021d2d54aa7850c7fece66cb733199edf9bb5b94,2019-07,-4.543578,50.826420,On or near Bencoolen Road,Violence and sexual offences,Investigation complete; no suspect identified,0.97
+7d920ee9a673c9187a091b3fa98bdbd7896df654455d6d0dc11fba5621e82832,2019-07,-4.543578,50.826420,On or near Bencoolen Road,Violence and sexual offences,Investigation complete; no suspect identified,0.97
+5b7614aa3746b4bee0da48c9d07108080580997ba909bedc973a657ed6faba35,2019-08,-4.543578,50.826420,On or near Bencoolen Road,Violence and sexual offences,Unable to prosecute suspect,0.97
+46909eb45f4627ab1e23e5782435410105fb1c2f3c99672ec12fbeebb713f3e8,2019-08,-4.543578,50.826420,On or near Bencoolen Road,Violence and sexual offences,Unable to prosecute suspect,0.97
+777167273f3800d8ab658d8a446a81f90b5851c35fe4a1ae6b1882a096131318,2019-11,-4.543578,50.826420,On or near Bencoolen Road,Violence and sexual offences,Under investigation,0.97
+,2019-12,-4.543578,50.826420,On or near Bencoolen Road,Anti-social behaviour,,0.97
+,2019-03,-4.546175,50.827164,On or near Parking Area,Anti-social behaviour,,0.982
+,2019-03,-4.546175,50.827164,On or near Parking Area,Anti-social behaviour,,0.982
+cc19f42242704334383c70e6404354fdad438a07f010a7fa17eafbe8184e61d4,2019-08,-4.537523,50.822909,On or near Berries Avenue,Violence and sexual offences,Under investigation,0.985
+e88177b46056309c9ac7832dc9f9a7160f5fe35bd67a1f31a8425a6d3e897e2c,2019-08,-4.537523,50.822909,On or near Berries Avenue,Violence and sexual offences,Unable to prosecute suspect,0.985
+d84c6be57ff0b334d4a8010956052c060531da2450346a89ec2109650b1afc2e,2019-09,-4.536210,50.820959,On or near King'S Hill,Other crime,Under investigation,0.989
+cf1ee18adbca1e5a5996761431bb89249e33b675f22be522d4b692c540876ef0,2019-09,-4.536210,50.820959,On or near King'S Hill,Other crime,Under investigation,0.989
+85c0cb9381d58da1d58cfae3f16d2f00ccabd179d585034b89eddcdeecb05d5f,2019-05,-4.537246,50.823041,On or near Kernow Crescent,Violence and sexual offences,Unable to prosecute suspect,1.009
+0dbf268a5003b3df67a668af1a33c8266900312176344d32a6a2d009cf09a55d,2019-06,-4.535689,50.820772,On or near King'S Hill,Violence and sexual offences,Unable to prosecute suspect,1.02
+,2019-01,-4.543901,50.827132,On or near Nightclub,Anti-social behaviour,,1.032
+6f9ada386f2a9c7f01fd97b8a42e1aa54083c291ace6b9c56112121197a5c647,2019-02,-4.543901,50.827132,On or near Nightclub,Violence and sexual offences,Unable to prosecute suspect,1.032
+e94ddf8870eaccdab841588b8990c5a37ce2235a90eee56f547101d6b8ca021a,2019-02,-4.543901,50.827132,On or near Nightclub,Violence and sexual offences,Investigation complete; no suspect identified,1.032
+,2019-03,-4.543901,50.827132,On or near Nightclub,Anti-social behaviour,,1.032
+a1f0723372788d4f9cca4ce420746cfb6d26ebc06674c8d2b7cb247257939b79,2019-04,-4.543901,50.827132,On or near Nightclub,Violence and sexual offences,Unable to prosecute suspect,1.032
+,2019-05,-4.543901,50.827132,On or near Nightclub,Anti-social behaviour,,1.032
+f00489e90cf6e666df45b3bc6e169336808db33c917d3b82c7dd473641f5da52,2019-05,-4.543901,50.827132,On or near Nightclub,Theft from the person,Status update unavailable,1.032
+e94f7cb488515f5fe496118163583cb4ac2119368829eca2362f1cf60243c874,2019-05,-4.543901,50.827132,On or near Nightclub,Violence and sexual offences,Investigation complete; no suspect identified,1.032
+,2019-07,-4.543901,50.827132,On or near Nightclub,Anti-social behaviour,,1.032
+,2019-08,-4.543901,50.827132,On or near Nightclub,Anti-social behaviour,,1.032
+428975d4110ba7720d7958fda3981e7ad3c3b6c056d7ce6df579e955dfce6ff2,2019-08,-4.543901,50.827132,On or near Nightclub,Violence and sexual offences,Investigation complete; no suspect identified,1.032
+cb4bdc26be20396ca22ddcd494ec81f46a0bb7d4b6a7efff6b4d71db1824f01f,2019-09,-4.543901,50.827132,On or near Nightclub,Violence and sexual offences,Under investigation,1.032
+fdc818cbc2e811f42c18fbc9a60c786b0b3421ba420213744bc28902357861ef,2019-10,-4.543901,50.827132,On or near Nightclub,Violence and sexual offences,Under investigation,1.032
+f9bfd053abe2edc575b3f8782aa00013a591cd2a3f329cbb4282184d1c8fa4eb,2019-11,-4.543901,50.827132,On or near Nightclub,Drugs,Under investigation,1.032
+,2019-12,-4.543901,50.827132,On or near Nightclub,Anti-social behaviour,,1.032
+c07ca7cec323dfaba59e0ac5d8b6c9e65d652c470aa54d915a1cf1a8d38d96e8,2019-12,-4.543901,50.827132,On or near Nightclub,Criminal damage and arson,Investigation complete; no suspect identified,1.032
+8061f288a8c29ad77c05f73bee42ac74f601781e7d4e45387aa90ac85b83015c,2019-12,-4.543901,50.827132,On or near Nightclub,Violence and sexual offences,Under investigation,1.032
+a9aaf19ccfa66c93f444d58e41f08d907a844e36dc689449c159d835b2b103a8,2019-12,-4.543901,50.827132,On or near Nightclub,Violence and sexual offences,Under investigation,1.032
+45a597fd7868bc6dc412e99ea2c84a9dbf3d8b497507196f079d3ea9e1ee9914,2019-10,-4.539587,50.825365,On or near Warwick Road,Burglary,Under investigation,1.037
+,2019-06,-4.546017,50.827914,On or near Ergue-Gaberic Way,Anti-social behaviour,,1.066
+f8c4b02452cf43ebb02826767a4a6bcaa41207f4355b0815e93c93f3923508dd,2019-08,-4.546017,50.827914,On or near Ergue-Gaberic Way,Violence and sexual offences,Unable to prosecute suspect,1.066
+2bbbf46fb322e65375514b4e79b68ee80f381fe616c59f4515709242c3ee26ac,2019-08,-4.546017,50.827914,On or near Ergue-Gaberic Way,Violence and sexual offences,Unable to prosecute suspect,1.066
+,2019-10,-4.546017,50.827914,On or near Ergue-Gaberic Way,Anti-social behaviour,,1.066
+4abe1abe539ec4bbad6ae19d907d8747eb2cbceac6a8b9cb0da338993481c5a9,2019-10,-4.546017,50.827914,On or near Ergue-Gaberic Way,Violence and sexual offences,Local resolution,1.066
+2995104e1a768a96724b7fb5ccb599a857d5db6aadfe9d48a764d7e990d032db,2019-11,-4.546017,50.827914,On or near Ergue-Gaberic Way,Violence and sexual offences,Unable to prosecute suspect,1.066
+,2019-01,-4.548403,50.828185,On or near Parking Area,Anti-social behaviour,,1.067
+6cbf83a2c22b130ea764aa8717bdec4ad92b8dfeb37f12a2a3adf218deaffac7,2019-01,-4.548403,50.828185,On or near Parking Area,Public order,Investigation complete; no suspect identified,1.067
+0d636fb3335dd60f3639d9046189c56d426ab9ca7bd04c283d1fa88a0a26f71e,2019-02,-4.548403,50.828185,On or near Parking Area,Criminal damage and arson,Investigation complete; no suspect identified,1.067
+,2019-04,-4.548403,50.828185,On or near Parking Area,Anti-social behaviour,,1.067
+22b3064f37291da4443e79eeeccb6ee71f4c78113d60aead01032cdf25989cd1,2019-04,-4.543535,50.827464,On or near Parking Area,Public order,Investigation complete; no suspect identified,1.076
+,2019-05,-4.543535,50.827464,On or near Parking Area,Anti-social behaviour,,1.076
+,2019-10,-4.543535,50.827464,On or near Parking Area,Anti-social behaviour,,1.076
+5cd29f17c5b2c930c4fe7de2c81d79bbaec88ca5e70308a8cea7603f75e56a6a,2019-10,-4.543535,50.827464,On or near Parking Area,Shoplifting,Under investigation,1.076
+fd5543a602f857a3470419ecfb5d0ca0a5c2406f194f39ae7c61d26cf352ad92,2019-12,-4.543535,50.827464,On or near Parking Area,Violence and sexual offences,Under investigation,1.076
+,2019-04,-4.549746,50.828327,On or near Breakwater Road,Anti-social behaviour,,1.078
+,2019-04,-4.549746,50.828327,On or near Breakwater Road,Anti-social behaviour,,1.078
+,2019-10,-4.549746,50.828327,On or near Breakwater Road,Anti-social behaviour,,1.078
+623eb9627345012949c7c6c831ce71b3524c2ed047dc9864267b16b00e531a7e,2019-06,-4.535340,50.821940,On or near Stapleton Road,Burglary,Investigation complete; no suspect identified,1.081
+0c9687d5cb18343fd47d91fd36640436edda08dafc0559209a3bf15448c8a827,2019-06,-4.535340,50.821940,On or near Stapleton Road,Violence and sexual offences,Unable to prosecute suspect,1.081
+bdad97231460e13410876599a80cb0b59f8040ea4ec9edb81286fe8a4e5c7a05,2019-01,-4.551129,50.828441,On or near Church Path,Public order,Unable to prosecute suspect,1.094
+1c67777f9add8fecfc564b6375a5e23732617c87709a9d05e15808ac1af4f918,2019-01,-4.551129,50.828441,On or near Church Path,Violence and sexual offences,Investigation complete; no suspect identified,1.094
+dfd4edbd09abb7f21263330b74c70c87319f4c81cb387ace2c5b9486f0dabf88,2019-01,-4.551129,50.828441,On or near Church Path,Violence and sexual offences,Unable to prosecute suspect,1.094
+6a443176750102c8a0467b8b0750770fffb2ac772ec277aca0a236412907a2a8,2019-01,-4.551129,50.828441,On or near Church Path,Violence and sexual offences,Investigation complete; no suspect identified,1.094
+749f2fad53157541df1e03b2d790df5d2652cf011d5b5f7d615cc8cd2a3c526c,2019-02,-4.551129,50.828441,On or near Church Path,Other theft,Investigation complete; no suspect identified,1.094
+a79602df9007062976b381f6033bc1b239bcbf7fdcaf813f644ac9f262160e0e,2019-02,-4.551129,50.828441,On or near Church Path,Public order,Unable to prosecute suspect,1.094
+402a707c7d605821c5d860b1920eb8eb34dc2c00d3dc0c7d7dcf71d9232c2f63,2019-02,-4.551129,50.828441,On or near Church Path,Violence and sexual offences,Status update unavailable,1.094
+19b7ef77664fe1fce8d40c1bc0c535bf2f81c697ea3e93e3036b756a83628d91,2019-04,-4.551129,50.828441,On or near Church Path,Violence and sexual offences,Status update unavailable,1.094
+,2019-05,-4.551129,50.828441,On or near Church Path,Anti-social behaviour,,1.094
+,2019-06,-4.551129,50.828441,On or near Church Path,Anti-social behaviour,,1.094
+,2019-07,-4.551129,50.828441,On or near Church Path,Anti-social behaviour,,1.094
+,2019-07,-4.551129,50.828441,On or near Church Path,Anti-social behaviour,,1.094
+3161e156938accb6d51a6de30055bd28a64a5d2c025c5dfaea0c1558f2df9478,2019-08,-4.551129,50.828441,On or near Church Path,Violence and sexual offences,Investigation complete; no suspect identified,1.094
+60dfe88d4e92af0ec4c1ab7f4cb43d0cbba697c878a5b032d64d77d960621d0c,2019-08,-4.551129,50.828441,On or near Church Path,Violence and sexual offences,Under investigation,1.094
+0131b34edfef12ba9ffcfa039bea81a64b8763f609223f55f80229feff4580b7,2019-09,-4.551129,50.828441,On or near Church Path,Criminal damage and arson,Awaiting court outcome,1.094
+6368c8b9b90452b44776754e70477adfe0c55976ee3ab067402a479f1b29d835,2019-09,-4.551129,50.828441,On or near Church Path,Violence and sexual offences,Unable to prosecute suspect,1.094
+0e155218d8e08f871b8bbd3936a469bca7919280ceebe80c79b01ef211999eab,2019-12,-4.551129,50.828441,On or near Church Path,Violence and sexual offences,Under investigation,1.094
+,2019-01,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+,2019-01,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+d6aea8c1149f538afa2c88b4ec73f019a89e6dae41aae7afa740825019af375c,2019-01,-4.544117,50.827973,On or near The Strand,Possession of weapons,Status update unavailable,1.113
+8c833e7cb51fc121fcfbb5fb684c71726bd0b20423727ac507e9a19c31133157,2019-01,-4.544117,50.827973,On or near The Strand,Violence and sexual offences,Unable to prosecute suspect,1.113
+743112d86ade0b4f32cf4edc900e587feb9a9ddaa87d5e9d2118b3e3d532ad84,2019-01,-4.544117,50.827973,On or near The Strand,Violence and sexual offences,Unable to prosecute suspect,1.113
+,2019-02,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+,2019-02,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+,2019-02,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+,2019-02,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+d534a5d72629331a2c6b548b28873f4da1d0b66c5615271816118d533976c10d,2019-02,-4.544117,50.827973,On or near The Strand,Criminal damage and arson,Investigation complete; no suspect identified,1.113
+2083193eab1effa8fda70e231df228a604b8718c2aec6ea58ffa725bb43d9074,2019-02,-4.544117,50.827973,On or near The Strand,Drugs,Status update unavailable,1.113
+,2019-03,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+,2019-04,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+,2019-04,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+,2019-04,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+dd4a402f2a70bfd43ebcd180ad9be98a48c97e4bab29a56ba74ad8dac1dd4ba6,2019-04,-4.544117,50.827973,On or near The Strand,Criminal damage and arson,Unable to prosecute suspect,1.113
+3558330d9b13a7ec363487cd6ddd478b37cadd879c209852e3a189ebdf3aa02f,2019-05,-4.544117,50.827973,On or near The Strand,Public order,Investigation complete; no suspect identified,1.113
+,2019-06,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+,2019-06,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+16eed63dc2ddde9f53818f2d2e83c657c5227bd29a19636045838e5be80647d4,2019-06,-4.544117,50.827973,On or near The Strand,Other theft,Investigation complete; no suspect identified,1.113
+,2019-07,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+,2019-07,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+,2019-07,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+40557befd7c34e2ad7728148a29b18cbe9984d974b2eec5b7365aad526af4a81,2019-07,-4.544117,50.827973,On or near The Strand,Drugs,Status update unavailable,1.113
+b47e2e2dcf6f445e33dee552d30da69864672a8c43effd601cc0a02294d0b737,2019-07,-4.544117,50.827973,On or near The Strand,Violence and sexual offences,Investigation complete; no suspect identified,1.113
+,2019-08,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+,2019-08,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+44fee35cff37b831232f9cdf0c971c767cc49c69951ab468f1b3b53cf156ec9b,2019-08,-4.544117,50.827973,On or near The Strand,Criminal damage and arson,Investigation complete; no suspect identified,1.113
+7d37d0c407677291901da2af1449d25e40538d1b933e85e5907c4a630923abbd,2019-08,-4.544117,50.827973,On or near The Strand,Violence and sexual offences,Unable to prosecute suspect,1.113
+7133d3a53fbfad6ad9fe6f4eb5ba3b9d15a8ff02a761450feda8da183e68fd9b,2019-08,-4.544117,50.827973,On or near The Strand,Violence and sexual offences,Unable to prosecute suspect,1.113
+,2019-09,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+,2019-10,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+,2019-10,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+fe6f48137fe58ad466e74d0e59f5794905878b1bd346e417cc05bdb70b6b8c1b,2019-10,-4.544117,50.827973,On or near The Strand,Criminal damage and arson,Under investigation,1.113
+,2019-11,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+a854af5c5867b088a7a2bca5215fd95459632460cee8c857a6366341edeb3273,2019-11,-4.544117,50.827973,On or near The Strand,Violence and sexual offences,Investigation complete; no suspect identified,1.113
+,2019-12,-4.544117,50.827973,On or near The Strand,Anti-social behaviour,,1.113
+8bd01ae5c865b1ee5355ba8b7dde13af748790a89ce4b38ad447b81d18736b00,2019-12,-4.544117,50.827973,On or near The Strand,Violence and sexual offences,Under investigation,1.113
+7aedbddabdec8df498e8c9874ef02b64b1ad9d206f9f3140db0fcd339ab45f2e,2019-12,-4.544117,50.827973,On or near The Strand,Violence and sexual offences,Under investigation,1.113
+1dcf10c4d1cfe4a8abddf686737474ccac7e7fab162456f331f32dee3d9c1a56,2019-12,-4.544117,50.827973,On or near The Strand,Violence and sexual offences,Under investigation,1.113
+,2019-06,-4.534740,50.822142,On or near Traly Close,Anti-social behaviour,,1.128
+,2019-06,-4.534740,50.822142,On or near Traly Close,Anti-social behaviour,,1.128
+5d8a1b15618106d34b6ea1f2a6ab4552e9f1fa3c1553391a4541c2e62cf98e5d,2019-07,-4.534740,50.822142,On or near Traly Close,Violence and sexual offences,Unable to prosecute suspect,1.128
+1947f38f10256add84ba5212c8b29e950eff1af104538f8a6df746e76561cabc,2019-08,-4.534740,50.822142,On or near Traly Close,Burglary,Investigation complete; no suspect identified,1.128
+,2019-06,-4.533962,50.821664,On or near Catherine Close,Anti-social behaviour,,1.163
+,2019-06,-4.533962,50.821664,On or near Catherine Close,Anti-social behaviour,,1.163
+5f1bb8b0666a6ef34ebda4c9b78d478054c5781b5b71d35c58e076f8ffd275fd,2019-07,-4.533962,50.821664,On or near Catherine Close,Violence and sexual offences,Unable to prosecute suspect,1.163
+,2019-09,-4.533962,50.821664,On or near Catherine Close,Anti-social behaviour,,1.163
+49b4ff29dbc9cda8314c7d1d3c8315e8ca756a33430439c7686353b5c2c26066,2019-11,-4.533962,50.821664,On or near Catherine Close,Criminal damage and arson,Under investigation,1.163
+,2019-06,-4.542980,50.828484,On or near Pathfields,Anti-social behaviour,,1.196
+,2019-08,-4.542980,50.828484,On or near Pathfields,Anti-social behaviour,,1.196
+b94e1ebaa0ee096ed7f5cbe8d721e8fbc4bc844f8c4af8ce96dd9a8262f68cc9,2019-12,-4.542980,50.828484,On or near Pathfields,Criminal damage and arson,Under investigation,1.196
+,2019-06,-4.542188,50.828276,On or near Southfield Road,Anti-social behaviour,,1.198
+84c9cde59cbf3af7053efa6741a550f68a015f89cd898270a7385f74aee6c161,2019-01,-4.535578,50.824759,On or near Perrily Mount,Violence and sexual offences,Unable to prosecute suspect,1.209
+202c7cf93773656cb1bdf72cf125143772d9661bd78f311b1251c0b65ed3862d,2019-01,-4.535578,50.824759,On or near Perrily Mount,Violence and sexual offences,Local resolution,1.209
+b76d67a63cb607c7ea9f9c5b943d7fa8019ce1c1d3113b272cc984f7ab3d0353,2019-01,-4.535578,50.824759,On or near Perrily Mount,Violence and sexual offences,Status update unavailable,1.209
+,2019-02,-4.535578,50.824759,On or near Perrily Mount,Anti-social behaviour,,1.209
+0f4a50825b587cbc410d93a22e9c85298ff203abb0e89e256a27446c1d3683a7,2019-02,-4.535578,50.824759,On or near Perrily Mount,Other theft,Investigation complete; no suspect identified,1.209
+c33d8d8d0176336bba4f1c56faa82846493a868787e619596f91b2850410d5c2,2019-02,-4.535578,50.824759,On or near Perrily Mount,Violence and sexual offences,Investigation complete; no suspect identified,1.209
+5c2b5643e5cd8ab1c53f15a25b19c2cef532830f8b7b3d13dcc48daa4f0ed529,2019-03,-4.535578,50.824759,On or near Perrily Mount,Violence and sexual offences,Unable to prosecute suspect,1.209
+3c4c2bc9a73ea86f8ac298e5fe7c3432da410f285c05801fabbf20c0da5dac82,2019-05,-4.535578,50.824759,On or near Perrily Mount,Violence and sexual offences,Offender given a caution,1.209
+,2019-06,-4.535578,50.824759,On or near Perrily Mount,Anti-social behaviour,,1.209
+,2019-06,-4.535578,50.824759,On or near Perrily Mount,Anti-social behaviour,,1.209
+f0208a8e89cfc29a4c527338839619fc71a0db73bc30c7bc874d0fc28db173f9,2019-06,-4.535578,50.824759,On or near Perrily Mount,Violence and sexual offences,Unable to prosecute suspect,1.209
+93a72c37a31b49b97df50910038ca7b44cd86a152f2dbacb8fa5da6bf272fd16,2019-06,-4.535578,50.824759,On or near Perrily Mount,Violence and sexual offences,Status update unavailable,1.209
+e2a6db2a26e53a294375556558be747b5a0256c2060fd4ea9ef827092f9350a1,2019-08,-4.535578,50.824759,On or near Perrily Mount,Violence and sexual offences,Offender given a caution,1.209
+bb5a648f330f71b275745f418d15926958fefc99250078d9bd64bc7650421f9e,2019-08,-4.535578,50.824759,On or near Perrily Mount,Violence and sexual offences,Under investigation,1.209
+,2019-09,-4.535578,50.824759,On or near Perrily Mount,Anti-social behaviour,,1.209
+8a71b58f0f44fff1a93e2ca9279086a1df9ee5d02c6fa2887f94a427dd9c552f,2019-10,-4.535578,50.824759,On or near Perrily Mount,Criminal damage and arson,Under investigation,1.209
+de4a42eb6216aa704e890ac30c6a05e50fbb6903fe91b98afe26315650b15f9c,2019-11,-4.535578,50.824759,On or near Perrily Mount,Drugs,Under investigation,1.209
+,2019-12,-4.535578,50.824759,On or near Perrily Mount,Anti-social behaviour,,1.209
+136b1f09130f5f2ad9804f2f29c98f9319e337ab309adc4d0cffb8a63a7fa5d8,2019-05,-4.543393,50.828763,On or near Howards Way,Criminal damage and arson,Investigation complete; no suspect identified,1.213
+af81f6cc11598226084bbcda7e41c04fc3a1c3c5a7c2e830bcd29aca15f47fb2,2019-05,-4.543393,50.828763,On or near Howards Way,Criminal damage and arson,Investigation complete; no suspect identified,1.213
+6dc47ad08ee1b0db8d4c2513673da85d81ce5641f7b2f269c21d81ec0839132b,2019-06,-4.541485,50.828417,On or near Fairfield Road,Violence and sexual offences,Unable to prosecute suspect,1.235
+7d9d3acf8074b647619c8c801e17e9c893fd5344eb35cbe2bdeedb9cf285ae65,2019-04,-4.543724,50.829106,On or near Police Station,Criminal damage and arson,Local resolution,1.24
+,2019-10,-4.543724,50.829106,On or near Police Station,Anti-social behaviour,,1.24
+,2019-01,-4.544128,50.829232,On or near Lansdown Close,Anti-social behaviour,,1.244
+,2019-02,-4.544128,50.829232,On or near Lansdown Close,Anti-social behaviour,,1.244
+ee3f57cb3b6b6f2ca705aa6ccbdbca7efc388bee55df630648ce000a1ca42918,2019-04,-4.544128,50.829232,On or near Lansdown Close,Violence and sexual offences,Investigation complete; no suspect identified,1.244
+731a8ceab4385ddb4b525c0f639ba91046a9694e6f86103fa9abcee2c60fb6b5,2019-11,-4.544128,50.829232,On or near Lansdown Close,Public order,Under investigation,1.244
+6f95cde5fe1ac14d8e1f3fe20fdc3749d30d659b3be8dc62ceb66543c584d0ca,2019-11,-4.544128,50.829232,On or near Lansdown Close,Theft from the person,Under investigation,1.244
+81e218704ae6347ee6040be5700692733919cbcbbaed4c9bdbf964d07f4c84ab,2019-04,-4.545507,50.829508,On or near Granville Terrace,Other theft,Investigation complete; no suspect identified,1.246
+d4ba3d79e84cc910859a69ac507d7259f949730c4f55aa22fd72b80ca0d6bae4,2019-04,-4.545507,50.829508,On or near Granville Terrace,Public order,Status update unavailable,1.246
+5bf14ecb400bd66a6c7d033888c5aec34f94b8e8bfe4994455f002539e48ca3b,2019-04,-4.545507,50.829508,On or near Granville Terrace,Shoplifting,Investigation complete; no suspect identified,1.246
+,2019-02,-4.534065,50.823830,On or near Binhamy Close,Anti-social behaviour,,1.248
+6a3a2862e76b47b991e8a55e2218ef4a2e4940f96a65827cfb043589be8310e3,2019-02,-4.534065,50.823830,On or near Binhamy Close,Criminal damage and arson,Investigation complete; no suspect identified,1.248
+,2019-03,-4.534065,50.823830,On or near Binhamy Close,Anti-social behaviour,,1.248
+c97ea79b7577cbfa4d663631e3fee2537c8f139d14a1c578cf2715d9c1a8cbe8,2019-03,-4.534065,50.823830,On or near Binhamy Close,Violence and sexual offences,Unable to prosecute suspect,1.248
+,2019-07,-4.534065,50.823830,On or near Binhamy Close,Anti-social behaviour,,1.248
+,2019-08,-4.534065,50.823830,On or near Binhamy Close,Anti-social behaviour,,1.248
+,2019-10,-4.540511,50.828529,On or near Westby Road,Anti-social behaviour,,1.279
+,2019-01,-4.544191,50.829591,On or near Lansdown Road,Anti-social behaviour,,1.281
+57bb0681a3e21ec75847b7833a7b944a37399a756304a1367812b4a171580d25,2019-02,-4.544191,50.829591,On or near Lansdown Road,Violence and sexual offences,Unable to prosecute suspect,1.281
+0f6e3518c8c0927dba7bb4f2308fb07300ec64272c9ef047027fafee479c1743,2019-02,-4.544191,50.829591,On or near Lansdown Road,Violence and sexual offences,Unable to prosecute suspect,1.281
+9ce721a687f2aed5566f34eeacfa25baa2ba3d4f2bdb281d65a2f057c1ca2771,2019-04,-4.544191,50.829591,On or near Lansdown Road,Other theft,Investigation complete; no suspect identified,1.281
+e09482d4ef9c47476572fba5bb62f6314d3e637b74ea46528ff4f003ddff739d,2019-06,-4.544191,50.829591,On or near Lansdown Road,Violence and sexual offences,Investigation complete; no suspect identified,1.281
+807887254648728b3c0325e334724bc2058723c2ec1b7ecb1597ba1ccd4dd0dd,2019-09,-4.544191,50.829591,On or near Lansdown Road,Shoplifting,Unable to prosecute suspect,1.281
+b17f7709782b062bacbabac524a43082af0d96aee7afea09a9f9cdf2c61991e6,2019-12,-4.544191,50.829591,On or near Lansdown Road,Criminal damage and arson,Under investigation,1.281
+476d9c3c3d56c95b9f2aab5649fd1c9736fbebde04c44b0cd82223e75f51c2a7,2019-12,-4.544191,50.829591,On or near Lansdown Road,Shoplifting,Under investigation,1.281
+c8cf786ee4492f74b7f0d92301fdf7542e4ea2a8985942f7245c4738ec26bac2,2019-05,-4.543096,50.829578,On or near King Street,Public order,Unable to prosecute suspect,1.305
+,2019-06,-4.543096,50.829578,On or near King Street,Anti-social behaviour,,1.305
+921a6ff0a27a73e2019e99b766c8000553230c89b5b8d44cbcb3be74d2013241,2019-07,-4.543096,50.829578,On or near King Street,Burglary,Investigation complete; no suspect identified,1.305
+bb26833c73678bf69a0fe847d0f2df553eb5d05975b1efbf98bd6b94529d3a64,2019-02,-4.541977,50.829369,On or near Bramble Hill,Burglary,Offender given a caution,1.314
+49af6eb18f6abcecac29e09ab2ee29aaa42cef056d27fdc8e2e45391a10d6716,2019-04,-4.541977,50.829369,On or near Bramble Hill,Burglary,Investigation complete; no suspect identified,1.314
+,2019-05,-4.541977,50.829369,On or near Bramble Hill,Anti-social behaviour,,1.314
+,2019-01,-4.532201,50.822971,On or near Agnes Close,Anti-social behaviour,,1.327
+c2d3b7701757f1fd0f6e241544c8921afde921ee498e814b192cbe64e4015f10,2019-01,-4.532201,50.822971,On or near Agnes Close,Other theft,Investigation complete; no suspect identified,1.327
+43c42ad948a969e1f7d33c1aaf562f1e70f8cd65669465d83c9b9a65260ad8df,2019-01,-4.532201,50.822971,On or near Agnes Close,Violence and sexual offences,Unable to prosecute suspect,1.327
+d344d29d84781d0ca5aa2e813f4dd22fd048499cc30b3a65bb9343a68cb28728,2019-02,-4.539262,50.828538,On or near Holnicote Road,Burglary,Investigation complete; no suspect identified,1.327
+,2019-02,-4.532201,50.822971,On or near Agnes Close,Anti-social behaviour,,1.327
+9fccc0948389a05269f85d15ee0892f8d6bda30df84e71def6aa6e2982ce9e15,2019-05,-4.532201,50.822971,On or near Agnes Close,Violence and sexual offences,Unable to prosecute suspect,1.327
+3c7e243e33fcd0eb169e7cea5986234d01f4ce3a29cbcab06cbea6543644e400,2019-05,-4.532201,50.822971,On or near Agnes Close,Violence and sexual offences,Unable to prosecute suspect,1.327
+701d415860ad1641275eece466b8d13264a02d13aa7003dcdb9bf9a5b6a991cc,2019-10,-4.532379,50.823902,On or near Treleven Road,Violence and sexual offences,Under investigation,1.357
+,2019-04,-4.537724,50.828184,On or near Redwood Close,Anti-social behaviour,,1.359
+,2019-03,-4.545135,50.830505,On or near Belle Vue,Anti-social behaviour,,1.36
+,2019-07,-4.545135,50.830505,On or near Belle Vue,Anti-social behaviour,,1.36
+cff04d05773c11ab713ac7fe56ffd5048aaf7ff0e65f8972480c65def43ecd5b,2019-07,-4.545135,50.830505,On or near Belle Vue,Other crime,Status update unavailable,1.36
+675b343c05ee895d47a219067c7fab608a1c6aba3c26eaa3c2ed4b4b8a82154a,2019-08,-4.545135,50.830505,On or near Belle Vue,Shoplifting,Under investigation,1.36
+,2019-01,-4.544556,50.830572,On or near Belle Vue Avenue,Anti-social behaviour,,1.378
+,2019-01,-4.544556,50.830572,On or near Belle Vue Avenue,Anti-social behaviour,,1.378
+,2019-07,-4.546074,50.830800,On or near Hartland Terrace,Anti-social behaviour,,1.378
+c0bdb833107139e65aefe3766c591a3b7efc30a75fbdbe8f585ffa17c7b40aac,2019-05,-4.544574,50.830635,On or near Belle Vue Lane,Shoplifting,Investigation complete; no suspect identified,1.384
+1dde1ef9789eac9ac0a756ae7adf6d895da3d431a4de9796bd2b86e321815a18,2019-08,-4.544574,50.830635,On or near Belle Vue Lane,Shoplifting,Under investigation,1.384
+c0236b955059602a2ebd65ee3c0a5cae6b14250307e74432deda14e50b2e905a,2019-07,-4.540819,50.829754,On or near Broadclose Hill,Criminal damage and arson,Unable to prosecute suspect,1.388
+a211fb30916248d568edf4e1579dc7fb802cedbe107e7aa5cd11807b6b026e9d,2019-08,-4.540819,50.829754,On or near Broadclose Hill,Other theft,Investigation complete; no suspect identified,1.388
+,2019-11,-4.540819,50.829754,On or near Broadclose Hill,Anti-social behaviour,,1.388
+,2019-01,-4.530003,50.818818,On or near Sports/Recreation Area,Anti-social behaviour,,1.391
+51935d982426fdaced98c08c0f4e297f50f0cee4a7e0f5aebe7988b096140865,2019-01,-4.530003,50.818818,On or near Sports/Recreation Area,Burglary,Investigation complete; no suspect identified,1.391
+,2019-10,-4.530003,50.818818,On or near Sports/Recreation Area,Anti-social behaviour,,1.391
+1d50cb9b18e8d85ca21fa86c347926117d6c83dd0930193f3a89ccbdbd34b403,2019-07,-4.542007,50.830178,On or near Supermarket,Shoplifting,Investigation complete; no suspect identified,1.396
+d977827e9f353e8cd5e5e6bef8df5eb0cf5cbdc90b8c830a01ff84d840efdac9,2019-09,-4.532756,50.825091,On or near Minster Avenue,Burglary,Under investigation,1.396
+6339a29da1ce45e2f8fc7d3ef2bd6d547b01438eafa53031c0dbfd12bbcb81ab,2019-10,-4.542007,50.830178,On or near Supermarket,Other theft,Under investigation,1.396
+912a73c57c04278115e3a19a41335c9f3ca61eb02ea15881f6fc3d20a26023fb,2019-01,-4.547658,50.831197,On or near Summerleaze Crescent,Violence and sexual offences,Unable to prosecute suspect,1.405
+cea7e751cb7502b10a4766a03d46b68d175fef0df3e7177f9aa44d7355f16b33,2019-03,-4.547658,50.831197,On or near Summerleaze Crescent,Criminal damage and arson,Investigation complete; no suspect identified,1.405
+4b1e28dc16a190823222efe14e0414945decc132e18c4ebad30b5b7b4e93bcdb,2019-03,-4.547658,50.831197,On or near Summerleaze Crescent,Criminal damage and arson,Investigation complete; no suspect identified,1.405
+074b6d10e2b5617d9f39a3f6ca37099a844e9572e1fed11e2681f2f3b694004d,2019-06,-4.547658,50.831197,On or near Summerleaze Crescent,Other theft,Unable to prosecute suspect,1.405
+,2019-09,-4.547658,50.831197,On or near Summerleaze Crescent,Anti-social behaviour,,1.405
+,2019-03,-4.544041,50.830754,On or near Queen Street,Anti-social behaviour,,1.407
+,2019-05,-4.544041,50.830754,On or near Queen Street,Anti-social behaviour,,1.407
+,2019-12,-4.544041,50.830754,On or near Queen Street,Anti-social behaviour,,1.407
+2de16765bdc8eb5f071bc10bfa421729a55fdb60a15a4cb4099a0576dc313b42,2019-01,-4.543798,50.830723,On or near Shopping Area,Burglary,Unable to prosecute suspect,1.409
+,2019-11,-4.543798,50.830723,On or near Shopping Area,Anti-social behaviour,,1.409
+26541fe243c5960a4d7577585452ba6536508385e51563717bbdb08d31909ef1,2019-04,-4.543055,50.830650,On or near Bus/Coach Station,Other theft,Investigation complete; no suspect identified,1.418
+ed6c16f5c2e13eeaec7a403a8f8e37ed27936fac9cec43390ee1418c488c7e62,2019-08,-4.543055,50.830650,On or near Bus/Coach Station,Criminal damage and arson,Investigation complete; no suspect identified,1.418
+78d9670d53af6822480638042fc583fd1655fdb8baccc9dadece69e4b36934f7,2019-08,-4.543055,50.830650,On or near Bus/Coach Station,Criminal damage and arson,Investigation complete; no suspect identified,1.418
+,2019-03,-4.546005,50.831359,On or near Parking Area,Anti-social behaviour,,1.44
+ba5eb79b7f7daf0c2f011a652bf4b8e68b2c5d64dba8019a7d8aa2d3fcd785d0,2019-04,-4.546005,50.831359,On or near Parking Area,Drugs,Status update unavailable,1.44
+395160543d7c12838597adfa79b044ff8d410a0b43d624609936933116e77238,2019-04,-4.546005,50.831359,On or near Parking Area,Drugs,Status update unavailable,1.44
+8869ae29ccb511cf4b2db0e9f182914f89e1d3ac2433898b34c02b2a093e711b,2019-05,-4.546005,50.831359,On or near Parking Area,Violence and sexual offences,Offender given a caution,1.44
+,2019-07,-4.546005,50.831359,On or near Parking Area,Anti-social behaviour,,1.44
+05cd4edaa38df09c4674d3698b0065bc0f4a1a4e554a61752d098775d8478dd9,2019-07,-4.546005,50.831359,On or near Parking Area,Criminal damage and arson,Investigation complete; no suspect identified,1.44
+,2019-10,-4.546005,50.831359,On or near Parking Area,Anti-social behaviour,,1.44
+4e18e87b4072eb213f76793fcfc5f50b308fb4999e775426e54b9e399c8ebb1b,2019-02,-4.544759,50.831431,On or near Princes Street,Shoplifting,Offender given a caution,1.466
+,2019-05,-4.544759,50.831431,On or near Princes Street,Anti-social behaviour,,1.466
+65263e16a22881e8c3688908cbe2d4b3a34dacc52688c06fb57fff78de9e93f5,2019-05,-4.544759,50.831431,On or near Princes Street,Other theft,Status update unavailable,1.466
+2fb2daf97f4ea73a611561c9dcd36baa50ab467846c7e009f810883b0599fa3c,2019-05,-4.544759,50.831431,On or near Princes Street,Shoplifting,Investigation complete; no suspect identified,1.466
+9dcc3a5414e39ea1fb6a05c6605f9f59f85790fee83513bf94135428fd16270b,2019-11,-4.544759,50.831431,On or near Princes Street,Violence and sexual offences,Under investigation,1.466
+,2019-12,-4.544759,50.831431,On or near Princes Street,Anti-social behaviour,,1.466
+e9defb9a7aeb68404e214963f8b8ba63b30fbae26816f76e3eb5d094fcd47ad5,2019-12,-4.544759,50.831431,On or near Princes Street,Shoplifting,Under investigation,1.466
+b385ca32f621a83e6b958025581ee3ec0471c94f9f232714806e0ea8d05e9c98,2019-12,-4.544759,50.831431,On or near Princes Street,Shoplifting,Under investigation,1.466
+43b7a6f01e2cdc9aa8515b452c5da6aaf4b0acfeac8e48e87ff79ea318074fea,2019-04,-4.547116,50.831937,On or near Supermarket,Public order,Status update unavailable,1.491
+fd0700f28ddd7b8efdb3a96de04fa7f491f04d5d2a46115b63c89cc58abf15db,2019-05,-4.547116,50.831937,On or near Supermarket,Shoplifting,Investigation complete; no suspect identified,1.491
+877597b47d8b36f30c446f1db6616f9f9bca8ddfeb8411d914e8c3fa7d69c2f8,2019-06,-4.547116,50.831937,On or near Supermarket,Shoplifting,Investigation complete; no suspect identified,1.491
+389fa81fbae77bed385c348cddf712c7d416c264b055d5d1ca619f610159af0e,2019-07,-4.547116,50.831937,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.491
+,2019-08,-4.547116,50.831937,On or near Supermarket,Anti-social behaviour,,1.491
+d381c87896aaea5e33ce9bf68ac1be46ffcf7e44b4ee1a82650110772eea332f,2019-08,-4.547116,50.831937,On or near Supermarket,Public order,Investigation complete; no suspect identified,1.491
+4c5cab79c47486ac5a333db8e4f7e4a06446ec41a6d4fc650d1c02c14aee1377,2019-04,-4.531952,50.826241,On or near Stratton Road,Violence and sexual offences,Unable to prosecute suspect,1.513
+,2019-05,-4.531952,50.826241,On or near Stratton Road,Anti-social behaviour,,1.513
+43a18b224827e1281a070ae5d978d6fbad39a4686d616c567683cf8b29e2d376,2019-05,-4.531952,50.826241,On or near Stratton Road,Other crime,Status update unavailable,1.513
+,2019-06,-4.531952,50.826241,On or near Stratton Road,Anti-social behaviour,,1.513
+3278f3fde02a45293d74dc3b50108152b7347d493c6e26acfc0a07459cafb97b,2019-06,-4.531952,50.826241,On or near Stratton Road,Violence and sexual offences,Unable to prosecute suspect,1.513
+,2019-07,-4.531952,50.826241,On or near Stratton Road,Anti-social behaviour,,1.513
+b1e0b5a6f83fa574fb30c6c7d145aa090e7874c8faf423622d91f695c76cb2b5,2019-11,-4.531952,50.826241,On or near Stratton Road,Violence and sexual offences,Under investigation,1.513
+,2019-02,-4.544629,50.832171,On or near Parking Area,Anti-social behaviour,,1.549
+33a976fab148befcfbd705d5366acc47925242a320695fb1165d46020493e3d1,2019-04,-4.544629,50.832171,On or near Parking Area,Criminal damage and arson,Investigation complete; no suspect identified,1.549
+,2019-06,-4.544629,50.832171,On or near Parking Area,Anti-social behaviour,,1.549
+,2019-07,-4.544629,50.832171,On or near Parking Area,Anti-social behaviour,,1.549
+,2019-08,-4.544629,50.832171,On or near Parking Area,Anti-social behaviour,,1.549
+,2019-09,-4.544629,50.832171,On or near Parking Area,Anti-social behaviour,,1.549
+,2019-11,-4.544629,50.832171,On or near Parking Area,Anti-social behaviour,,1.549
+,2019-11,-4.530867,50.827191,On or near Sports/Recreation Area,Anti-social behaviour,,1.636
+,2019-01,-4.534684,50.830274,On or near Sports/Recreation Area,Anti-social behaviour,,1.674
+923b24ff796d0299e18cf4270cd3f3135203b6e4a907142f1b898cba183d0c9c,2019-03,-4.534684,50.830274,On or near Sports/Recreation Area,Burglary,Investigation complete; no suspect identified,1.674
+,2019-07,-4.534684,50.830274,On or near Sports/Recreation Area,Anti-social behaviour,,1.674
+,2019-08,-4.534684,50.830274,On or near Sports/Recreation Area,Anti-social behaviour,,1.674
+f1a335c0091d5ac9de13cd17e98d53b1eede35571960c83a6146cec8a4b2f0ce,2019-08,-4.534684,50.830274,On or near Sports/Recreation Area,Criminal damage and arson,Investigation complete; no suspect identified,1.674
+0777ddc0aaf0caf0b570f098f2b32d04aae9fd6914899873204a34e3c20df0e3,2019-01,-4.531632,50.828470,On or near Elizabeth Road,Violence and sexual offences,Unable to prosecute suspect,1.681
+,2019-02,-4.531632,50.828470,On or near Elizabeth Road,Anti-social behaviour,,1.681
+4b854eea9d03e456867714b173287c33909c3b53fad244aa844042f86cbb677e,2019-04,-4.531632,50.828470,On or near Elizabeth Road,Violence and sexual offences,Status update unavailable,1.681
+9fdadc9899e16604656e82e6d9039eb36683bb1b1734c6530cc84867418d1daf,2019-05,-4.531632,50.828470,On or near Elizabeth Road,Violence and sexual offences,Local resolution,1.681
+385cac42dff94e463cb4c2acd013008ca238ed4dfa20170d995a13dfa3684930,2019-05,-4.531632,50.828470,On or near Elizabeth Road,Violence and sexual offences,Local resolution,1.681
+,2019-12,-4.531632,50.828470,On or near Elizabeth Road,Anti-social behaviour,,1.681
+,2019-07,-4.548613,50.833856,On or near Crooklets Road,Anti-social behaviour,,1.695
+30d459c8eef32a03ef046e82d6815e4fa97a938097022608654e3a2d242e360c,2019-01,-4.532545,50.829331,On or near Primrose Road,Violence and sexual offences,Unable to prosecute suspect,1.698
+2189d2a085a9d1bd23450375c160d656be4c0948b639ad71a1cc746aa02768b6,2019-03,-4.532545,50.829331,On or near Primrose Road,Violence and sexual offences,Unable to prosecute suspect,1.698
+64ba29db7da788f4ed082e946399d4207cfa6e7cfa6319dc50222381da963e53,2019-03,-4.532545,50.829331,On or near Primrose Road,Violence and sexual offences,Unable to prosecute suspect,1.698
+4281532cedbfa4d80b5e54496c99349db42ec0fb953ffb3c80544a2a7a7b9638,2019-03,-4.532545,50.829331,On or near Primrose Road,Violence and sexual offences,Unable to prosecute suspect,1.698
+c7e45c71656ba315bf3b2895fd2c4e3c3cb183972cdba974acc5acb5f1c90489,2019-06,-4.532545,50.829331,On or near Primrose Road,Vehicle crime,Investigation complete; no suspect identified,1.698
+69848a8bdcdf8603a41b4541bab9ee35fdfde1ae622360279ebde96ad56bc5c9,2019-08,-4.532545,50.829331,On or near Primrose Road,Violence and sexual offences,Unable to prosecute suspect,1.698
+d715411f8e31dcad952425c5178c7c3448af821c07dc3da508e6e047138ee423,2019-09,-4.532545,50.829331,On or near Primrose Road,Violence and sexual offences,Unable to prosecute suspect,1.698
+,2019-04,-4.552387,50.834052,On or near Sports/Recreation Area,Anti-social behaviour,,1.724
+720a5c78f54cb1c97d0b75973a395c9a33fd318fa6a6b26ccefbb8799fc44d26,2019-04,-4.552387,50.834052,On or near Sports/Recreation Area,Criminal damage and arson,Investigation complete; no suspect identified,1.724
+ff7876db3fadfdf7537339f079e734a065ff6b9aaa3695dfe79413f848e96386,2019-04,-4.552387,50.834052,On or near Sports/Recreation Area,Criminal damage and arson,Status update unavailable,1.724
+,2019-01,-4.530096,50.828674,On or near Speedwell Close,Anti-social behaviour,,1.778
+,2019-01,-4.530096,50.828674,On or near Speedwell Close,Anti-social behaviour,,1.778
+4239d2464399c2504559b49fa3e631546e8818e1a240f2b86d11a809ada27012,2019-01,-4.530096,50.828674,On or near Speedwell Close,Violence and sexual offences,Unable to prosecute suspect,1.778
+,2019-03,-4.530096,50.828674,On or near Speedwell Close,Anti-social behaviour,,1.778
+,2019-03,-4.530096,50.828674,On or near Speedwell Close,Anti-social behaviour,,1.778
+,2019-03,-4.530096,50.828674,On or near Speedwell Close,Anti-social behaviour,,1.778
+f5843c7e62dddbccc5816ecddf12f10e2b335dc34782851f27244719808518c2,2019-03,-4.530096,50.828674,On or near Speedwell Close,Public order,Investigation complete; no suspect identified,1.778
+6ed8e95a18f07d9690ed571951b1e35ed349e00f2ffec4dfaa125396bb90a542,2019-03,-4.530096,50.828674,On or near Speedwell Close,Violence and sexual offences,Unable to prosecute suspect,1.778
+,2019-05,-4.530096,50.828674,On or near Speedwell Close,Anti-social behaviour,,1.778
+,2019-07,-4.530096,50.828674,On or near Speedwell Close,Anti-social behaviour,,1.778
+,2019-08,-4.530096,50.828674,On or near Speedwell Close,Anti-social behaviour,,1.778
+,2019-08,-4.530096,50.828674,On or near Speedwell Close,Anti-social behaviour,,1.778
+,2019-08,-4.530096,50.828674,On or near Speedwell Close,Anti-social behaviour,,1.778
+d924f8a4ecf3ab07051b45a6960db36d023083b3a44ea944029e604bbfa5ce42,2019-08,-4.530096,50.828674,On or near Speedwell Close,Public order,Under investigation,1.778
+9c237e9301c15a0ee49e2a77f6c112e678081fd519235628788bf89ec7916c6f,2019-08,-4.530096,50.828674,On or near Speedwell Close,Violence and sexual offences,Under investigation,1.778
+0955bfffe36f52e875c351352c810b530d008bcb145f4a7ce62e2059f63ea711,2019-08,-4.530096,50.828674,On or near Speedwell Close,Violence and sexual offences,Unable to prosecute suspect,1.778
+,2019-10,-4.530096,50.828674,On or near Speedwell Close,Anti-social behaviour,,1.778
+,2019-01,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+ecefdd92dbcfe92031ef185ac0e17caa00704ef20d2fcfdc460564767f211763,2019-01,-4.528530,50.827566,On or near Petrol Station,Violence and sexual offences,Unable to prosecute suspect,1.794
+,2019-02,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+,2019-02,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+8ea9b0624e24fe7270774344325b8754e3becb5eb70199854c5f6f29b938deda,2019-02,-4.528530,50.827566,On or near Petrol Station,Violence and sexual offences,Unable to prosecute suspect,1.794
+9d18168fffada0ad82b62191624379802f242e05858a7fc853e23fecf517c867,2019-02,-4.528530,50.827566,On or near Petrol Station,Violence and sexual offences,Unable to prosecute suspect,1.794
+,2019-03,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+545ba351f95783d2943b18d3b1bdbbb5843e4b0160f991298f4b791d03134889,2019-03,-4.528530,50.827566,On or near Petrol Station,Violence and sexual offences,Unable to prosecute suspect,1.794
+a08d49438aa8599b0c7ee2f625e97bc7d08a65592f9a2523a4a5b5ffd663cfc8,2019-03,-4.528530,50.827566,On or near Petrol Station,Violence and sexual offences,Status update unavailable,1.794
+d554bacb85e37fdbb70dc391bda7c33e24d08631527b21f5f0aa10f34c97115e,2019-04,-4.528530,50.827566,On or near Petrol Station,Other theft,Offender given a caution,1.794
+cdb67f314d447b91275554d7f8a418995612299442b86ba76904085f87474888,2019-04,-4.528530,50.827566,On or near Petrol Station,Violence and sexual offences,Investigation complete; no suspect identified,1.794
+985d9019be87c008b4f2d20f4d42397176e4b92887ce64a5aacda7448b71784b,2019-04,-4.528530,50.827566,On or near Petrol Station,Violence and sexual offences,Unable to prosecute suspect,1.794
+2ff4e35132bb302b88f8f273ea1fa261e69a7586f4daf85e9b95240a50a2dab5,2019-04,-4.528530,50.827566,On or near Petrol Station,Violence and sexual offences,Unable to prosecute suspect,1.794
+bf3e0e0aeb5ad7703edfacdf491b48b3b0eb4ce48a2bd56c1ea0e5b1f8991d12,2019-04,-4.528530,50.827566,On or near Petrol Station,Violence and sexual offences,Unable to prosecute suspect,1.794
+,2019-05,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+,2019-05,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+,2019-05,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+5d9455e034a9f2452978586912376b3339c9850acf1df04e47d318b3f0c206c7,2019-05,-4.528530,50.827566,On or near Petrol Station,Drugs,Offender given a caution,1.794
+,2019-06,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+,2019-06,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+,2019-06,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+,2019-06,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+f300afdeb4f5c3f92da49944678f433cb0048ed2b5bb4c1991da8a3cbc35a7b5,2019-06,-4.528530,50.827566,On or near Petrol Station,Criminal damage and arson,Investigation complete; no suspect identified,1.794
+aa88bffa443c38f1717c6135aad45cb69b54f52d0eb426919cd03b65f93f6946,2019-06,-4.528530,50.827566,On or near Petrol Station,Other theft,Investigation complete; no suspect identified,1.794
+b4f1bc5ba769d93e4f6cd4cf43f0324dd8885be9a97b402af75d67db9b7712c5,2019-06,-4.528530,50.827566,On or near Petrol Station,Public order,Unable to prosecute suspect,1.794
+d17ee0fa2e1b073c5c8afa7824d2ffcad208ed80a7e40ab98dd70dbdf13524ed,2019-06,-4.528530,50.827566,On or near Petrol Station,Public order,Unable to prosecute suspect,1.794
+cbf8707027aa4088e964535e9833c36ccc05e7e9d24f59676942c283f0e5854e,2019-06,-4.528530,50.827566,On or near Petrol Station,Shoplifting,Local resolution,1.794
+,2019-07,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+fc9ee2340e71a4faa3f8bacf438d4708eadca9d084459707ada90f1996184ee7,2019-07,-4.528530,50.827566,On or near Petrol Station,Criminal damage and arson,Investigation complete; no suspect identified,1.794
+a0acf8cda14c2413326acc7cad9b1c6df514f45d8483ca4813290f73e7c03f81,2019-07,-4.528530,50.827566,On or near Petrol Station,Shoplifting,Local resolution,1.794
+,2019-08,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+,2019-08,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+ba5c43c23cfcee8da859a24c85954ee983efe377b7b6a71c4823397d5b31ed55,2019-08,-4.528530,50.827566,On or near Petrol Station,Other theft,Investigation complete; no suspect identified,1.794
+030368b8d2024ad6e68f9db420a046443014cebdf0ef6ae78d85d384d1a59f8d,2019-08,-4.528530,50.827566,On or near Petrol Station,Public order,Investigation complete; no suspect identified,1.794
+,2019-09,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+,2019-09,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+f012023278b4fcdae939b001dfc9402ec1b2c7dd5aa3a133097dfb3047b16d2e,2019-09,-4.528530,50.827566,On or near Petrol Station,Public order,Unable to prosecute suspect,1.794
+44023f3693f515c158a7c5fc1ed23cff36891f88d7f0c801d045943f10e36c42,2019-09,-4.528530,50.827566,On or near Petrol Station,Shoplifting,Under investigation,1.794
+59cd824f7a218e0818cd5220418eb2114d50ae68a142217ee65b28b27cad624c,2019-09,-4.528530,50.827566,On or near Petrol Station,Violence and sexual offences,Unable to prosecute suspect,1.794
+,2019-10,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+aedeaa7cc557b47ae97214c69ca96333038ba8cde16a9315f1ff7fb15cc9eaae,2019-10,-4.528530,50.827566,On or near Petrol Station,Burglary,Investigation complete; no suspect identified,1.794
+,2019-11,-4.528530,50.827566,On or near Petrol Station,Anti-social behaviour,,1.794
+d502cc892d02641dc1c800de2f5397f15aceb3a7a5f2718dc679f202e21aea8a,2019-11,-4.528530,50.827566,On or near Petrol Station,Violence and sexual offences,Unable to prosecute suspect,1.794
+c9f9794bea4427156453e71fbe0a9224876355769b750409cc7c9d37da3e74b8,2019-11,-4.528530,50.827566,On or near Petrol Station,Violence and sexual offences,Under investigation,1.794
+b357c869f1ea6c8ce67b844be4ae8ec9ec0ad92c80da74901ac82b31e02155a6,2019-12,-4.528530,50.827566,On or near Petrol Station,Other theft,Investigation complete; no suspect identified,1.794
+4c787cbee5a416100a7c86b967efade048d1341e053a4f7d8a2341dd750e2574,2019-12,-4.528530,50.827566,On or near Petrol Station,Public order,Under investigation,1.794
+31ee8e583d2755ae10ed01d246a7a295130c3b2d74989ba9b95da2c483f0a5a8,2019-12,-4.528530,50.827566,On or near Petrol Station,Violence and sexual offences,Under investigation,1.794
+,2019-07,-4.528719,50.827894,On or near Stucley Road,Anti-social behaviour,,1.804
+676e0f5e392df0d66ceeef909ad37feaf3d155b46ec6ec5ae98fbc27f0d996ac,2019-07,-4.531054,50.830110,On or near Hopton Close,Violence and sexual offences,Unable to prosecute suspect,1.834
+,2019-01,-4.529967,50.829441,On or near Bartlett Avenue,Anti-social behaviour,,1.84
+,2019-06,-4.529967,50.829441,On or near Bartlett Avenue,Anti-social behaviour,,1.84
+42e10d5d6b37709336dd3e2545f119bca2f3fce933751a955d6f2d21751f3b81,2019-02,-4.530693,50.830010,On or near Penfound Gardens,Violence and sexual offences,Unable to prosecute suspect,1.845
+,2019-01,-4.528092,50.828124,On or near Supermarket,Anti-social behaviour,,1.855
+e3438a0d54df7d2c84a57b433b1e4b121feea41d8b79ffbb0a1f2ba7d4097eb1,2019-02,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+,2019-03,-4.528092,50.828124,On or near Supermarket,Anti-social behaviour,,1.855
+,2019-03,-4.528092,50.828124,On or near Supermarket,Anti-social behaviour,,1.855
+,2019-03,-4.528092,50.828124,On or near Supermarket,Anti-social behaviour,,1.855
+,2019-03,-4.528092,50.828124,On or near Supermarket,Anti-social behaviour,,1.855
+d4d9ee49990a5f6b0da07ce737285e79733f27ca57c0a6cb3d680c582c0ed70b,2019-03,-4.528092,50.828124,On or near Supermarket,Bicycle theft,Investigation complete; no suspect identified,1.855
+1c1fee05baba6d72ac31fb87feed99d265ce7fab946556a23a9e94a94b165149,2019-03,-4.528092,50.828124,On or near Supermarket,Criminal damage and arson,Offender given a caution,1.855
+56c836411be7b24a919508f285268b1b7ce0b539fb74183d46a56a3b5b2ac5c3,2019-03,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+74bb191fc9a757d7b5e22dc41706579c94bcc1a5751a07bbf34ad5722dd37d39,2019-04,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+fb05e30d08702be0161d1869e2becc5f72e383d819761bee6e73ed9b34fa84ec,2019-04,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+d6c3cae3d468d6f6c068b6248202ecb2898bc55399553acd4a792f7027ec7af3,2019-04,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+9ecc895292923fcfe13a4f0f3d63d78c98cda93bccf6b61ce682588836c34af4,2019-04,-4.528092,50.828124,On or near Supermarket,Shoplifting,Investigation complete; no suspect identified,1.855
+d4dbbcb4e310082d0591ddaa106604c34f3c685419db235781e6a35f64009bf0,2019-04,-4.528092,50.828124,On or near Supermarket,Violence and sexual offences,Unable to prosecute suspect,1.855
+4145c60e5187d7382c884ada6ba18975632ca71fcf9cf1c197ad4d913151a3d6,2019-04,-4.528092,50.828124,On or near Supermarket,Violence and sexual offences,Unable to prosecute suspect,1.855
+,2019-05,-4.528092,50.828124,On or near Supermarket,Anti-social behaviour,,1.855
+936ac16654c9be56f9810009af83d00108d3907fd2a230a1405255bd21e16302,2019-05,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+34a1b35458bfe4c23edd28346521aa24efca56e64e43a3cdd1c3aba081528c58,2019-05,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+4bd0a7cc73c9cefd3e54886544b619c5d00dab7fae68e6279e059c086bfdbe4b,2019-06,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+4f56036c97916af99e8ee54abff92512c0c795d2257ed64d5903cb1d2c87b9fa,2019-06,-4.528092,50.828124,On or near Supermarket,Shoplifting,Investigation complete; no suspect identified,1.855
+0af79c4d252fb5692ee6400a8218894c4656f56664ee02e1a0e6b8ca4e1088be,2019-06,-4.528092,50.828124,On or near Supermarket,Violence and sexual offences,Unable to prosecute suspect,1.855
+388ea19a293dfb38c47eada4cd74e242ff9168be4ec514e45009cbe5bf270793,2019-07,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+b750df2251e68bddcfa36d13353321a08973689fc8c52861116b63b66bca25ce,2019-07,-4.528092,50.828124,On or near Supermarket,Shoplifting,Investigation complete; no suspect identified,1.855
+7042f30929d18b443c915ea7b2b37bf603c05ac671df5f656f65ad9720b0e507,2019-07,-4.528092,50.828124,On or near Supermarket,Theft from the person,Investigation complete; no suspect identified,1.855
+42c83c5d1511f4c08d5d9ae6654994d4871fae05ddd4d6d59757c3e577d82273,2019-08,-4.528092,50.828124,On or near Supermarket,Public order,Unable to prosecute suspect,1.855
+ce891d8d65c3d3ac2c7dd858c2cfbf50ea7a2bf80a96ab205af19952f284ae4e,2019-08,-4.528092,50.828124,On or near Supermarket,Shoplifting,Offender given a caution,1.855
+c86b8c8f6b4247b492ed51e7127668fdf03854d626636b72c3f37b4fb3a47699,2019-09,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+0ebcd4945ae3e6545a668e752b202e4369797ecdabc755abbc306c2b1f559e0c,2019-09,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+899f8e27f1c0809b4b4ab681650f2025e13066aaeb16100e220fdaa539e4dda3,2019-09,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+c300dbedea32ab7d13300c09a89b946792390e4c51a179913644e4770844bc4e,2019-09,-4.528092,50.828124,On or near Supermarket,Other theft,Under investigation,1.855
+644310c49895f8158b4414dabd647228678d782566cfc39b6f22022c999faf55,2019-10,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+bed82e272dab3a4ac4fbd2a25fea38368e6b98ca07e9f200206379ac0293d003,2019-10,-4.528092,50.828124,On or near Supermarket,Violence and sexual offences,Under investigation,1.855
+94bc87adb4ba6a0e859fbc4ab2b01fc7140a8cce60985e46c5ebd106280c9b5e,2019-11,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+6db2a11f131c2c77bd79d935ab9689cf4cf594d87edae2aff357d11fc4802d35,2019-11,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+882e36eef490cbd357e9387fa32f125ce9af3d0bd4644dca167481521f2af73d,2019-11,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+68776d503d38865977853a7f509b654389fe02f09661d7de06396cfb22979465,2019-12,-4.528092,50.828124,On or near Supermarket,Other theft,Investigation complete; no suspect identified,1.855
+86db9f764084affa5679aea675974a8d3c45a88e67c39da6ccd5c5d0d7a4a82f,2019-03,-4.546143,50.835187,On or near Downs View,Violence and sexual offences,Unable to prosecute suspect,1.859
+c13b331756460034bf288c7f61b75dd3c67da491c16f34386a8fb75b36ebc14a,2019-11,-4.546143,50.835187,On or near Downs View,Possession of weapons,Under investigation,1.859
+e76b97ac48e75934edfc325e524ab0b39ddbdcd12c7855ce02c1146fd3d6519f,2019-12,-4.546143,50.835187,On or near Downs View,Criminal damage and arson,Under investigation,1.859
+,2019-01,-4.542266,50.834948,On or near Flexbury Park,Anti-social behaviour,,1.89
+db826264b1361230c560fa41299fe015683f63215f2797554b3fabcc7d9647f8,2019-01,-4.542266,50.834948,On or near Flexbury Park,Criminal damage and arson,Investigation complete; no suspect identified,1.89
+,2019-06,-4.542266,50.834948,On or near Flexbury Park,Anti-social behaviour,,1.89
+87e7f5180776f4f3c9e0503cd10e5660129ad3e78469fe826e1837479d13edea,2019-06,-4.542266,50.834948,On or near Flexbury Park,Violence and sexual offences,Unable to prosecute suspect,1.89
+5f5288cc733a7d16e2588722b10f32fb0f263982f96ae5b0ea5a76cef5502381,2019-06,-4.542266,50.834948,On or near Flexbury Park,Violence and sexual offences,Unable to prosecute suspect,1.89
+,2019-08,-4.529280,50.829879,On or near Whalesborough Parc,Anti-social behaviour,,1.908
+,2019-03,-4.528209,50.829246,On or near Granville Court,Anti-social behaviour,,1.922
+,2019-03,-4.528209,50.829246,On or near Granville Court,Anti-social behaviour,,1.922
+5efd86158404a2435ba2e86a79ee06456ecd0ce5ec890074757ea02b4b9331d7,2019-03,-4.528209,50.829246,On or near Granville Court,Violence and sexual offences,Unable to prosecute suspect,1.922
+,2019-04,-4.528209,50.829246,On or near Granville Court,Anti-social behaviour,,1.922
+,2019-04,-4.528209,50.829246,On or near Granville Court,Anti-social behaviour,,1.922
+,2019-07,-4.528209,50.829246,On or near Granville Court,Anti-social behaviour,,1.922
+,2019-07,-4.528209,50.829246,On or near Granville Court,Anti-social behaviour,,1.922
+613a7cd82a775481b90d791cf4c863ef6559f9def40e356a31f0601138d172fe,2019-12,-4.528209,50.829246,On or near Granville Court,Violence and sexual offences,Under investigation,1.922
+121c4f5aa233df60b3bb602fa8e9f65d068450a2102bf35a83a079324e05cf83,2019-04,-4.528677,50.829757,On or near Trebarfoote Close,Violence and sexual offences,Unable to prosecute suspect,1.932
+3f0b3c4d0642f15a47f8f566659c88cecf20ada802061722d76940b65b3976c7,2019-06,-4.528677,50.829757,On or near Trebarfoote Close,Violence and sexual offences,Unable to prosecute suspect,1.932
+d4645bde47e74524f7c950d36d3468a322da8a7258f0ffb8f3c284245158388a,2019-07,-4.528677,50.829757,On or near Trebarfoote Close,Violence and sexual offences,Unable to prosecute suspect,1.932
+41ef07ba1de74cca100fad33d362ae2e19d4e803360402fff3a3956f30ab1e9d,2019-03,-4.527654,50.828961,On or near Tamar Close,Criminal damage and arson,Investigation complete; no suspect identified,1.934
+df91b78a7e34f9a045e9967a0b6bf11279a106970881921a996dc6c2fc1ed6e3,2019-03,-4.527654,50.828961,On or near Tamar Close,Violence and sexual offences,Unable to prosecute suspect,1.934
+fb47751c6429e79e0b41fd2dfef5660459a74ea15ba5d29e21a635d21f66cf3c,2019-04,-4.527654,50.828961,On or near Tamar Close,Public order,Status update unavailable,1.934
+171a915e727436d3af2f3b5b8b8223e69a8adf92f3650280b1188303a5804762,2019-07,-4.527654,50.828961,On or near Tamar Close,Drugs,Offender given a caution,1.934
+3b7ac824e3f29e30ead01622f67e5f826483d5cbdad6334dc8e63ab0931562cc,2019-01,-4.528076,50.829401,On or near Goldsworthy Drive,Criminal damage and arson,Unable to prosecute suspect,1.94
+b0d82263214e0f4b0fc6731716c3ece14b2e83f23eb7008c77c9c8766c87325d,2019-03,-4.528076,50.829401,On or near Goldsworthy Drive,Criminal damage and arson,Unable to prosecute suspect,1.94
+2f9bf979a2af80c639875478c1c104b0302a417ac0327947e377dee78ff0a0f0,2019-03,-4.528076,50.829401,On or near Goldsworthy Drive,Violence and sexual offences,Unable to prosecute suspect,1.94
+,2019-04,-4.528076,50.829401,On or near Goldsworthy Drive,Anti-social behaviour,,1.94
+,2019-04,-4.528076,50.829401,On or near Goldsworthy Drive,Anti-social behaviour,,1.94
+87025a0680ce7599d82ebe54f41d7a188065e74a88d8449976af8ee9e37c7ea9,2019-04,-4.528076,50.829401,On or near Goldsworthy Drive,Criminal damage and arson,Status update unavailable,1.94
+6b7e3f192778b89d8abea7992f3411ecafdafc43819e71cdbdce8d38c0c948ec,2019-04,-4.528076,50.829401,On or near Goldsworthy Drive,Violence and sexual offences,Unable to prosecute suspect,1.94
+3eb390d17b3af5e6cff06efccb1bcfc5a9642a38028b44352e44717391483ef0,2019-04,-4.528076,50.829401,On or near Goldsworthy Drive,Violence and sexual offences,Unable to prosecute suspect,1.94
+dc9fd69c8052e6f4aab9eecac1b6ea4082682bae8e49a5fbbedd51643658d949,2019-04,-4.528076,50.829401,On or near Goldsworthy Drive,Violence and sexual offences,Unable to prosecute suspect,1.94
+,2019-05,-4.528076,50.829401,On or near Goldsworthy Drive,Anti-social behaviour,,1.94
+2fce4b1c6dc95c328f86b27da5d149381ada98bb5772f4089ece495688558dd1,2019-05,-4.528076,50.829401,On or near Goldsworthy Drive,Violence and sexual offences,Unable to prosecute suspect,1.94
+,2019-11,-4.528076,50.829401,On or near Goldsworthy Drive,Anti-social behaviour,,1.94
+0a73b5e8fe1dac5af773dee6816a6616056397633170045ce30c0a14949ca862,2019-01,-4.546005,50.836045,On or near Summerleaze Avenue,Violence and sexual offences,Unable to prosecute suspect,1.954
+2111d5c0c7b39844ed7a3a2fd9ea3ddb0b21bf218e1a4ba12da7fbf6606018b6,2019-10,-4.546005,50.836045,On or near Summerleaze Avenue,Violence and sexual offences,Under investigation,1.954
+,2019-01,-4.543391,50.835778,On or near Flexbury Avenue,Anti-social behaviour,,1.959
+e779484e9897bbcbef94c5b5db543148aa60ac48fe4c0cdade011f18060777fc,2019-01,-4.543391,50.835778,On or near Flexbury Avenue,Criminal damage and arson,Investigation complete; no suspect identified,1.959
+d5af659463698357899a3819f61f3af2636a7906c8653b452c6e58e91434db9f,2019-01,-4.543391,50.835778,On or near Flexbury Avenue,Violence and sexual offences,Unable to prosecute suspect,1.959
+157a49ef8701b08d8862c03afe1869717f954092e1891e4a736b50576c3559d3,2019-01,-4.543391,50.835778,On or near Flexbury Avenue,Violence and sexual offences,Unable to prosecute suspect,1.959
+,2019-03,-4.543391,50.835778,On or near Flexbury Avenue,Anti-social behaviour,,1.959
+b03fc948ea20ed3d94ad95e1ad9e2996c092d25d61b31371c6fe2fd467c676b6,2019-03,-4.543391,50.835778,On or near Flexbury Avenue,Violence and sexual offences,Unable to prosecute suspect,1.959
+,2019-04,-4.543391,50.835778,On or near Flexbury Avenue,Anti-social behaviour,,1.959
+,2019-04,-4.543391,50.835778,On or near Flexbury Avenue,Anti-social behaviour,,1.959
+139a3c1be6d65d8ed00792063dc3b5727c9fd432a2c350c7f9ad7973883465d3,2019-06,-4.543391,50.835778,On or near Flexbury Avenue,Violence and sexual offences,Investigation complete; no suspect identified,1.959
+28544906d51dbce54ded01e838867d861a7a1dd91936e211417ce18114a17dfb,2019-06,-4.543391,50.835778,On or near Flexbury Avenue,Violence and sexual offences,Unable to prosecute suspect,1.959
+f3d5b31c2b490392945187f2dfbc005f7d48323c4434e9f41019365833ea4724,2019-07,-4.543391,50.835778,On or near Flexbury Avenue,Burglary,Status update unavailable,1.959
+bdab07042b6311c3930d22112796e48399854b5422dfb8b31cb6c095216bb9d9,2019-07,-4.543391,50.835778,On or near Flexbury Avenue,Burglary,Unable to prosecute suspect,1.959
+25e7e8cf71202c313ea7b2d72f3692338824f0b532c927a6d38843e3b5b97c55,2019-07,-4.543391,50.835778,On or near Flexbury Avenue,Violence and sexual offences,Investigation complete; no suspect identified,1.959
+5661b4e2c8aa70b97ab4597258c06ebc298e7550ae6ea7dc8c6d42968d43c7e6,2019-08,-4.543391,50.835778,On or near Flexbury Avenue,Criminal damage and arson,Investigation complete; no suspect identified,1.959
+18648e4bd1ee6e756fd13ad9bf2a47f4ba4784f644c551f23e7f4e1b02b6b64b,2019-08,-4.543391,50.835778,On or near Flexbury Avenue,Public order,Awaiting court outcome,1.959
+04c7b4ef189c785c4d08118e79f85fd785aa6600735652cef56df897cb7c80d4,2019-08,-4.543391,50.835778,On or near Flexbury Avenue,Violence and sexual offences,Awaiting court outcome,1.959
+,2019-10,-4.543391,50.835778,On or near Flexbury Avenue,Anti-social behaviour,,1.959
+94deb480ef9a21383fe74b37f1f31fe1c9c10217082bc6a8b246983067722816,2019-10,-4.543391,50.835778,On or near Flexbury Avenue,Public order,Under investigation,1.959
+96b4dc09f6b7f391b50c23837678448ae899e0494bc7f05310adff1b5f43de27,2019-11,-4.543391,50.835778,On or near Flexbury Avenue,Violence and sexual offences,Unable to prosecute suspect,1.959
+647a4505290761cf3894a83541cd31a789a531f8b33102ceb4b5159b5b198abc,2019-11,-4.543391,50.835778,On or near Flexbury Avenue,Violence and sexual offences,Under investigation,1.959
+b09a54d112d082e75f3352d9ff55aaca079b3641d6d841ef84e872eaf8818dc8,2019-11,-4.543391,50.835778,On or near Flexbury Avenue,Violence and sexual offences,Under investigation,1.959
+,2019-12,-4.543391,50.835778,On or near Flexbury Avenue,Anti-social behaviour,,1.959
+f032b77885802679e4bfe1a764eb259801abd9a4083d468abaf5011f2656554a,2019-12,-4.543391,50.835778,On or near Flexbury Avenue,Violence and sexual offences,Unable to prosecute suspect,1.959
+931f9df820cab8d3ba25e5a59a42effb9af8745f9fd4b375016f7f688c9dc200,2019-03,-4.527610,50.829447,On or near Coombe Court,Violence and sexual offences,Unable to prosecute suspect,1.969
+30808da39a395c837df9fd5f8851d618584f625a38fbb04b8baef4ce99d471c6,2019-10,-4.527610,50.829447,On or near Coombe Court,Violence and sexual offences,Under investigation,1.969
+,2019-12,-4.527610,50.829447,On or near Coombe Court,Anti-social behaviour,,1.969
+,2019-06,-4.552792,50.836274,On or near Crooklets,Anti-social behaviour,,1.973
+8b61f0f4e6f50d51ac6ed20caa63475797dc72b2eb39ed930ad0dba03e24f078,2019-06,-4.552792,50.836274,On or near Crooklets,Criminal damage and arson,Unable to prosecute suspect,1.973
+,2019-01,-4.528063,50.829950,On or near Hobbacott Close,Anti-social behaviour,,1.979
+92c7c18362710befa5b6d31170884a379bbcd3889ccceca5db48a545e591bafc,2019-01,-4.528063,50.829950,On or near Hobbacott Close,Violence and sexual offences,Unable to prosecute suspect,1.979
+3ff92f8498ef33993b16f0a5d1f13560299c16cf44a40f22a40f2f147c94ba2c,2019-02,-4.528063,50.829950,On or near Hobbacott Close,Violence and sexual offences,Investigation complete; no suspect identified,1.979
+382e2063a76d4073fb452d6a393dee58340442834b2184a3dc31cd980edd349e,2019-03,-4.528063,50.829950,On or near Hobbacott Close,Criminal damage and arson,Investigation complete; no suspect identified,1.979
+b14954af1b7b4f5e52c251c1abec62d944569c2f023b3e2c57102114e068d375,2019-04,-4.528063,50.829950,On or near Hobbacott Close,Criminal damage and arson,Unable to prosecute suspect,1.979
+5aab95eb5f5d653e685203437c0721490241ed61c557b780c03ff14445908d35,2019-04,-4.528063,50.829950,On or near Hobbacott Close,Violence and sexual offences,Unable to prosecute suspect,1.979
+ae5d2c3a4f7da0c4b01ecb61dd3d97dd42a79e3cab49d05df662bc8684cb8835,2019-05,-4.528063,50.829950,On or near Hobbacott Close,Violence and sexual offences,Local resolution,1.979
+c92f1f1f240e4d7b00d09267589177feb549886eae74f07bb5d7e90d6b771cb9,2019-06,-4.528063,50.829950,On or near Hobbacott Close,Violence and sexual offences,Investigation complete; no suspect identified,1.979
+1554fe579a820cbcd36127ac0992521d6dfb2c1a5dc28cd66c8a528e0e52503b,2019-07,-4.549863,50.836464,On or near Hawkers Court,Public order,Unable to prosecute suspect,1.983
+7ad714f273f60df6f32ea7efbc42ca4a215501906553b8f9082a8bc4dbbba097,2019-07,-4.549863,50.836464,On or near Hawkers Court,Public order,Unable to prosecute suspect,1.983
+,2019-08,-4.549863,50.836464,On or near Hawkers Court,Anti-social behaviour,,1.983
+e8263e96c807a40eb83d630635770acd939537aa1c365ab9d5e05ff5ca4f6164,2019-08,-4.549863,50.836464,On or near Hawkers Court,Public order,Unable to prosecute suspect,1.983
+ab65ec6609705e5b9b626b9afb1b6124b06c83b0c62de9dbbee992152580890d,2019-08,-4.549863,50.836464,On or near Hawkers Court,Violence and sexual offences,Investigation complete; no suspect identified,1.983
+8897ecacae27d121875aed3d73ee9b60c7ae9a9537f6234ce72cac0da2ca21c2,2019-10,-4.549863,50.836464,On or near Hawkers Court,Violence and sexual offences,Unable to prosecute suspect,1.983
+,2019-02,-4.550975,50.836548,On or near Maer Down Road,Anti-social behaviour,,1.994
+,2019-03,-4.550975,50.836548,On or near Maer Down Road,Anti-social behaviour,,1.994
+,2019-03,-4.550975,50.836548,On or near Maer Down Road,Anti-social behaviour,,1.994
+f502707fb5b155e6680d73dd87f6ff199c2c53361848741959f1822d21a17fc3,2019-03,-4.550975,50.836548,On or near Maer Down Road,Violence and sexual offences,Offender given a caution,1.994
+c2938256176a3ab937e0214c7e53b10718955e202c760c014b5073986a3a8fe9,2019-06,-4.550975,50.836548,On or near Maer Down Road,Public order,Status update unavailable,1.994
+8f1ed11d2d742858a6dcea5f55049473f6b101d942b52eb431dab295c05bbfa8,2019-07,-4.550975,50.836548,On or near Maer Down Road,Violence and sexual offences,Unable to prosecute suspect,1.994
