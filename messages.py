@@ -72,11 +72,15 @@ Please ensure that all future inputs are correct, if the problem persists please
     """)
 
 def error_inform_user_postcode_not_in_list():
-    print("An error occured, please check that the centre postcode provided is a valid one.")
+    print("Error, please check that the centre postcode provided is valid.")
     return
 
 def error_please_close_file():
     print("Error, please ensure that you do not have a file of the same name provided open.")
+    return
+
+def error_postcode_not_in_list_of_existing():
+    print("Error, please ensure that the postcode you enter exists, as the one provided does not match any in the records.")
     return
 
 #####
@@ -142,8 +146,7 @@ def instruction_no_empty_strings():
 
 def instruction_postcodes():
     print("""Postcodes must contain alphabetical and numerical characters only, with no spaces. 
-Postcodes must be either 6 or 7 characters long. 
-        """)
+Postcodes must be either 6 or 7 characters long.""")
     return
 
 def instruction_user_sort_options():

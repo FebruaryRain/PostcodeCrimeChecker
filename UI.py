@@ -5,12 +5,16 @@ The program will then run from there, and the generate_report module and functio
 to create the final report. 
 """
 
-import messages
+from extract_valid_postcodes import get_postcode_list
 import generate_report
+import messages
+
 
 #####
 ## Global Variables Initialisation
 #####
+
+postcode_list = get_postcode_list()
 
 default_postcode_value = ""
 default_radius_value = 0
@@ -75,7 +79,7 @@ def load_menu():
 def select_postcode():
     """Takes in user inputted postcode, stores this value in the program"""
 
-    messages.request_user_EX_postcode()       
+    messages.request_user_EX_postcode() 
     while True:
         usr_postcode = str(input()).upper() 
         try:
@@ -89,16 +93,24 @@ def select_postcode():
 
             if usr_postcode[0] == 'E' and usr_postcode[1] == 'X':
                 if len(usr_postcode) == 7 and usr_postcode.isalnum():
-                    messages.inform_postcode_value(usr_postcode)
-                    arguments_dict['postcode'] = usr_postcode
-                    break
+                    if check_postcode_in_list(usr_postcode):
+                        messages.inform_postcode_value(usr_postcode)
+                        arguments_dict['postcode'] = usr_postcode
+                        break
+                    else:
+                        messages.error_postcode_not_in_list_of_existing()
+                        messages.instruction_postcodes()
                 elif len(usr_postcode) == 6:
                     first_three = usr_postcode[:3] 
                     back_three = usr_postcode[3:]
                     usr_postcode = first_three + " " + back_three
-                    messages.inform_postcode_value(usr_postcode)
-                    arguments_dict['postcode'] = usr_postcode
-                    break
+                    if check_postcode_in_list(usr_postcode):
+                        messages.inform_postcode_value(usr_postcode)
+                        arguments_dict['postcode'] = usr_postcode
+                        break
+                    else:
+                        messages.error_postcode_not_in_list_of_existing()
+                        messages.instruction_postcodes()
                 else:
                     messages.invalid_value()
             else:
@@ -112,7 +124,18 @@ def select_postcode():
             messages.invalid_value()
             messages.instruction_postcodes()
     load_menu()
-    
+
+def check_postcode_in_list(postcode):
+    """
+    Takes one argument, postcode, once formatted as it is expected to be (as in the postcodes.csv file's postcodes).
+    Checks that the postcode supplied is in the list of the postcodes derived from the extract_valid_postcodes module.
+    Returns True if the postcode is present, false if not. 
+    """
+    if postcode in postcode_list:
+        return True
+    else:
+        return False
+
 #2#
 def select_radius():
     """Takes in a user specified radius, returns confirmation that this value has been stored."""
@@ -372,8 +395,29 @@ def check_input_is_alnum_should_return_false_for_invalid_input():
     # Assert
     return
 
+def check_postcode_in_list_should_return_true_for_postcode_in_list():
+    # Arrange
+    expected = True
+    input_values = ["EX1 1AN", "EX348HU", "EX4 2WX", "EX230LP", "EX7 0QJ"]
+    # Act
+    for postcode in input_values:
+        # Assert
+        assert(expected == check_postcode_in_list(postcode))
+    return
+
+def check_postcode_in_list_should_return_false_for_postcode_not_in_list():
+    # Arrange
+    expected = False
+    input_values = ["EX230PL", "EX7 0QK", "EX4 0ZK", "EX110FA", "EX5 0LT"]
+    # Act
+    for postcode in input_values:
+        # Assert
+        assert(expected == check_postcode_in_list(postcode))
+    return
+
 if __name__ == "__main__":
     reset_argument_dictionary_should_reset_values_in_arguments_dict()
     check_input_is_alnum_should_return_true_for_alnum_input()
     check_input_is_alnum_should_return_false_for_invalid_input()
-
+    check_postcode_in_list_should_return_true_for_postcode_in_list()
+    check_postcode_in_list_should_return_false_for_postcode_not_in_list()
