@@ -81,6 +81,7 @@ def error_could_not_write_to_file():
     print("""Error, could not write to the file, the data return in the search was not of the correct data type. 
 Please ensure that all future inputs are correct, if the problem persists please contact Appledore Technical Support.
     """)
+    return
 
 def error_inform_user_postcode_not_in_list():
     print("Error, please check that the centre postcode provided is valid.")
@@ -242,6 +243,7 @@ def postcode_inform_logic_should_return_not_yet_set_when_default_value():
     # Assert
     assert (expected == actual)
     return
+
 def postcode_inform_logic_should_return_passed_var_string_when_passed():
     # Arrange
     input_var = "EX230LP"
@@ -251,6 +253,7 @@ def postcode_inform_logic_should_return_passed_var_string_when_passed():
     # Assert
     assert (expected == actual)
     return
+
 def radius_inform_logic_should_return_not_yet_set_when_default_value():
     # Arrange
     input_var = default_radius_value
@@ -260,6 +263,7 @@ def radius_inform_logic_should_return_not_yet_set_when_default_value():
     # Assert
     assert (expected == actual)
     return
+
 def radius_inform_logic_should_return_passed_var_string_when_passed():
     # Arrange
     input_var = 2
@@ -269,6 +273,7 @@ def radius_inform_logic_should_return_passed_var_string_when_passed():
     # Assert
     assert (expected == actual)
     return
+
 def data_sort_inform_logic_should_return_not_yet_set_when_default_value():
     # Arrange
     input_var = default_data_sort_value
@@ -278,6 +283,7 @@ def data_sort_inform_logic_should_return_not_yet_set_when_default_value():
     # Assert
     assert (expected == actual)
     return
+
 def data_sort_inform_logic_should_return_passed_var_string_when_passed_1():
     # Arrange
     input_var = 1
@@ -287,6 +293,7 @@ def data_sort_inform_logic_should_return_passed_var_string_when_passed_1():
     # Assert
     assert (expected == actual)
     return
+
 def data_sort_inform_logic_should_return_passed_var_string_when_passed_2():
     # Arrange
     input_var = 2
@@ -296,6 +303,7 @@ def data_sort_inform_logic_should_return_passed_var_string_when_passed_2():
     # Assert
     assert (expected == actual)
     return
+
 def data_sort_inform_logic_should_return_passed_var_string_when_passed_3():
     # Arrange
     input_var = 3
@@ -305,6 +313,7 @@ def data_sort_inform_logic_should_return_passed_var_string_when_passed_3():
     # Assert
     assert (expected == actual)
     return
+
 def data_sort_inform_logic_should_return_passed_var_string_when_passed_4():
     # Arrange
     input_var = 4
@@ -314,6 +323,7 @@ def data_sort_inform_logic_should_return_passed_var_string_when_passed_4():
     # Assert
     assert (expected == actual)
     return
+
 def file_name_inform_logic_should_return_passed_var_string_when_passed():
     # Arrange
     input_var = default_filename_value
@@ -323,6 +333,7 @@ def file_name_inform_logic_should_return_passed_var_string_when_passed():
     # Assert
     assert (expected == actual)
     return
+
 def file_name_inform_logic_should_return_not_yet_set_when_default_value():
     # Arrange
     input_var = "curtain_twitcher"

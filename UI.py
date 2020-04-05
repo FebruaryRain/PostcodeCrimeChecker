@@ -47,11 +47,11 @@ def load_menu():
     print("")
 
     while True:
-            try:
-                menuChoice = int(input())
-                break
-            except ValueError:
-                messages.invalid_value()
+        try:
+            menuChoice = int(input())
+            break
+        except ValueError:
+            messages.invalid_value()
 
     if menuChoice == 1:
         select_postcode()
